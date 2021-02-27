@@ -1,0 +1,1034 @@
+DEBUG 2021-02-27 19:07:56,170 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2021-02-27 19:07:56,227 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2021-02-27 19:07:56,239 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyPractice.Web.Host.Startup.MyPracticeWebHostModule, MyPractice.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-02-27 19:07:56,240 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyPractice.MyPracticeWebCoreModule, MyPractice.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-02-27 19:07:56,240 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyPractice.MyPracticeApplicationModule, MyPractice.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-02-27 19:07:56,241 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyPractice.MyPracticeCoreModule, MyPractice.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-02-27 19:07:56,241 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-02-27 19:07:56,242 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-02-27 19:07:56,242 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-02-27 19:07:56,242 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-02-27 19:07:56,242 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyPractice.EntityFrameworkCore.MyPracticeEntityFrameworkModule, MyPractice.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-02-27 19:07:56,242 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-02-27 19:07:56,243 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-02-27 19:07:56,243 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-02-27 19:07:56,243 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-02-27 19:07:56,243 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-02-27 19:07:56,243 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-02-27 19:07:56,245 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2021-02-27 19:07:56,303 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2021-02-27 19:07:56,303 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2021-02-27 19:07:56,303 [1    ] o.Configuration.LanguageManagementConfig - Converted MyPractice (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2021-02-27 19:07:56,303 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2021-02-27 19:07:56,610 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: MyPractice.EntityFrameworkCore.MyPracticeDbContext, MyPractice.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-02-27 19:07:57,364 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2021-02-27 19:07:57,408 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2021-02-27 19:07:57,449 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2021-02-27 19:07:57,467 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: MyPractice
+DEBUG 2021-02-27 19:07:57,495 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2021-02-27 19:07:57,669 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2021-02-27 19:07:57,782 [1    ] , Culture=neutral, PublicKeyToken=null]] - Start background worker: Abp.Authorization.Users.UserTokenExpirationWorker`2[[MyPractice.MultiTenancy.Tenant, MyPractice.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[MyPractice.Authorization.Users.User, MyPractice.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+DEBUG 2021-02-27 19:07:57,822 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 8 classes define auto mapping attributes
+DEBUG 2021-02-27 19:07:57,822 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyPractice.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2021-02-27 19:07:57,826 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyPractice.Users.Dto.CreateUserDto
+DEBUG 2021-02-27 19:07:57,826 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyPractice.Users.Dto.UserDto
+DEBUG 2021-02-27 19:07:57,826 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyPractice.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2021-02-27 19:07:57,827 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyPractice.Sessions.Dto.UserLoginInfoDto
+DEBUG 2021-02-27 19:07:57,827 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyPractice.Roles.Dto.PermissionDto
+DEBUG 2021-02-27 19:07:57,827 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyPractice.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2021-02-27 19:07:57,827 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyPractice.MultiTenancy.Dto.TenantDto
+INFO  2021-02-27 19:07:59,662 [1    ] tCore.Builder.RequestLocalizationOptions - Supported Request Localization Cultures: en,es-MX,fr,de,it,nl,pt-BR,tr,ru,ar,zh-Hans,ja
+INFO  2021-02-27 19:07:59,894 [1    ] taProtection.KeyManagement.XmlKeyManager - User profile is available. Using 'C:\Users\WenQiang\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+INFO  2021-02-27 19:07:59,959 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/  
+INFO  2021-02-27 19:08:00,051 [10   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'MyPractice.Web.Host.Controllers.HomeController.Index (MyPractice.Web.Host)'
+INFO  2021-02-27 19:08:03,116 [10   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller MyPractice.Web.Host.Controllers.HomeController (MyPractice.Web.Host).
+INFO  2021-02-27 19:08:04,074 [10   ] c.Infrastructure.ControllerActionInvoker - Executing action method MyPractice.Web.Host.Controllers.HomeController.Index (MyPractice.Web.Host) - Validation state: Valid
+INFO  2021-02-27 19:08:04,079 [10   ] c.Infrastructure.ControllerActionInvoker - Executed action method MyPractice.Web.Host.Controllers.HomeController.Index (MyPractice.Web.Host), returned result Microsoft.AspNetCore.Mvc.RedirectResult in 0.3792ms.
+INFO  2021-02-27 19:08:04,230 [17   ] vc.Infrastructure.RedirectResultExecutor - Executing RedirectResult, redirecting to /swagger.
+INFO  2021-02-27 19:08:04,236 [17   ] c.Infrastructure.ControllerActionInvoker - Executed action MyPractice.Web.Host.Controllers.HomeController.Index (MyPractice.Web.Host) in 1116.2563ms
+INFO  2021-02-27 19:08:04,238 [17   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'MyPractice.Web.Host.Controllers.HomeController.Index (MyPractice.Web.Host)'
+INFO  2021-02-27 19:08:04,252 [17   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 4292.8271ms 302 
+INFO  2021-02-27 19:08:04,254 [16   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/index.html  
+INFO  2021-02-27 19:08:04,309 [16   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 54.6828ms 200 text/html;charset=utf-8
+INFO  2021-02-27 19:08:04,416 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/AntiForgery/SetCookie  
+INFO  2021-02-27 19:08:04,423 [15   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'MyPractice.Web.Host.Controllers.AntiForgeryController.SetCookie (MyPractice.Web.Host)'
+INFO  2021-02-27 19:08:04,430 [15   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "SetCookie", controller = "AntiForgery", area = ""}. Executing controller action with signature Void SetCookie() on controller MyPractice.Web.Host.Controllers.AntiForgeryController (MyPractice.Web.Host).
+INFO  2021-02-27 19:08:04,448 [15   ] c.Infrastructure.ControllerActionInvoker - Executing action method MyPractice.Web.Host.Controllers.AntiForgeryController.SetCookie (MyPractice.Web.Host) - Validation state: Valid
+INFO  2021-02-27 19:08:04,450 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/v1/swagger.json  
+INFO  2021-02-27 19:08:04,462 [15   ] c.Infrastructure.ControllerActionInvoker - Executed action method MyPractice.Web.Host.Controllers.AntiForgeryController.SetCookie (MyPractice.Web.Host), returned result Microsoft.AspNetCore.Mvc.EmptyResult in 10.116ms.
+INFO  2021-02-27 19:08:04,480 [12   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2021-02-27 19:08:04,579 [12   ] c.Infrastructure.ControllerActionInvoker - Executed action MyPractice.Web.Host.Controllers.AntiForgeryController.SetCookie (MyPractice.Web.Host) in 146.2261ms
+INFO  2021-02-27 19:08:04,580 [12   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'MyPractice.Web.Host.Controllers.AntiForgeryController.SetCookie (MyPractice.Web.Host)'
+INFO  2021-02-27 19:08:04,582 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 166.2686ms 200 application/json; charset=utf-8
+INFO  2021-02-27 19:08:04,590 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 141.7157ms 200 application/json;charset=utf-8
+INFO  2021-02-27 19:08:25,125 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:21021/api/TokenAuth/Authenticate application/json 50
+INFO  2021-02-27 19:08:25,130 [14   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution failed.
+INFO  2021-02-27 19:08:25,132 [14   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2021-02-27 19:08:25,135 [14   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'MyPractice.Controllers.TokenAuthController.Authenticate (MyPractice.Web.Core)'
+INFO  2021-02-27 19:08:25,149 [14   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Authenticate", controller = "TokenAuth", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[MyPractice.Models.TokenAuth.AuthenticateResultModel] Authenticate(MyPractice.Models.TokenAuth.AuthenticateModel) on controller MyPractice.Controllers.TokenAuthController (MyPractice.Web.Core).
+ERROR 2021-02-27 19:08:25,154 [14   ] idateAntiforgeryTokenAuthorizationFilter - The required antiforgery header value "X-XSRF-TOKEN" is not present.
+Microsoft.AspNetCore.Antiforgery.AntiforgeryValidationException: The required antiforgery header value "X-XSRF-TOKEN" is not present.
+   at Microsoft.AspNetCore.Antiforgery.DefaultAntiforgery.ValidateRequestAsync(HttpContext httpContext)
+   at Abp.AspNetCore.Mvc.Antiforgery.AbpValidateAntiforgeryTokenAuthorizationFilter.OnAuthorizationAsync(AuthorizationFilterContext context)
+INFO  2021-02-27 19:08:25,181 [14   ] c.Infrastructure.ControllerActionInvoker - Authorization failed for the request at filter 'Abp.AspNetCore.Mvc.Antiforgery.AbpAutoValidateAntiforgeryTokenAuthorizationFilter'.
+INFO  2021-02-27 19:08:25,185 [14   ] icrosoft.AspNetCore.Mvc.StatusCodeResult - Executing HttpStatusCodeResult, setting HTTP status code 400
+INFO  2021-02-27 19:08:25,187 [14   ] c.Infrastructure.ControllerActionInvoker - Executed action MyPractice.Controllers.TokenAuthController.Authenticate (MyPractice.Web.Core) in 36.421ms
+INFO  2021-02-27 19:08:25,188 [14   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'MyPractice.Controllers.TokenAuthController.Authenticate (MyPractice.Web.Core)'
+INFO  2021-02-27 19:08:25,191 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 66.2385ms 400 
+INFO  2021-02-27 19:08:50,173 [16   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:21021/api/services/app/User/Create application/json-patch+json 149
+INFO  2021-02-27 19:08:50,176 [16   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution failed.
+INFO  2021-02-27 19:08:50,178 [16   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2021-02-27 19:08:50,183 [16   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'MyPractice.Users.UserAppService.CreateAsync (MyPractice.Application)'
+INFO  2021-02-27 19:08:50,191 [16   ] c.Infrastructure.ControllerActionInvoker - Route matched with {area = "app", action = "Create", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[MyPractice.Users.Dto.UserDto] CreateAsync(MyPractice.Users.Dto.CreateUserDto) on controller MyPractice.Users.UserAppService (MyPractice.Application).
+WARN  2021-02-27 19:08:50,461 [16   ] Mvc.Authorization.AbpAuthorizationFilter - Abp.Authorization.AbpAuthorizationException: Current user did not login to the application!
+   at Abp.Authorization.AuthorizationHelper.AuthorizeAsync(IEnumerable`1 authorizeAttributes)
+   at Abp.Authorization.AuthorizationHelper.CheckPermissionsAsync(MethodInfo methodInfo, Type type)
+   at Abp.Authorization.AuthorizationHelper.AuthorizeAsync(MethodInfo methodInfo, Type type)
+   at Abp.AspNetCore.Mvc.Authorization.AbpAuthorizationFilter.OnAuthorizationAsync(AuthorizationFilterContext context)
+Abp.Authorization.AbpAuthorizationException: Current user did not login to the application!
+   at Abp.Authorization.AuthorizationHelper.AuthorizeAsync(IEnumerable`1 authorizeAttributes)
+   at Abp.Authorization.AuthorizationHelper.CheckPermissionsAsync(MethodInfo methodInfo, Type type)
+   at Abp.Authorization.AuthorizationHelper.AuthorizeAsync(MethodInfo methodInfo, Type type)
+   at Abp.AspNetCore.Mvc.Authorization.AbpAuthorizationFilter.OnAuthorizationAsync(AuthorizationFilterContext context)
+INFO  2021-02-27 19:08:50,465 [16   ] c.Infrastructure.ControllerActionInvoker - Authorization failed for the request at filter 'Abp.AspNetCore.Mvc.Authorization.AbpAuthorizationFilter'.
+INFO  2021-02-27 19:08:50,468 [16   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2021-02-27 19:08:50,477 [16   ] c.Infrastructure.ControllerActionInvoker - Executed action MyPractice.Users.UserAppService.CreateAsync (MyPractice.Application) in 284.2278ms
+INFO  2021-02-27 19:08:50,479 [16   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'MyPractice.Users.UserAppService.CreateAsync (MyPractice.Application)'
+INFO  2021-02-27 19:08:50,481 [16   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 308.213ms 401 application/json; charset=utf-8
+INFO  2021-02-27 19:13:50,591 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:21021/api/TokenAuth/Authenticate application/json 50
+INFO  2021-02-27 19:13:50,593 [14   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution failed.
+INFO  2021-02-27 19:13:50,595 [14   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2021-02-27 19:13:50,599 [14   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'MyPractice.Controllers.TokenAuthController.Authenticate (MyPractice.Web.Core)'
+INFO  2021-02-27 19:13:50,604 [14   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Authenticate", controller = "TokenAuth", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[MyPractice.Models.TokenAuth.AuthenticateResultModel] Authenticate(MyPractice.Models.TokenAuth.AuthenticateModel) on controller MyPractice.Controllers.TokenAuthController (MyPractice.Web.Core).
+ERROR 2021-02-27 19:13:50,605 [14   ] idateAntiforgeryTokenAuthorizationFilter - The required antiforgery header value "X-XSRF-TOKEN" is not present.
+Microsoft.AspNetCore.Antiforgery.AntiforgeryValidationException: The required antiforgery header value "X-XSRF-TOKEN" is not present.
+   at Microsoft.AspNetCore.Antiforgery.DefaultAntiforgery.ValidateRequestAsync(HttpContext httpContext)
+   at Abp.AspNetCore.Mvc.Antiforgery.AbpValidateAntiforgeryTokenAuthorizationFilter.OnAuthorizationAsync(AuthorizationFilterContext context)
+INFO  2021-02-27 19:13:50,606 [14   ] c.Infrastructure.ControllerActionInvoker - Authorization failed for the request at filter 'Abp.AspNetCore.Mvc.Antiforgery.AbpAutoValidateAntiforgeryTokenAuthorizationFilter'.
+INFO  2021-02-27 19:13:50,607 [14   ] icrosoft.AspNetCore.Mvc.StatusCodeResult - Executing HttpStatusCodeResult, setting HTTP status code 400
+INFO  2021-02-27 19:13:50,609 [14   ] c.Infrastructure.ControllerActionInvoker - Executed action MyPractice.Controllers.TokenAuthController.Authenticate (MyPractice.Web.Core) in 3.878ms
+INFO  2021-02-27 19:13:50,610 [14   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'MyPractice.Controllers.TokenAuthController.Authenticate (MyPractice.Web.Core)'
+INFO  2021-02-27 19:13:50,612 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 21.5604ms 400 
+INFO  2021-02-27 19:13:53,335 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:21021/api/TokenAuth/Authenticate application/json 50
+INFO  2021-02-27 19:13:53,337 [12   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution failed.
+INFO  2021-02-27 19:13:53,339 [12   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2021-02-27 19:13:53,342 [12   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'MyPractice.Controllers.TokenAuthController.Authenticate (MyPractice.Web.Core)'
+INFO  2021-02-27 19:13:53,346 [12   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Authenticate", controller = "TokenAuth", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[MyPractice.Models.TokenAuth.AuthenticateResultModel] Authenticate(MyPractice.Models.TokenAuth.AuthenticateModel) on controller MyPractice.Controllers.TokenAuthController (MyPractice.Web.Core).
+ERROR 2021-02-27 19:13:53,347 [12   ] idateAntiforgeryTokenAuthorizationFilter - The required antiforgery header value "X-XSRF-TOKEN" is not present.
+Microsoft.AspNetCore.Antiforgery.AntiforgeryValidationException: The required antiforgery header value "X-XSRF-TOKEN" is not present.
+   at Microsoft.AspNetCore.Antiforgery.DefaultAntiforgery.ValidateRequestAsync(HttpContext httpContext)
+   at Abp.AspNetCore.Mvc.Antiforgery.AbpValidateAntiforgeryTokenAuthorizationFilter.OnAuthorizationAsync(AuthorizationFilterContext context)
+INFO  2021-02-27 19:13:53,348 [12   ] c.Infrastructure.ControllerActionInvoker - Authorization failed for the request at filter 'Abp.AspNetCore.Mvc.Antiforgery.AbpAutoValidateAntiforgeryTokenAuthorizationFilter'.
+INFO  2021-02-27 19:13:53,350 [12   ] icrosoft.AspNetCore.Mvc.StatusCodeResult - Executing HttpStatusCodeResult, setting HTTP status code 400
+INFO  2021-02-27 19:13:53,351 [12   ] c.Infrastructure.ControllerActionInvoker - Executed action MyPractice.Controllers.TokenAuthController.Authenticate (MyPractice.Web.Core) in 3.7498ms
+INFO  2021-02-27 19:13:53,352 [12   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'MyPractice.Controllers.TokenAuthController.Authenticate (MyPractice.Web.Core)'
+INFO  2021-02-27 19:13:53,354 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 19.4798ms 400 
+DEBUG 2021-02-27 19:14:11,790 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2021-02-27 19:14:11,841 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2021-02-27 19:14:11,853 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyPractice.Web.Host.Startup.MyPracticeWebHostModule, MyPractice.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-02-27 19:14:11,854 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyPractice.MyPracticeWebCoreModule, MyPractice.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-02-27 19:14:11,855 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyPractice.MyPracticeApplicationModule, MyPractice.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-02-27 19:14:11,855 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyPractice.MyPracticeCoreModule, MyPractice.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-02-27 19:14:11,855 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-02-27 19:14:11,855 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-02-27 19:14:11,855 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-02-27 19:14:11,856 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-02-27 19:14:11,856 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyPractice.EntityFrameworkCore.MyPracticeEntityFrameworkModule, MyPractice.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-02-27 19:14:11,856 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-02-27 19:14:11,856 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-02-27 19:14:11,856 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-02-27 19:14:11,857 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-02-27 19:14:11,857 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-02-27 19:14:11,857 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-02-27 19:14:11,859 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2021-02-27 19:14:11,917 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2021-02-27 19:14:11,917 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2021-02-27 19:14:11,917 [1    ] o.Configuration.LanguageManagementConfig - Converted MyPractice (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2021-02-27 19:14:11,917 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2021-02-27 19:14:12,209 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: MyPractice.EntityFrameworkCore.MyPracticeDbContext, MyPractice.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-02-27 19:14:12,907 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2021-02-27 19:14:12,951 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2021-02-27 19:14:12,993 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2021-02-27 19:14:13,010 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: MyPractice
+DEBUG 2021-02-27 19:14:13,038 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2021-02-27 19:14:13,196 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2021-02-27 19:14:13,294 [1    ] , Culture=neutral, PublicKeyToken=null]] - Start background worker: Abp.Authorization.Users.UserTokenExpirationWorker`2[[MyPractice.MultiTenancy.Tenant, MyPractice.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[MyPractice.Authorization.Users.User, MyPractice.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+DEBUG 2021-02-27 19:14:13,332 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 8 classes define auto mapping attributes
+DEBUG 2021-02-27 19:14:13,333 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyPractice.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2021-02-27 19:14:13,337 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyPractice.Users.Dto.CreateUserDto
+DEBUG 2021-02-27 19:14:13,337 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyPractice.Users.Dto.UserDto
+DEBUG 2021-02-27 19:14:13,337 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyPractice.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2021-02-27 19:14:13,337 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyPractice.Sessions.Dto.UserLoginInfoDto
+DEBUG 2021-02-27 19:14:13,338 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyPractice.Roles.Dto.PermissionDto
+DEBUG 2021-02-27 19:14:13,338 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyPractice.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2021-02-27 19:14:13,338 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyPractice.MultiTenancy.Dto.TenantDto
+INFO  2021-02-27 19:14:15,151 [1    ] tCore.Builder.RequestLocalizationOptions - Supported Request Localization Cultures: en,es-MX,fr,de,it,nl,pt-BR,tr,ru,ar,zh-Hans,ja
+INFO  2021-02-27 19:14:15,378 [1    ] taProtection.KeyManagement.XmlKeyManager - User profile is available. Using 'C:\Users\WenQiang\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+INFO  2021-02-27 19:14:15,440 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/  
+INFO  2021-02-27 19:14:15,527 [14   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'MyPractice.Web.Host.Controllers.HomeController.Index (MyPractice.Web.Host)'
+INFO  2021-02-27 19:14:18,341 [14   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller MyPractice.Web.Host.Controllers.HomeController (MyPractice.Web.Host).
+INFO  2021-02-27 19:14:19,302 [14   ] c.Infrastructure.ControllerActionInvoker - Executing action method MyPractice.Web.Host.Controllers.HomeController.Index (MyPractice.Web.Host) - Validation state: Valid
+INFO  2021-02-27 19:14:19,307 [14   ] c.Infrastructure.ControllerActionInvoker - Executed action method MyPractice.Web.Host.Controllers.HomeController.Index (MyPractice.Web.Host), returned result Microsoft.AspNetCore.Mvc.RedirectResult in 0.3835ms.
+INFO  2021-02-27 19:14:19,458 [11   ] vc.Infrastructure.RedirectResultExecutor - Executing RedirectResult, redirecting to /swagger.
+INFO  2021-02-27 19:14:19,464 [11   ] c.Infrastructure.ControllerActionInvoker - Executed action MyPractice.Web.Host.Controllers.HomeController.Index (MyPractice.Web.Host) in 1118.2484ms
+INFO  2021-02-27 19:14:19,466 [11   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'MyPractice.Web.Host.Controllers.HomeController.Index (MyPractice.Web.Host)'
+INFO  2021-02-27 19:14:19,479 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 4039.506ms 302 
+INFO  2021-02-27 19:14:19,488 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/index.html  
+INFO  2021-02-27 19:14:19,533 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 44.8328ms 200 text/html;charset=utf-8
+INFO  2021-02-27 19:14:19,625 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/AntiForgery/SetCookie  
+INFO  2021-02-27 19:14:19,631 [11   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'MyPractice.Web.Host.Controllers.AntiForgeryController.SetCookie (MyPractice.Web.Host)'
+INFO  2021-02-27 19:14:19,638 [11   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "SetCookie", controller = "AntiForgery", area = ""}. Executing controller action with signature Void SetCookie() on controller MyPractice.Web.Host.Controllers.AntiForgeryController (MyPractice.Web.Host).
+INFO  2021-02-27 19:14:19,664 [11   ] c.Infrastructure.ControllerActionInvoker - Executing action method MyPractice.Web.Host.Controllers.AntiForgeryController.SetCookie (MyPractice.Web.Host) - Validation state: Valid
+INFO  2021-02-27 19:14:19,665 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/v1/swagger.json  
+INFO  2021-02-27 19:14:19,676 [11   ] c.Infrastructure.ControllerActionInvoker - Executed action method MyPractice.Web.Host.Controllers.AntiForgeryController.SetCookie (MyPractice.Web.Host), returned result Microsoft.AspNetCore.Mvc.EmptyResult in 9.2284ms.
+INFO  2021-02-27 19:14:19,692 [9    ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2021-02-27 19:14:19,789 [9    ] c.Infrastructure.ControllerActionInvoker - Executed action MyPractice.Web.Host.Controllers.AntiForgeryController.SetCookie (MyPractice.Web.Host) in 148.8328ms
+INFO  2021-02-27 19:14:19,790 [9    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'MyPractice.Web.Host.Controllers.AntiForgeryController.SetCookie (MyPractice.Web.Host)'
+INFO  2021-02-27 19:14:19,792 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 167.4757ms 200 application/json; charset=utf-8
+INFO  2021-02-27 19:14:19,797 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 132.9868ms 200 application/json;charset=utf-8
+INFO  2021-02-27 19:14:25,061 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:21021/api/TokenAuth/Authenticate application/json 50
+INFO  2021-02-27 19:14:25,066 [7    ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution failed.
+INFO  2021-02-27 19:14:25,068 [7    ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2021-02-27 19:14:25,071 [7    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'MyPractice.Controllers.TokenAuthController.Authenticate (MyPractice.Web.Core)'
+INFO  2021-02-27 19:14:25,086 [7    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Authenticate", controller = "TokenAuth", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[MyPractice.Models.TokenAuth.AuthenticateResultModel] Authenticate(MyPractice.Models.TokenAuth.AuthenticateModel) on controller MyPractice.Controllers.TokenAuthController (MyPractice.Web.Core).
+ERROR 2021-02-27 19:14:25,091 [7    ] idateAntiforgeryTokenAuthorizationFilter - The required antiforgery header value "X-XSRF-TOKEN" is not present.
+Microsoft.AspNetCore.Antiforgery.AntiforgeryValidationException: The required antiforgery header value "X-XSRF-TOKEN" is not present.
+   at Microsoft.AspNetCore.Antiforgery.DefaultAntiforgery.ValidateRequestAsync(HttpContext httpContext)
+   at Abp.AspNetCore.Mvc.Antiforgery.AbpValidateAntiforgeryTokenAuthorizationFilter.OnAuthorizationAsync(AuthorizationFilterContext context)
+INFO  2021-02-27 19:14:25,119 [7    ] c.Infrastructure.ControllerActionInvoker - Authorization failed for the request at filter 'Abp.AspNetCore.Mvc.Antiforgery.AbpAutoValidateAntiforgeryTokenAuthorizationFilter'.
+INFO  2021-02-27 19:14:25,124 [7    ] icrosoft.AspNetCore.Mvc.StatusCodeResult - Executing HttpStatusCodeResult, setting HTTP status code 400
+INFO  2021-02-27 19:14:25,125 [7    ] c.Infrastructure.ControllerActionInvoker - Executed action MyPractice.Controllers.TokenAuthController.Authenticate (MyPractice.Web.Core) in 37.0727ms
+INFO  2021-02-27 19:14:25,127 [7    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'MyPractice.Controllers.TokenAuthController.Authenticate (MyPractice.Web.Core)'
+INFO  2021-02-27 19:14:25,129 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 74.131ms 400 
+INFO  2021-02-27 19:14:39,519 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/User/GetAll  
+INFO  2021-02-27 19:14:39,524 [14   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'MyPractice.Users.UserAppService.GetAllAsync (MyPractice.Application)'
+INFO  2021-02-27 19:14:39,538 [14   ] c.Infrastructure.ControllerActionInvoker - Route matched with {area = "app", action = "GetAll", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Abp.Application.Services.Dto.PagedResultDto`1[MyPractice.Users.Dto.UserDto]] GetAllAsync(MyPractice.Users.Dto.PagedUserResultRequestDto) on controller MyPractice.Users.UserAppService (MyPractice.Application).
+INFO  2021-02-27 19:14:40,031 [14   ] c.Infrastructure.ControllerActionInvoker - Executing action method MyPractice.Users.UserAppService.GetAllAsync (MyPractice.Application) - Validation state: Valid
+WARN  2021-02-27 19:14:40,303 [7    ] Mvc.ExceptionHandling.AbpExceptionFilter - Current user did not login to the application!
+Abp.Authorization.AbpAuthorizationException: Current user did not login to the application!
+   at Abp.Authorization.AuthorizationHelper.AuthorizeAsync(IEnumerable`1 authorizeAttributes)
+   at Abp.Authorization.AuthorizationHelper.CheckPermissionsAsync(MethodInfo methodInfo, Type type)
+   at Abp.Authorization.AuthorizationHelper.AuthorizeAsync(MethodInfo methodInfo, Type type)
+   at Abp.Authorization.AuthorizationInterceptor.InternalInterceptAsynchronous[TResult](IInvocation invocation)
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.InternalInterceptAsynchronous[TResult](IInvocation invocation)
+   at Abp.Auditing.AuditingInterceptor.InternalInterceptAsynchronous[TResult](IInvocation invocation)
+   at Abp.Runtime.Validation.Interception.ValidationInterceptor.InternalInterceptAsynchronous[TResult](IInvocation invocation)
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+INFO  2021-02-27 19:14:40,309 [7    ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2021-02-27 19:14:40,315 [7    ] c.Infrastructure.ControllerActionInvoker - Executed action MyPractice.Users.UserAppService.GetAllAsync (MyPractice.Application) in 775.7601ms
+INFO  2021-02-27 19:14:40,317 [7    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'MyPractice.Users.UserAppService.GetAllAsync (MyPractice.Application)'
+INFO  2021-02-27 19:14:40,319 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 799.953ms 401 application/json; charset=utf-8
+INFO  2021-02-27 19:14:45,390 [17   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/User/Get  
+INFO  2021-02-27 19:14:45,397 [17   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'MyPractice.Users.UserAppService.GetAsync (MyPractice.Application)'
+INFO  2021-02-27 19:14:45,406 [17   ] c.Infrastructure.ControllerActionInvoker - Route matched with {area = "app", action = "Get", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[MyPractice.Users.Dto.UserDto] GetAsync(Abp.Application.Services.Dto.EntityDto`1[System.Int64]) on controller MyPractice.Users.UserAppService (MyPractice.Application).
+INFO  2021-02-27 19:14:45,427 [17   ] c.Infrastructure.ControllerActionInvoker - Executing action method MyPractice.Users.UserAppService.GetAsync (MyPractice.Application) - Validation state: Valid
+WARN  2021-02-27 19:14:45,440 [9    ] Mvc.ExceptionHandling.AbpExceptionFilter - Current user did not login to the application!
+Abp.Authorization.AbpAuthorizationException: Current user did not login to the application!
+   at Abp.Authorization.AuthorizationHelper.AuthorizeAsync(IEnumerable`1 authorizeAttributes)
+   at Abp.Authorization.AuthorizationHelper.CheckPermissionsAsync(MethodInfo methodInfo, Type type)
+   at Abp.Authorization.AuthorizationHelper.AuthorizeAsync(MethodInfo methodInfo, Type type)
+   at Abp.Authorization.AuthorizationInterceptor.InternalInterceptAsynchronous[TResult](IInvocation invocation)
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.InternalInterceptAsynchronous[TResult](IInvocation invocation)
+   at Abp.Auditing.AuditingInterceptor.InternalInterceptAsynchronous[TResult](IInvocation invocation)
+   at Abp.Runtime.Validation.Interception.ValidationInterceptor.InternalInterceptAsynchronous[TResult](IInvocation invocation)
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+INFO  2021-02-27 19:14:45,442 [9    ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2021-02-27 19:14:45,445 [9    ] c.Infrastructure.ControllerActionInvoker - Executed action MyPractice.Users.UserAppService.GetAsync (MyPractice.Application) in 36.3965ms
+INFO  2021-02-27 19:14:45,447 [9    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'MyPractice.Users.UserAppService.GetAsync (MyPractice.Application)'
+INFO  2021-02-27 19:14:45,449 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 59.0219ms 401 application/json; charset=utf-8
+INFO  2021-02-27 19:14:53,318 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/User/GetRoles  
+INFO  2021-02-27 19:14:53,321 [9    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'MyPractice.Users.UserAppService.GetRoles (MyPractice.Application)'
+INFO  2021-02-27 19:14:53,331 [9    ] c.Infrastructure.ControllerActionInvoker - Route matched with {area = "app", action = "GetRoles", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Abp.Application.Services.Dto.ListResultDto`1[MyPractice.Roles.Dto.RoleDto]] GetRoles() on controller MyPractice.Users.UserAppService (MyPractice.Application).
+WARN  2021-02-27 19:14:53,333 [9    ] Mvc.Authorization.AbpAuthorizationFilter - Abp.Authorization.AbpAuthorizationException: Current user did not login to the application!
+   at Abp.Authorization.AuthorizationHelper.AuthorizeAsync(IEnumerable`1 authorizeAttributes)
+   at Abp.Authorization.AuthorizationHelper.CheckPermissionsAsync(MethodInfo methodInfo, Type type)
+   at Abp.Authorization.AuthorizationHelper.AuthorizeAsync(MethodInfo methodInfo, Type type)
+   at Abp.AspNetCore.Mvc.Authorization.AbpAuthorizationFilter.OnAuthorizationAsync(AuthorizationFilterContext context)
+Abp.Authorization.AbpAuthorizationException: Current user did not login to the application!
+   at Abp.Authorization.AuthorizationHelper.AuthorizeAsync(IEnumerable`1 authorizeAttributes)
+   at Abp.Authorization.AuthorizationHelper.CheckPermissionsAsync(MethodInfo methodInfo, Type type)
+   at Abp.Authorization.AuthorizationHelper.AuthorizeAsync(MethodInfo methodInfo, Type type)
+   at Abp.AspNetCore.Mvc.Authorization.AbpAuthorizationFilter.OnAuthorizationAsync(AuthorizationFilterContext context)
+INFO  2021-02-27 19:14:53,336 [9    ] c.Infrastructure.ControllerActionInvoker - Authorization failed for the request at filter 'Abp.AspNetCore.Mvc.Authorization.AbpAuthorizationFilter'.
+INFO  2021-02-27 19:14:53,338 [9    ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2021-02-27 19:14:53,340 [9    ] c.Infrastructure.ControllerActionInvoker - Executed action MyPractice.Users.UserAppService.GetRoles (MyPractice.Application) in 6.9602ms
+INFO  2021-02-27 19:14:53,342 [9    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'MyPractice.Users.UserAppService.GetRoles (MyPractice.Application)'
+INFO  2021-02-27 19:14:53,344 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 26.6257ms 401 application/json; charset=utf-8
+INFO  2021-02-27 19:15:16,512 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:21021/api/services/app/Account/IsTenantAvailable application/json 21
+INFO  2021-02-27 19:15:16,514 [10   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution failed.
+INFO  2021-02-27 19:15:16,516 [10   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2021-02-27 19:15:16,519 [10   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'MyPractice.Authorization.Accounts.AccountAppService.IsTenantAvailable (MyPractice.Application)'
+INFO  2021-02-27 19:15:16,526 [10   ] c.Infrastructure.ControllerActionInvoker - Route matched with {area = "app", action = "IsTenantAvailable", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[MyPractice.Authorization.Accounts.Dto.IsTenantAvailableOutput] IsTenantAvailable(MyPractice.Authorization.Accounts.Dto.IsTenantAvailableInput) on controller MyPractice.Authorization.Accounts.AccountAppService (MyPractice.Application).
+ERROR 2021-02-27 19:15:16,527 [10   ] idateAntiforgeryTokenAuthorizationFilter - The required antiforgery header value "X-XSRF-TOKEN" is not present.
+Microsoft.AspNetCore.Antiforgery.AntiforgeryValidationException: The required antiforgery header value "X-XSRF-TOKEN" is not present.
+   at Microsoft.AspNetCore.Antiforgery.DefaultAntiforgery.ValidateRequestAsync(HttpContext httpContext)
+   at Abp.AspNetCore.Mvc.Antiforgery.AbpValidateAntiforgeryTokenAuthorizationFilter.OnAuthorizationAsync(AuthorizationFilterContext context)
+INFO  2021-02-27 19:15:16,529 [10   ] c.Infrastructure.ControllerActionInvoker - Authorization failed for the request at filter 'Abp.AspNetCore.Mvc.Antiforgery.AbpAutoValidateAntiforgeryTokenAuthorizationFilter'.
+INFO  2021-02-27 19:15:16,530 [10   ] icrosoft.AspNetCore.Mvc.StatusCodeResult - Executing HttpStatusCodeResult, setting HTTP status code 400
+INFO  2021-02-27 19:15:16,531 [10   ] c.Infrastructure.ControllerActionInvoker - Executed action MyPractice.Authorization.Accounts.AccountAppService.IsTenantAvailable (MyPractice.Application) in 3.5981ms
+INFO  2021-02-27 19:15:16,533 [10   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'MyPractice.Authorization.Accounts.AccountAppService.IsTenantAvailable (MyPractice.Application)'
+INFO  2021-02-27 19:15:16,534 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 22.8818ms 400 
+INFO  2021-02-27 19:15:23,911 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:21021/api/services/app/Account/IsTenantAvailable application/json 21
+INFO  2021-02-27 19:15:23,913 [14   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution failed.
+INFO  2021-02-27 19:15:23,915 [14   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2021-02-27 19:15:23,919 [14   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'MyPractice.Authorization.Accounts.AccountAppService.IsTenantAvailable (MyPractice.Application)'
+INFO  2021-02-27 19:15:23,923 [14   ] c.Infrastructure.ControllerActionInvoker - Route matched with {area = "app", action = "IsTenantAvailable", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[MyPractice.Authorization.Accounts.Dto.IsTenantAvailableOutput] IsTenantAvailable(MyPractice.Authorization.Accounts.Dto.IsTenantAvailableInput) on controller MyPractice.Authorization.Accounts.AccountAppService (MyPractice.Application).
+ERROR 2021-02-27 19:15:23,924 [14   ] idateAntiforgeryTokenAuthorizationFilter - The required antiforgery header value "X-XSRF-TOKEN" is not present.
+Microsoft.AspNetCore.Antiforgery.AntiforgeryValidationException: The required antiforgery header value "X-XSRF-TOKEN" is not present.
+   at Microsoft.AspNetCore.Antiforgery.DefaultAntiforgery.ValidateRequestAsync(HttpContext httpContext)
+   at Abp.AspNetCore.Mvc.Antiforgery.AbpValidateAntiforgeryTokenAuthorizationFilter.OnAuthorizationAsync(AuthorizationFilterContext context)
+INFO  2021-02-27 19:15:23,926 [14   ] c.Infrastructure.ControllerActionInvoker - Authorization failed for the request at filter 'Abp.AspNetCore.Mvc.Antiforgery.AbpAutoValidateAntiforgeryTokenAuthorizationFilter'.
+INFO  2021-02-27 19:15:23,928 [14   ] icrosoft.AspNetCore.Mvc.StatusCodeResult - Executing HttpStatusCodeResult, setting HTTP status code 400
+INFO  2021-02-27 19:15:23,929 [14   ] c.Infrastructure.ControllerActionInvoker - Executed action MyPractice.Authorization.Accounts.AccountAppService.IsTenantAvailable (MyPractice.Application) in 4.2108ms
+INFO  2021-02-27 19:15:23,930 [14   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'MyPractice.Authorization.Accounts.AccountAppService.IsTenantAvailable (MyPractice.Application)'
+INFO  2021-02-27 19:15:23,933 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 22.4506ms 400 
+INFO  2021-02-27 19:15:24,495 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:21021/api/services/app/Account/IsTenantAvailable application/json 21
+INFO  2021-02-27 19:15:24,497 [14   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution failed.
+INFO  2021-02-27 19:15:24,498 [14   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2021-02-27 19:15:24,501 [14   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'MyPractice.Authorization.Accounts.AccountAppService.IsTenantAvailable (MyPractice.Application)'
+INFO  2021-02-27 19:15:24,505 [14   ] c.Infrastructure.ControllerActionInvoker - Route matched with {area = "app", action = "IsTenantAvailable", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[MyPractice.Authorization.Accounts.Dto.IsTenantAvailableOutput] IsTenantAvailable(MyPractice.Authorization.Accounts.Dto.IsTenantAvailableInput) on controller MyPractice.Authorization.Accounts.AccountAppService (MyPractice.Application).
+ERROR 2021-02-27 19:15:24,506 [14   ] idateAntiforgeryTokenAuthorizationFilter - The required antiforgery header value "X-XSRF-TOKEN" is not present.
+Microsoft.AspNetCore.Antiforgery.AntiforgeryValidationException: The required antiforgery header value "X-XSRF-TOKEN" is not present.
+   at Microsoft.AspNetCore.Antiforgery.DefaultAntiforgery.ValidateRequestAsync(HttpContext httpContext)
+   at Abp.AspNetCore.Mvc.Antiforgery.AbpValidateAntiforgeryTokenAuthorizationFilter.OnAuthorizationAsync(AuthorizationFilterContext context)
+INFO  2021-02-27 19:15:24,508 [14   ] c.Infrastructure.ControllerActionInvoker - Authorization failed for the request at filter 'Abp.AspNetCore.Mvc.Antiforgery.AbpAutoValidateAntiforgeryTokenAuthorizationFilter'.
+INFO  2021-02-27 19:15:24,509 [14   ] icrosoft.AspNetCore.Mvc.StatusCodeResult - Executing HttpStatusCodeResult, setting HTTP status code 400
+INFO  2021-02-27 19:15:24,511 [14   ] c.Infrastructure.ControllerActionInvoker - Executed action MyPractice.Authorization.Accounts.AccountAppService.IsTenantAvailable (MyPractice.Application) in 4.2087ms
+INFO  2021-02-27 19:15:24,512 [14   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'MyPractice.Authorization.Accounts.AccountAppService.IsTenantAvailable (MyPractice.Application)'
+INFO  2021-02-27 19:15:24,514 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 20.1909ms 400 
+INFO  2021-02-27 19:15:24,671 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:21021/api/services/app/Account/IsTenantAvailable application/json 21
+INFO  2021-02-27 19:15:24,673 [9    ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution failed.
+INFO  2021-02-27 19:15:24,674 [9    ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2021-02-27 19:15:24,676 [9    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'MyPractice.Authorization.Accounts.AccountAppService.IsTenantAvailable (MyPractice.Application)'
+INFO  2021-02-27 19:15:24,681 [9    ] c.Infrastructure.ControllerActionInvoker - Route matched with {area = "app", action = "IsTenantAvailable", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[MyPractice.Authorization.Accounts.Dto.IsTenantAvailableOutput] IsTenantAvailable(MyPractice.Authorization.Accounts.Dto.IsTenantAvailableInput) on controller MyPractice.Authorization.Accounts.AccountAppService (MyPractice.Application).
+ERROR 2021-02-27 19:15:24,681 [9    ] idateAntiforgeryTokenAuthorizationFilter - The required antiforgery header value "X-XSRF-TOKEN" is not present.
+Microsoft.AspNetCore.Antiforgery.AntiforgeryValidationException: The required antiforgery header value "X-XSRF-TOKEN" is not present.
+   at Microsoft.AspNetCore.Antiforgery.DefaultAntiforgery.ValidateRequestAsync(HttpContext httpContext)
+   at Abp.AspNetCore.Mvc.Antiforgery.AbpValidateAntiforgeryTokenAuthorizationFilter.OnAuthorizationAsync(AuthorizationFilterContext context)
+INFO  2021-02-27 19:15:24,683 [9    ] c.Infrastructure.ControllerActionInvoker - Authorization failed for the request at filter 'Abp.AspNetCore.Mvc.Antiforgery.AbpAutoValidateAntiforgeryTokenAuthorizationFilter'.
+INFO  2021-02-27 19:15:24,684 [9    ] icrosoft.AspNetCore.Mvc.StatusCodeResult - Executing HttpStatusCodeResult, setting HTTP status code 400
+INFO  2021-02-27 19:15:24,686 [9    ] c.Infrastructure.ControllerActionInvoker - Executed action MyPractice.Authorization.Accounts.AccountAppService.IsTenantAvailable (MyPractice.Application) in 3.7257ms
+INFO  2021-02-27 19:15:24,687 [9    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'MyPractice.Authorization.Accounts.AccountAppService.IsTenantAvailable (MyPractice.Application)'
+INFO  2021-02-27 19:15:24,689 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 18.9263ms 400 
+INFO  2021-02-27 19:15:24,846 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:21021/api/services/app/Account/IsTenantAvailable application/json 21
+INFO  2021-02-27 19:15:24,848 [14   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution failed.
+INFO  2021-02-27 19:15:24,850 [14   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2021-02-27 19:15:24,852 [14   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'MyPractice.Authorization.Accounts.AccountAppService.IsTenantAvailable (MyPractice.Application)'
+INFO  2021-02-27 19:15:24,856 [14   ] c.Infrastructure.ControllerActionInvoker - Route matched with {area = "app", action = "IsTenantAvailable", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[MyPractice.Authorization.Accounts.Dto.IsTenantAvailableOutput] IsTenantAvailable(MyPractice.Authorization.Accounts.Dto.IsTenantAvailableInput) on controller MyPractice.Authorization.Accounts.AccountAppService (MyPractice.Application).
+ERROR 2021-02-27 19:15:24,857 [14   ] idateAntiforgeryTokenAuthorizationFilter - The required antiforgery header value "X-XSRF-TOKEN" is not present.
+Microsoft.AspNetCore.Antiforgery.AntiforgeryValidationException: The required antiforgery header value "X-XSRF-TOKEN" is not present.
+   at Microsoft.AspNetCore.Antiforgery.DefaultAntiforgery.ValidateRequestAsync(HttpContext httpContext)
+   at Abp.AspNetCore.Mvc.Antiforgery.AbpValidateAntiforgeryTokenAuthorizationFilter.OnAuthorizationAsync(AuthorizationFilterContext context)
+INFO  2021-02-27 19:15:24,858 [14   ] c.Infrastructure.ControllerActionInvoker - Authorization failed for the request at filter 'Abp.AspNetCore.Mvc.Antiforgery.AbpAutoValidateAntiforgeryTokenAuthorizationFilter'.
+INFO  2021-02-27 19:15:24,860 [14   ] icrosoft.AspNetCore.Mvc.StatusCodeResult - Executing HttpStatusCodeResult, setting HTTP status code 400
+INFO  2021-02-27 19:15:24,861 [14   ] c.Infrastructure.ControllerActionInvoker - Executed action MyPractice.Authorization.Accounts.AccountAppService.IsTenantAvailable (MyPractice.Application) in 3.4519ms
+INFO  2021-02-27 19:15:24,862 [14   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'MyPractice.Authorization.Accounts.AccountAppService.IsTenantAvailable (MyPractice.Application)'
+INFO  2021-02-27 19:15:24,864 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 18.1595ms 400 
+INFO  2021-02-27 19:15:37,447 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:21021/api/services/app/Account/IsTenantAvailable application/json 21
+INFO  2021-02-27 19:15:37,449 [14   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution failed.
+INFO  2021-02-27 19:15:37,450 [14   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2021-02-27 19:15:37,452 [14   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'MyPractice.Authorization.Accounts.AccountAppService.IsTenantAvailable (MyPractice.Application)'
+INFO  2021-02-27 19:15:37,457 [14   ] c.Infrastructure.ControllerActionInvoker - Route matched with {area = "app", action = "IsTenantAvailable", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[MyPractice.Authorization.Accounts.Dto.IsTenantAvailableOutput] IsTenantAvailable(MyPractice.Authorization.Accounts.Dto.IsTenantAvailableInput) on controller MyPractice.Authorization.Accounts.AccountAppService (MyPractice.Application).
+ERROR 2021-02-27 19:15:37,458 [14   ] idateAntiforgeryTokenAuthorizationFilter - The required antiforgery header value "X-XSRF-TOKEN" is not present.
+Microsoft.AspNetCore.Antiforgery.AntiforgeryValidationException: The required antiforgery header value "X-XSRF-TOKEN" is not present.
+   at Microsoft.AspNetCore.Antiforgery.DefaultAntiforgery.ValidateRequestAsync(HttpContext httpContext)
+   at Abp.AspNetCore.Mvc.Antiforgery.AbpValidateAntiforgeryTokenAuthorizationFilter.OnAuthorizationAsync(AuthorizationFilterContext context)
+INFO  2021-02-27 19:15:37,459 [14   ] c.Infrastructure.ControllerActionInvoker - Authorization failed for the request at filter 'Abp.AspNetCore.Mvc.Antiforgery.AbpAutoValidateAntiforgeryTokenAuthorizationFilter'.
+INFO  2021-02-27 19:15:37,460 [14   ] icrosoft.AspNetCore.Mvc.StatusCodeResult - Executing HttpStatusCodeResult, setting HTTP status code 400
+INFO  2021-02-27 19:15:37,462 [14   ] c.Infrastructure.ControllerActionInvoker - Executed action MyPractice.Authorization.Accounts.AccountAppService.IsTenantAvailable (MyPractice.Application) in 3.4429ms
+INFO  2021-02-27 19:15:37,463 [14   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'MyPractice.Authorization.Accounts.AccountAppService.IsTenantAvailable (MyPractice.Application)'
+INFO  2021-02-27 19:15:37,465 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 18.3911ms 400 
+INFO  2021-02-27 19:15:37,599 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:21021/api/services/app/Account/IsTenantAvailable application/json 21
+INFO  2021-02-27 19:15:37,601 [9    ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution failed.
+INFO  2021-02-27 19:15:37,602 [9    ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2021-02-27 19:15:37,604 [9    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'MyPractice.Authorization.Accounts.AccountAppService.IsTenantAvailable (MyPractice.Application)'
+INFO  2021-02-27 19:15:37,609 [9    ] c.Infrastructure.ControllerActionInvoker - Route matched with {area = "app", action = "IsTenantAvailable", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[MyPractice.Authorization.Accounts.Dto.IsTenantAvailableOutput] IsTenantAvailable(MyPractice.Authorization.Accounts.Dto.IsTenantAvailableInput) on controller MyPractice.Authorization.Accounts.AccountAppService (MyPractice.Application).
+ERROR 2021-02-27 19:15:37,610 [9    ] idateAntiforgeryTokenAuthorizationFilter - The required antiforgery header value "X-XSRF-TOKEN" is not present.
+Microsoft.AspNetCore.Antiforgery.AntiforgeryValidationException: The required antiforgery header value "X-XSRF-TOKEN" is not present.
+   at Microsoft.AspNetCore.Antiforgery.DefaultAntiforgery.ValidateRequestAsync(HttpContext httpContext)
+   at Abp.AspNetCore.Mvc.Antiforgery.AbpValidateAntiforgeryTokenAuthorizationFilter.OnAuthorizationAsync(AuthorizationFilterContext context)
+INFO  2021-02-27 19:15:37,611 [9    ] c.Infrastructure.ControllerActionInvoker - Authorization failed for the request at filter 'Abp.AspNetCore.Mvc.Antiforgery.AbpAutoValidateAntiforgeryTokenAuthorizationFilter'.
+INFO  2021-02-27 19:15:37,613 [9    ] icrosoft.AspNetCore.Mvc.StatusCodeResult - Executing HttpStatusCodeResult, setting HTTP status code 400
+INFO  2021-02-27 19:15:37,614 [9    ] c.Infrastructure.ControllerActionInvoker - Executed action MyPractice.Authorization.Accounts.AccountAppService.IsTenantAvailable (MyPractice.Application) in 4.2148ms
+INFO  2021-02-27 19:15:37,616 [9    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'MyPractice.Authorization.Accounts.AccountAppService.IsTenantAvailable (MyPractice.Application)'
+INFO  2021-02-27 19:15:37,618 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 19.1184ms 400 
+INFO  2021-02-27 19:15:43,439 [16   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:21021/api/services/app/Account/IsTenantAvailable application/json 21
+INFO  2021-02-27 19:15:43,440 [16   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution failed.
+INFO  2021-02-27 19:15:43,442 [16   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2021-02-27 19:15:43,444 [16   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'MyPractice.Authorization.Accounts.AccountAppService.IsTenantAvailable (MyPractice.Application)'
+INFO  2021-02-27 19:15:43,448 [16   ] c.Infrastructure.ControllerActionInvoker - Route matched with {area = "app", action = "IsTenantAvailable", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[MyPractice.Authorization.Accounts.Dto.IsTenantAvailableOutput] IsTenantAvailable(MyPractice.Authorization.Accounts.Dto.IsTenantAvailableInput) on controller MyPractice.Authorization.Accounts.AccountAppService (MyPractice.Application).
+ERROR 2021-02-27 19:15:43,449 [16   ] idateAntiforgeryTokenAuthorizationFilter - The required antiforgery header value "X-XSRF-TOKEN" is not present.
+Microsoft.AspNetCore.Antiforgery.AntiforgeryValidationException: The required antiforgery header value "X-XSRF-TOKEN" is not present.
+   at Microsoft.AspNetCore.Antiforgery.DefaultAntiforgery.ValidateRequestAsync(HttpContext httpContext)
+   at Abp.AspNetCore.Mvc.Antiforgery.AbpValidateAntiforgeryTokenAuthorizationFilter.OnAuthorizationAsync(AuthorizationFilterContext context)
+INFO  2021-02-27 19:15:43,450 [16   ] c.Infrastructure.ControllerActionInvoker - Authorization failed for the request at filter 'Abp.AspNetCore.Mvc.Antiforgery.AbpAutoValidateAntiforgeryTokenAuthorizationFilter'.
+INFO  2021-02-27 19:15:43,452 [16   ] icrosoft.AspNetCore.Mvc.StatusCodeResult - Executing HttpStatusCodeResult, setting HTTP status code 400
+INFO  2021-02-27 19:15:43,453 [16   ] c.Infrastructure.ControllerActionInvoker - Executed action MyPractice.Authorization.Accounts.AccountAppService.IsTenantAvailable (MyPractice.Application) in 3.5413ms
+INFO  2021-02-27 19:15:43,454 [16   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'MyPractice.Authorization.Accounts.AccountAppService.IsTenantAvailable (MyPractice.Application)'
+INFO  2021-02-27 19:15:43,456 [16   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 17.6686ms 400 
+INFO  2021-02-27 19:15:43,790 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:21021/api/services/app/Account/IsTenantAvailable application/json 21
+INFO  2021-02-27 19:15:43,792 [9    ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution failed.
+INFO  2021-02-27 19:15:43,794 [9    ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2021-02-27 19:15:43,796 [9    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'MyPractice.Authorization.Accounts.AccountAppService.IsTenantAvailable (MyPractice.Application)'
+INFO  2021-02-27 19:15:43,800 [9    ] c.Infrastructure.ControllerActionInvoker - Route matched with {area = "app", action = "IsTenantAvailable", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[MyPractice.Authorization.Accounts.Dto.IsTenantAvailableOutput] IsTenantAvailable(MyPractice.Authorization.Accounts.Dto.IsTenantAvailableInput) on controller MyPractice.Authorization.Accounts.AccountAppService (MyPractice.Application).
+ERROR 2021-02-27 19:15:43,801 [9    ] idateAntiforgeryTokenAuthorizationFilter - The required antiforgery header value "X-XSRF-TOKEN" is not present.
+Microsoft.AspNetCore.Antiforgery.AntiforgeryValidationException: The required antiforgery header value "X-XSRF-TOKEN" is not present.
+   at Microsoft.AspNetCore.Antiforgery.DefaultAntiforgery.ValidateRequestAsync(HttpContext httpContext)
+   at Abp.AspNetCore.Mvc.Antiforgery.AbpValidateAntiforgeryTokenAuthorizationFilter.OnAuthorizationAsync(AuthorizationFilterContext context)
+INFO  2021-02-27 19:15:43,802 [9    ] c.Infrastructure.ControllerActionInvoker - Authorization failed for the request at filter 'Abp.AspNetCore.Mvc.Antiforgery.AbpAutoValidateAntiforgeryTokenAuthorizationFilter'.
+INFO  2021-02-27 19:15:43,804 [9    ] icrosoft.AspNetCore.Mvc.StatusCodeResult - Executing HttpStatusCodeResult, setting HTTP status code 400
+INFO  2021-02-27 19:15:43,805 [9    ] c.Infrastructure.ControllerActionInvoker - Executed action MyPractice.Authorization.Accounts.AccountAppService.IsTenantAvailable (MyPractice.Application) in 3.5469ms
+INFO  2021-02-27 19:15:43,807 [9    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'MyPractice.Authorization.Accounts.AccountAppService.IsTenantAvailable (MyPractice.Application)'
+INFO  2021-02-27 19:15:43,809 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 18.842ms 400 
+INFO  2021-02-27 19:15:43,951 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:21021/api/services/app/Account/IsTenantAvailable application/json 21
+INFO  2021-02-27 19:15:43,953 [14   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution failed.
+INFO  2021-02-27 19:15:43,954 [14   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2021-02-27 19:15:43,956 [14   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'MyPractice.Authorization.Accounts.AccountAppService.IsTenantAvailable (MyPractice.Application)'
+INFO  2021-02-27 19:15:43,960 [14   ] c.Infrastructure.ControllerActionInvoker - Route matched with {area = "app", action = "IsTenantAvailable", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[MyPractice.Authorization.Accounts.Dto.IsTenantAvailableOutput] IsTenantAvailable(MyPractice.Authorization.Accounts.Dto.IsTenantAvailableInput) on controller MyPractice.Authorization.Accounts.AccountAppService (MyPractice.Application).
+ERROR 2021-02-27 19:15:43,961 [14   ] idateAntiforgeryTokenAuthorizationFilter - The required antiforgery header value "X-XSRF-TOKEN" is not present.
+Microsoft.AspNetCore.Antiforgery.AntiforgeryValidationException: The required antiforgery header value "X-XSRF-TOKEN" is not present.
+   at Microsoft.AspNetCore.Antiforgery.DefaultAntiforgery.ValidateRequestAsync(HttpContext httpContext)
+   at Abp.AspNetCore.Mvc.Antiforgery.AbpValidateAntiforgeryTokenAuthorizationFilter.OnAuthorizationAsync(AuthorizationFilterContext context)
+INFO  2021-02-27 19:15:43,962 [14   ] c.Infrastructure.ControllerActionInvoker - Authorization failed for the request at filter 'Abp.AspNetCore.Mvc.Antiforgery.AbpAutoValidateAntiforgeryTokenAuthorizationFilter'.
+INFO  2021-02-27 19:15:43,963 [14   ] icrosoft.AspNetCore.Mvc.StatusCodeResult - Executing HttpStatusCodeResult, setting HTTP status code 400
+INFO  2021-02-27 19:15:43,965 [14   ] c.Infrastructure.ControllerActionInvoker - Executed action MyPractice.Authorization.Accounts.AccountAppService.IsTenantAvailable (MyPractice.Application) in 3.4862ms
+INFO  2021-02-27 19:15:43,966 [14   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'MyPractice.Authorization.Accounts.AccountAppService.IsTenantAvailable (MyPractice.Application)'
+INFO  2021-02-27 19:15:43,968 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 18.2231ms 400 
+DEBUG 2021-02-27 19:19:40,703 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2021-02-27 19:19:40,763 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2021-02-27 19:19:40,776 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyPractice.Web.Host.Startup.MyPracticeWebHostModule, MyPractice.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-02-27 19:19:40,778 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyPractice.MyPracticeWebCoreModule, MyPractice.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-02-27 19:19:40,778 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyPractice.MyPracticeApplicationModule, MyPractice.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-02-27 19:19:40,778 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyPractice.MyPracticeCoreModule, MyPractice.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-02-27 19:19:40,779 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-02-27 19:19:40,779 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-02-27 19:19:40,779 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-02-27 19:19:40,779 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-02-27 19:19:40,779 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyPractice.EntityFrameworkCore.MyPracticeEntityFrameworkModule, MyPractice.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-02-27 19:19:40,780 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-02-27 19:19:40,780 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-02-27 19:19:40,780 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-02-27 19:19:40,780 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-02-27 19:19:40,780 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-02-27 19:19:40,780 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-02-27 19:19:40,782 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2021-02-27 19:19:40,841 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2021-02-27 19:19:40,841 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2021-02-27 19:19:40,841 [1    ] o.Configuration.LanguageManagementConfig - Converted MyPractice (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2021-02-27 19:19:40,841 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2021-02-27 19:19:41,139 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: MyPractice.EntityFrameworkCore.MyPracticeDbContext, MyPractice.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-02-27 19:19:41,909 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2021-02-27 19:19:41,955 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2021-02-27 19:19:41,997 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2021-02-27 19:19:42,015 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: MyPractice
+DEBUG 2021-02-27 19:19:42,044 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2021-02-27 19:19:42,221 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2021-02-27 19:19:42,333 [1    ] , Culture=neutral, PublicKeyToken=null]] - Start background worker: Abp.Authorization.Users.UserTokenExpirationWorker`2[[MyPractice.MultiTenancy.Tenant, MyPractice.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[MyPractice.Authorization.Users.User, MyPractice.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+DEBUG 2021-02-27 19:19:42,373 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 8 classes define auto mapping attributes
+DEBUG 2021-02-27 19:19:42,373 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyPractice.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2021-02-27 19:19:42,378 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyPractice.Users.Dto.CreateUserDto
+DEBUG 2021-02-27 19:19:42,378 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyPractice.Users.Dto.UserDto
+DEBUG 2021-02-27 19:19:42,379 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyPractice.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2021-02-27 19:19:42,379 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyPractice.Sessions.Dto.UserLoginInfoDto
+DEBUG 2021-02-27 19:19:42,379 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyPractice.Roles.Dto.PermissionDto
+DEBUG 2021-02-27 19:19:42,379 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyPractice.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2021-02-27 19:19:42,379 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyPractice.MultiTenancy.Dto.TenantDto
+INFO  2021-02-27 19:19:44,261 [1    ] tCore.Builder.RequestLocalizationOptions - Supported Request Localization Cultures: en,es-MX,fr,de,it,nl,pt-BR,tr,ru,ar,zh-Hans,ja
+INFO  2021-02-27 19:19:44,497 [1    ] taProtection.KeyManagement.XmlKeyManager - User profile is available. Using 'C:\Users\WenQiang\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+INFO  2021-02-27 19:19:44,558 [16   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/  
+INFO  2021-02-27 19:19:44,651 [16   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'MyPractice.Web.Host.Controllers.HomeController.Index (MyPractice.Web.Host)'
+INFO  2021-02-27 19:19:47,761 [16   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller MyPractice.Web.Host.Controllers.HomeController (MyPractice.Web.Host).
+INFO  2021-02-27 19:19:48,730 [16   ] c.Infrastructure.ControllerActionInvoker - Executing action method MyPractice.Web.Host.Controllers.HomeController.Index (MyPractice.Web.Host) - Validation state: Valid
+INFO  2021-02-27 19:19:48,736 [16   ] c.Infrastructure.ControllerActionInvoker - Executed action method MyPractice.Web.Host.Controllers.HomeController.Index (MyPractice.Web.Host), returned result Microsoft.AspNetCore.Mvc.RedirectResult in 0.4841ms.
+INFO  2021-02-27 19:19:48,891 [14   ] vc.Infrastructure.RedirectResultExecutor - Executing RedirectResult, redirecting to /swagger.
+INFO  2021-02-27 19:19:48,897 [14   ] c.Infrastructure.ControllerActionInvoker - Executed action MyPractice.Web.Host.Controllers.HomeController.Index (MyPractice.Web.Host) in 1131.5225ms
+INFO  2021-02-27 19:19:48,899 [14   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'MyPractice.Web.Host.Controllers.HomeController.Index (MyPractice.Web.Host)'
+INFO  2021-02-27 19:19:48,913 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 4356.4969ms 302 
+INFO  2021-02-27 19:19:48,922 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/index.html  
+INFO  2021-02-27 19:19:48,969 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 46.6085ms 200 text/html;charset=utf-8
+INFO  2021-02-27 19:19:49,074 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/AntiForgery/SetCookie  
+INFO  2021-02-27 19:19:49,080 [14   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'MyPractice.Web.Host.Controllers.AntiForgeryController.SetCookie (MyPractice.Web.Host)'
+INFO  2021-02-27 19:19:49,088 [14   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "SetCookie", controller = "AntiForgery", area = ""}. Executing controller action with signature Void SetCookie() on controller MyPractice.Web.Host.Controllers.AntiForgeryController (MyPractice.Web.Host).
+INFO  2021-02-27 19:19:49,107 [14   ] c.Infrastructure.ControllerActionInvoker - Executing action method MyPractice.Web.Host.Controllers.AntiForgeryController.SetCookie (MyPractice.Web.Host) - Validation state: Valid
+INFO  2021-02-27 19:19:49,108 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/v1/swagger.json  
+INFO  2021-02-27 19:19:49,118 [14   ] c.Infrastructure.ControllerActionInvoker - Executed action method MyPractice.Web.Host.Controllers.AntiForgeryController.SetCookie (MyPractice.Web.Host), returned result Microsoft.AspNetCore.Mvc.EmptyResult in 8.7653ms.
+INFO  2021-02-27 19:19:49,138 [4    ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2021-02-27 19:19:49,240 [4    ] c.Infrastructure.ControllerActionInvoker - Executed action MyPractice.Web.Host.Controllers.AntiForgeryController.SetCookie (MyPractice.Web.Host) in 150.1591ms
+INFO  2021-02-27 19:19:49,242 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'MyPractice.Web.Host.Controllers.AntiForgeryController.SetCookie (MyPractice.Web.Host)'
+INFO  2021-02-27 19:19:49,245 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 170.6581ms 200 application/json; charset=utf-8
+INFO  2021-02-27 19:19:49,250 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 142.4859ms 200 application/json;charset=utf-8
+INFO  2021-02-27 19:20:02,760 [16   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:21021/api/TokenAuth/Authenticate application/json 50
+INFO  2021-02-27 19:20:02,767 [16   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution failed.
+INFO  2021-02-27 19:20:02,768 [16   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2021-02-27 19:20:02,772 [16   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'MyPractice.Controllers.TokenAuthController.Authenticate (MyPractice.Web.Core)'
+INFO  2021-02-27 19:20:02,787 [16   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Authenticate", controller = "TokenAuth", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[MyPractice.Models.TokenAuth.AuthenticateResultModel] Authenticate(MyPractice.Models.TokenAuth.AuthenticateModel) on controller MyPractice.Controllers.TokenAuthController (MyPractice.Web.Core).
+ERROR 2021-02-27 19:20:02,791 [16   ] idateAntiforgeryTokenAuthorizationFilter - The required antiforgery header value "X-XSRF-TOKEN" is not present.
+Microsoft.AspNetCore.Antiforgery.AntiforgeryValidationException: The required antiforgery header value "X-XSRF-TOKEN" is not present.
+   at Microsoft.AspNetCore.Antiforgery.DefaultAntiforgery.ValidateRequestAsync(HttpContext httpContext)
+   at Abp.AspNetCore.Mvc.Antiforgery.AbpValidateAntiforgeryTokenAuthorizationFilter.OnAuthorizationAsync(AuthorizationFilterContext context)
+INFO  2021-02-27 19:20:02,821 [16   ] c.Infrastructure.ControllerActionInvoker - Authorization failed for the request at filter 'Abp.AspNetCore.Mvc.Antiforgery.AbpAutoValidateAntiforgeryTokenAuthorizationFilter'.
+INFO  2021-02-27 19:20:02,825 [16   ] icrosoft.AspNetCore.Mvc.StatusCodeResult - Executing HttpStatusCodeResult, setting HTTP status code 400
+INFO  2021-02-27 19:20:02,827 [16   ] c.Infrastructure.ControllerActionInvoker - Executed action MyPractice.Controllers.TokenAuthController.Authenticate (MyPractice.Web.Core) in 38.7086ms
+INFO  2021-02-27 19:20:02,829 [16   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'MyPractice.Controllers.TokenAuthController.Authenticate (MyPractice.Web.Core)'
+INFO  2021-02-27 19:20:02,831 [16   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 72.3289ms 400 
+INFO  2021-02-27 19:20:06,945 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:21021/api/TokenAuth/Authenticate application/json 50
+INFO  2021-02-27 19:20:06,947 [12   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution failed.
+INFO  2021-02-27 19:20:06,948 [12   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2021-02-27 19:20:06,953 [12   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'MyPractice.Controllers.TokenAuthController.Authenticate (MyPractice.Web.Core)'
+INFO  2021-02-27 19:20:06,958 [12   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Authenticate", controller = "TokenAuth", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[MyPractice.Models.TokenAuth.AuthenticateResultModel] Authenticate(MyPractice.Models.TokenAuth.AuthenticateModel) on controller MyPractice.Controllers.TokenAuthController (MyPractice.Web.Core).
+ERROR 2021-02-27 19:20:06,959 [12   ] idateAntiforgeryTokenAuthorizationFilter - The required antiforgery header value "X-XSRF-TOKEN" is not present.
+Microsoft.AspNetCore.Antiforgery.AntiforgeryValidationException: The required antiforgery header value "X-XSRF-TOKEN" is not present.
+   at Microsoft.AspNetCore.Antiforgery.DefaultAntiforgery.ValidateRequestAsync(HttpContext httpContext)
+   at Abp.AspNetCore.Mvc.Antiforgery.AbpValidateAntiforgeryTokenAuthorizationFilter.OnAuthorizationAsync(AuthorizationFilterContext context)
+INFO  2021-02-27 19:20:06,961 [12   ] c.Infrastructure.ControllerActionInvoker - Authorization failed for the request at filter 'Abp.AspNetCore.Mvc.Antiforgery.AbpAutoValidateAntiforgeryTokenAuthorizationFilter'.
+INFO  2021-02-27 19:20:06,962 [12   ] icrosoft.AspNetCore.Mvc.StatusCodeResult - Executing HttpStatusCodeResult, setting HTTP status code 400
+INFO  2021-02-27 19:20:06,964 [12   ] c.Infrastructure.ControllerActionInvoker - Executed action MyPractice.Controllers.TokenAuthController.Authenticate (MyPractice.Web.Core) in 3.9179ms
+INFO  2021-02-27 19:20:06,965 [12   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'MyPractice.Controllers.TokenAuthController.Authenticate (MyPractice.Web.Core)'
+INFO  2021-02-27 19:20:06,967 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 22.557ms 400 
+INFO  2021-02-27 19:20:11,431 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:21021/api/TokenAuth/Authenticate application/json 50
+INFO  2021-02-27 19:20:11,433 [13   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution failed.
+INFO  2021-02-27 19:20:11,435 [13   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2021-02-27 19:20:11,438 [13   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'MyPractice.Controllers.TokenAuthController.Authenticate (MyPractice.Web.Core)'
+INFO  2021-02-27 19:20:11,443 [13   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Authenticate", controller = "TokenAuth", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[MyPractice.Models.TokenAuth.AuthenticateResultModel] Authenticate(MyPractice.Models.TokenAuth.AuthenticateModel) on controller MyPractice.Controllers.TokenAuthController (MyPractice.Web.Core).
+ERROR 2021-02-27 19:20:11,444 [13   ] idateAntiforgeryTokenAuthorizationFilter - The required antiforgery header value "X-XSRF-TOKEN" is not present.
+Microsoft.AspNetCore.Antiforgery.AntiforgeryValidationException: The required antiforgery header value "X-XSRF-TOKEN" is not present.
+   at Microsoft.AspNetCore.Antiforgery.DefaultAntiforgery.ValidateRequestAsync(HttpContext httpContext)
+   at Abp.AspNetCore.Mvc.Antiforgery.AbpValidateAntiforgeryTokenAuthorizationFilter.OnAuthorizationAsync(AuthorizationFilterContext context)
+INFO  2021-02-27 19:20:11,446 [13   ] c.Infrastructure.ControllerActionInvoker - Authorization failed for the request at filter 'Abp.AspNetCore.Mvc.Antiforgery.AbpAutoValidateAntiforgeryTokenAuthorizationFilter'.
+INFO  2021-02-27 19:20:11,448 [13   ] icrosoft.AspNetCore.Mvc.StatusCodeResult - Executing HttpStatusCodeResult, setting HTTP status code 400
+INFO  2021-02-27 19:20:11,450 [13   ] c.Infrastructure.ControllerActionInvoker - Executed action MyPractice.Controllers.TokenAuthController.Authenticate (MyPractice.Web.Core) in 4.9351ms
+INFO  2021-02-27 19:20:11,452 [13   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'MyPractice.Controllers.TokenAuthController.Authenticate (MyPractice.Web.Core)'
+INFO  2021-02-27 19:20:11,455 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 24.2026ms 400 
+INFO  2021-02-27 19:20:58,079 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:21021/api/TokenAuth/Authenticate application/json 50
+INFO  2021-02-27 19:20:58,081 [7    ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution failed.
+INFO  2021-02-27 19:20:58,082 [7    ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2021-02-27 19:20:58,085 [7    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'MyPractice.Controllers.TokenAuthController.Authenticate (MyPractice.Web.Core)'
+INFO  2021-02-27 19:20:58,090 [7    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Authenticate", controller = "TokenAuth", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[MyPractice.Models.TokenAuth.AuthenticateResultModel] Authenticate(MyPractice.Models.TokenAuth.AuthenticateModel) on controller MyPractice.Controllers.TokenAuthController (MyPractice.Web.Core).
+INFO  2021-02-27 19:20:58,798 [7    ] c.Infrastructure.ControllerActionInvoker - Executing action method MyPractice.Controllers.TokenAuthController.Authenticate (MyPractice.Web.Core) - Validation state: Valid
+WARN  2021-02-27 19:20:58,919 [12   ] icrosoft.AspNetCore.Identity.UserManager - Invalid password for user 1.
+INFO  2021-02-27 19:20:59,345 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:21021/api/TokenAuth/Authenticate application/json 50
+INFO  2021-02-27 19:20:59,347 [9    ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution failed.
+INFO  2021-02-27 19:20:59,348 [9    ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2021-02-27 19:20:59,352 [9    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'MyPractice.Controllers.TokenAuthController.Authenticate (MyPractice.Web.Core)'
+INFO  2021-02-27 19:20:59,373 [9    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Authenticate", controller = "TokenAuth", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[MyPractice.Models.TokenAuth.AuthenticateResultModel] Authenticate(MyPractice.Models.TokenAuth.AuthenticateModel) on controller MyPractice.Controllers.TokenAuthController (MyPractice.Web.Core).
+INFO  2021-02-27 19:20:59,432 [9    ] c.Infrastructure.ControllerActionInvoker - Executing action method MyPractice.Controllers.TokenAuthController.Authenticate (MyPractice.Web.Core) - Validation state: Valid
+WARN  2021-02-27 19:20:59,444 [10   ] icrosoft.AspNetCore.Identity.UserManager - Invalid password for user 1.
+WARN  2021-02-27 19:20:59,903 [7    ] Mvc.ExceptionHandling.AbpExceptionFilter - Login failed!
+Abp.UI.UserFriendlyException: Login failed!
+   at MyPractice.Controllers.TokenAuthController.GetLoginResultAsync(String usernameOrEmailAddress, String password, String tenancyName) in E:\ABP.NET\5.8.1\aspnet-core\src\MyPractice.Web.Core\Controllers\TokenAuthController.cs:line 192
+   at MyPractice.Controllers.TokenAuthController.Authenticate(AuthenticateModel model) in E:\ABP.NET\5.8.1\aspnet-core\src\MyPractice.Web.Core\Controllers\TokenAuthController.cs:line 55
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+WARN  2021-02-27 19:20:59,903 [10   ] Mvc.ExceptionHandling.AbpExceptionFilter - Login failed!
+Abp.UI.UserFriendlyException: Login failed!
+   at MyPractice.Controllers.TokenAuthController.GetLoginResultAsync(String usernameOrEmailAddress, String password, String tenancyName) in E:\ABP.NET\5.8.1\aspnet-core\src\MyPractice.Web.Core\Controllers\TokenAuthController.cs:line 192
+   at MyPractice.Controllers.TokenAuthController.Authenticate(AuthenticateModel model) in E:\ABP.NET\5.8.1\aspnet-core\src\MyPractice.Web.Core\Controllers\TokenAuthController.cs:line 55
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+INFO  2021-02-27 19:20:59,908 [10   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2021-02-27 19:20:59,910 [7    ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2021-02-27 19:20:59,916 [7    ] c.Infrastructure.ControllerActionInvoker - Executed action MyPractice.Controllers.TokenAuthController.Authenticate (MyPractice.Web.Core) in 1824.0655ms
+INFO  2021-02-27 19:20:59,917 [10   ] c.Infrastructure.ControllerActionInvoker - Executed action MyPractice.Controllers.TokenAuthController.Authenticate (MyPractice.Web.Core) in 540.6495ms
+INFO  2021-02-27 19:20:59,919 [7    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'MyPractice.Controllers.TokenAuthController.Authenticate (MyPractice.Web.Core)'
+INFO  2021-02-27 19:20:59,920 [10   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'MyPractice.Controllers.TokenAuthController.Authenticate (MyPractice.Web.Core)'
+INFO  2021-02-27 19:20:59,922 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 576.9579ms 500 application/json; charset=utf-8
+INFO  2021-02-27 19:20:59,924 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 1843.062ms 500 application/json; charset=utf-8
+INFO  2021-02-27 19:21:03,025 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/index.html  
+INFO  2021-02-27 19:21:03,030 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 9.3027ms 200 text/html;charset=utf-8
+INFO  2021-02-27 19:21:03,048 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui.css  
+INFO  2021-02-27 19:21:03,050 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-bundle.js  
+INFO  2021-02-27 19:21:03,052 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-standalone-preset.js  
+INFO  2021-02-27 19:21:03,053 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/ui/abp.js  
+INFO  2021-02-27 19:21:03,054 [16   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/ui/abp.swagger.js  
+INFO  2021-02-27 19:21:03,104 [16   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger/ui/abp.swagger.js'. Physical path: 'E:\ABP.NET\5.8.1\aspnet-core\src\MyPractice.Web.Host\wwwroot\swagger\ui\abp.swagger.js'
+INFO  2021-02-27 19:21:03,104 [7    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger/ui/abp.js'. Physical path: 'E:\ABP.NET\5.8.1\aspnet-core\src\MyPractice.Web.Host\wwwroot\swagger\ui\abp.js'
+INFO  2021-02-27 19:21:03,106 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 54.0492ms 200 application/javascript
+INFO  2021-02-27 19:21:03,107 [16   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 54.9728ms 200 application/javascript
+INFO  2021-02-27 19:21:03,113 [7    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+INFO  2021-02-27 19:21:03,115 [10   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+INFO  2021-02-27 19:21:03,116 [13   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+INFO  2021-02-27 19:21:03,120 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 72.5356ms 200 text/css
+INFO  2021-02-27 19:21:03,121 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 72.5356ms 200 application/javascript
+INFO  2021-02-27 19:21:03,123 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 68.6614ms 200 application/javascript
+INFO  2021-02-27 19:21:04,172 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/AntiForgery/SetCookie  
+INFO  2021-02-27 19:21:04,176 [10   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'MyPractice.Web.Host.Controllers.AntiForgeryController.SetCookie (MyPractice.Web.Host)'
+INFO  2021-02-27 19:21:04,181 [10   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "SetCookie", controller = "AntiForgery", area = ""}. Executing controller action with signature Void SetCookie() on controller MyPractice.Web.Host.Controllers.AntiForgeryController (MyPractice.Web.Host).
+INFO  2021-02-27 19:21:04,199 [10   ] c.Infrastructure.ControllerActionInvoker - Executing action method MyPractice.Web.Host.Controllers.AntiForgeryController.SetCookie (MyPractice.Web.Host) - Validation state: Valid
+INFO  2021-02-27 19:21:04,201 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/v1/swagger.json  
+INFO  2021-02-27 19:21:04,205 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/favicon-32x32.png  
+INFO  2021-02-27 19:21:04,210 [10   ] c.Infrastructure.ControllerActionInvoker - Executed action method MyPractice.Web.Host.Controllers.AntiForgeryController.SetCookie (MyPractice.Web.Host), returned result Microsoft.AspNetCore.Mvc.EmptyResult in 7.3195ms.
+INFO  2021-02-27 19:21:04,213 [7    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+INFO  2021-02-27 19:21:04,216 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 10.7238ms 200 image/png
+INFO  2021-02-27 19:21:04,226 [12   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2021-02-27 19:21:04,228 [12   ] c.Infrastructure.ControllerActionInvoker - Executed action MyPractice.Web.Host.Controllers.AntiForgeryController.SetCookie (MyPractice.Web.Host) in 45.1992ms
+INFO  2021-02-27 19:21:04,230 [12   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'MyPractice.Web.Host.Controllers.AntiForgeryController.SetCookie (MyPractice.Web.Host)'
+INFO  2021-02-27 19:21:04,232 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 60.8991ms 200 application/json; charset=utf-8
+INFO  2021-02-27 19:21:04,238 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 38.3379ms 200 application/json;charset=utf-8
+INFO  2021-02-27 19:21:09,374 [30   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:21021/api/TokenAuth/Authenticate application/json 54
+INFO  2021-02-27 19:21:09,377 [30   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution failed.
+INFO  2021-02-27 19:21:09,378 [30   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2021-02-27 19:21:09,381 [30   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'MyPractice.Controllers.TokenAuthController.Authenticate (MyPractice.Web.Core)'
+INFO  2021-02-27 19:21:09,385 [30   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Authenticate", controller = "TokenAuth", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[MyPractice.Models.TokenAuth.AuthenticateResultModel] Authenticate(MyPractice.Models.TokenAuth.AuthenticateModel) on controller MyPractice.Controllers.TokenAuthController (MyPractice.Web.Core).
+INFO  2021-02-27 19:21:09,405 [30   ] c.Infrastructure.ControllerActionInvoker - Executing action method MyPractice.Controllers.TokenAuthController.Authenticate (MyPractice.Web.Core) - Validation state: Valid
+WARN  2021-02-27 19:21:09,415 [10   ] icrosoft.AspNetCore.Identity.UserManager - Invalid password for user 1.
+WARN  2021-02-27 19:21:09,567 [36   ] Mvc.ExceptionHandling.AbpExceptionFilter - Login failed!
+Abp.UI.UserFriendlyException: Login failed!
+   at MyPractice.Controllers.TokenAuthController.GetLoginResultAsync(String usernameOrEmailAddress, String password, String tenancyName) in E:\ABP.NET\5.8.1\aspnet-core\src\MyPractice.Web.Core\Controllers\TokenAuthController.cs:line 192
+   at MyPractice.Controllers.TokenAuthController.Authenticate(AuthenticateModel model) in E:\ABP.NET\5.8.1\aspnet-core\src\MyPractice.Web.Core\Controllers\TokenAuthController.cs:line 55
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+INFO  2021-02-27 19:21:09,570 [36   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2021-02-27 19:21:09,578 [36   ] c.Infrastructure.ControllerActionInvoker - Executed action MyPractice.Controllers.TokenAuthController.Authenticate (MyPractice.Web.Core) in 185.5333ms
+INFO  2021-02-27 19:21:09,580 [36   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'MyPractice.Controllers.TokenAuthController.Authenticate (MyPractice.Web.Core)'
+INFO  2021-02-27 19:21:09,582 [36   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 208.1853ms 500 application/json; charset=utf-8
+DEBUG 2021-02-27 19:22:07,726 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2021-02-27 19:22:07,791 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2021-02-27 19:22:07,803 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyPractice.Web.Host.Startup.MyPracticeWebHostModule, MyPractice.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-02-27 19:22:07,804 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyPractice.MyPracticeWebCoreModule, MyPractice.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-02-27 19:22:07,805 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyPractice.MyPracticeApplicationModule, MyPractice.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-02-27 19:22:07,805 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyPractice.MyPracticeCoreModule, MyPractice.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-02-27 19:22:07,805 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-02-27 19:22:07,805 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-02-27 19:22:07,806 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-02-27 19:22:07,806 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-02-27 19:22:07,806 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyPractice.EntityFrameworkCore.MyPracticeEntityFrameworkModule, MyPractice.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-02-27 19:22:07,806 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-02-27 19:22:07,806 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-02-27 19:22:07,807 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-02-27 19:22:07,807 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-02-27 19:22:07,807 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-02-27 19:22:07,807 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-02-27 19:22:07,809 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2021-02-27 19:22:07,895 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2021-02-27 19:22:07,895 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2021-02-27 19:22:07,895 [1    ] o.Configuration.LanguageManagementConfig - Converted MyPractice (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2021-02-27 19:22:07,895 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2021-02-27 19:22:08,180 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: MyPractice.EntityFrameworkCore.MyPracticeDbContext, MyPractice.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-02-27 19:22:08,873 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2021-02-27 19:22:08,920 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2021-02-27 19:22:08,961 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2021-02-27 19:22:08,979 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: MyPractice
+DEBUG 2021-02-27 19:22:09,006 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2021-02-27 19:22:09,154 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2021-02-27 19:22:09,241 [1    ] , Culture=neutral, PublicKeyToken=null]] - Start background worker: Abp.Authorization.Users.UserTokenExpirationWorker`2[[MyPractice.MultiTenancy.Tenant, MyPractice.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[MyPractice.Authorization.Users.User, MyPractice.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+DEBUG 2021-02-27 19:22:09,282 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 8 classes define auto mapping attributes
+DEBUG 2021-02-27 19:22:09,282 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyPractice.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2021-02-27 19:22:09,287 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyPractice.Users.Dto.CreateUserDto
+DEBUG 2021-02-27 19:22:09,287 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyPractice.Users.Dto.UserDto
+DEBUG 2021-02-27 19:22:09,287 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyPractice.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2021-02-27 19:22:09,287 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyPractice.Sessions.Dto.UserLoginInfoDto
+DEBUG 2021-02-27 19:22:09,287 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyPractice.Roles.Dto.PermissionDto
+DEBUG 2021-02-27 19:22:09,287 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyPractice.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2021-02-27 19:22:09,287 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyPractice.MultiTenancy.Dto.TenantDto
+INFO  2021-02-27 19:22:11,190 [1    ] tCore.Builder.RequestLocalizationOptions - Supported Request Localization Cultures: en,es-MX,fr,de,it,nl,pt-BR,tr,ru,ar,zh-Hans,ja
+INFO  2021-02-27 19:22:11,412 [1    ] taProtection.KeyManagement.XmlKeyManager - User profile is available. Using 'C:\Users\WenQiang\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+INFO  2021-02-27 19:22:11,471 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/  
+INFO  2021-02-27 19:22:11,558 [15   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'MyPractice.Web.Host.Controllers.HomeController.Index (MyPractice.Web.Host)'
+INFO  2021-02-27 19:22:14,251 [15   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller MyPractice.Web.Host.Controllers.HomeController (MyPractice.Web.Host).
+INFO  2021-02-27 19:22:15,120 [15   ] c.Infrastructure.ControllerActionInvoker - Executing action method MyPractice.Web.Host.Controllers.HomeController.Index (MyPractice.Web.Host) - Validation state: Valid
+INFO  2021-02-27 19:22:15,125 [15   ] c.Infrastructure.ControllerActionInvoker - Executed action method MyPractice.Web.Host.Controllers.HomeController.Index (MyPractice.Web.Host), returned result Microsoft.AspNetCore.Mvc.RedirectResult in 0.377ms.
+INFO  2021-02-27 19:22:15,289 [17   ] vc.Infrastructure.RedirectResultExecutor - Executing RedirectResult, redirecting to /swagger.
+INFO  2021-02-27 19:22:15,294 [17   ] c.Infrastructure.ControllerActionInvoker - Executed action MyPractice.Web.Host.Controllers.HomeController.Index (MyPractice.Web.Host) in 1039.1161ms
+INFO  2021-02-27 19:22:15,296 [17   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'MyPractice.Web.Host.Controllers.HomeController.Index (MyPractice.Web.Host)'
+INFO  2021-02-27 19:22:15,310 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger  
+INFO  2021-02-27 19:22:15,311 [17   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 3840.1337ms 302 
+INFO  2021-02-27 19:22:15,338 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 27.6102ms 301 
+INFO  2021-02-27 19:22:15,342 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/index.html  
+INFO  2021-02-27 19:22:15,376 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 34.3467ms 200 text/html;charset=utf-8
+INFO  2021-02-27 19:22:15,543 [16   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/AntiForgery/SetCookie  
+INFO  2021-02-27 19:22:15,546 [16   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'MyPractice.Web.Host.Controllers.AntiForgeryController.SetCookie (MyPractice.Web.Host)'
+INFO  2021-02-27 19:22:15,552 [16   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "SetCookie", controller = "AntiForgery", area = ""}. Executing controller action with signature Void SetCookie() on controller MyPractice.Web.Host.Controllers.AntiForgeryController (MyPractice.Web.Host).
+INFO  2021-02-27 19:22:15,570 [16   ] c.Infrastructure.ControllerActionInvoker - Executing action method MyPractice.Web.Host.Controllers.AntiForgeryController.SetCookie (MyPractice.Web.Host) - Validation state: Valid
+INFO  2021-02-27 19:22:15,572 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/v1/swagger.json  
+INFO  2021-02-27 19:22:15,579 [16   ] c.Infrastructure.ControllerActionInvoker - Executed action method MyPractice.Web.Host.Controllers.AntiForgeryController.SetCookie (MyPractice.Web.Host), returned result Microsoft.AspNetCore.Mvc.EmptyResult in 7.0293ms.
+INFO  2021-02-27 19:22:15,593 [17   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2021-02-27 19:22:15,699 [17   ] c.Infrastructure.ControllerActionInvoker - Executed action MyPractice.Web.Host.Controllers.AntiForgeryController.SetCookie (MyPractice.Web.Host) in 144.5827ms
+INFO  2021-02-27 19:22:15,700 [17   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'MyPractice.Web.Host.Controllers.AntiForgeryController.SetCookie (MyPractice.Web.Host)'
+INFO  2021-02-27 19:22:15,702 [17   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 159.2845ms 200 application/json; charset=utf-8
+INFO  2021-02-27 19:22:15,711 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 139.2462ms 200 application/json;charset=utf-8
+INFO  2021-02-27 19:22:57,064 [19   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:21021/api/TokenAuth/Authenticate application/json 76
+INFO  2021-02-27 19:22:57,069 [19   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution failed.
+INFO  2021-02-27 19:22:57,070 [19   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2021-02-27 19:22:57,073 [19   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'MyPractice.Controllers.TokenAuthController.Authenticate (MyPractice.Web.Core)'
+INFO  2021-02-27 19:22:57,087 [19   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Authenticate", controller = "TokenAuth", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[MyPractice.Models.TokenAuth.AuthenticateResultModel] Authenticate(MyPractice.Models.TokenAuth.AuthenticateModel) on controller MyPractice.Controllers.TokenAuthController (MyPractice.Web.Core).
+INFO  2021-02-27 19:22:57,760 [19   ] c.Infrastructure.ControllerActionInvoker - Executing action method MyPractice.Controllers.TokenAuthController.Authenticate (MyPractice.Web.Core) - Validation state: Valid
+WARN  2021-02-27 19:22:57,876 [18   ] icrosoft.AspNetCore.Identity.UserManager - Invalid password for user 1.
+WARN  2021-02-27 19:22:58,661 [15   ] Mvc.ExceptionHandling.AbpExceptionFilter - Login failed!
+Abp.UI.UserFriendlyException: Login failed!
+   at MyPractice.Controllers.TokenAuthController.GetLoginResultAsync(String usernameOrEmailAddress, String password, String tenancyName) in E:\ABP.NET\5.8.1\aspnet-core\src\MyPractice.Web.Core\Controllers\TokenAuthController.cs:line 192
+   at MyPractice.Controllers.TokenAuthController.Authenticate(AuthenticateModel model) in E:\ABP.NET\5.8.1\aspnet-core\src\MyPractice.Web.Core\Controllers\TokenAuthController.cs:line 55
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+INFO  2021-02-27 19:22:58,666 [15   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2021-02-27 19:22:58,672 [15   ] c.Infrastructure.ControllerActionInvoker - Executed action MyPractice.Controllers.TokenAuthController.Authenticate (MyPractice.Web.Core) in 1582.8743ms
+INFO  2021-02-27 19:22:58,673 [15   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'MyPractice.Controllers.TokenAuthController.Authenticate (MyPractice.Web.Core)'
+INFO  2021-02-27 19:22:58,675 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 1612.3275ms 500 application/json; charset=utf-8
+INFO  2021-02-27 19:23:05,888 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:21021/api/TokenAuth/Authenticate application/json 72
+INFO  2021-02-27 19:23:05,890 [11   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution failed.
+INFO  2021-02-27 19:23:05,892 [11   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2021-02-27 19:23:05,897 [11   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'MyPractice.Controllers.TokenAuthController.Authenticate (MyPractice.Web.Core)'
+INFO  2021-02-27 19:23:05,902 [11   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Authenticate", controller = "TokenAuth", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[MyPractice.Models.TokenAuth.AuthenticateResultModel] Authenticate(MyPractice.Models.TokenAuth.AuthenticateModel) on controller MyPractice.Controllers.TokenAuthController (MyPractice.Web.Core).
+INFO  2021-02-27 19:23:05,921 [11   ] c.Infrastructure.ControllerActionInvoker - Executing action method MyPractice.Controllers.TokenAuthController.Authenticate (MyPractice.Web.Core) - Validation state: Valid
+WARN  2021-02-27 19:23:06,067 [15   ] Mvc.ExceptionHandling.AbpExceptionFilter - Login failed!
+Abp.UI.UserFriendlyException: Login failed!
+   at MyPractice.Controllers.TokenAuthController.GetLoginResultAsync(String usernameOrEmailAddress, String password, String tenancyName) in E:\ABP.NET\5.8.1\aspnet-core\src\MyPractice.Web.Core\Controllers\TokenAuthController.cs:line 192
+   at MyPractice.Controllers.TokenAuthController.Authenticate(AuthenticateModel model) in E:\ABP.NET\5.8.1\aspnet-core\src\MyPractice.Web.Core\Controllers\TokenAuthController.cs:line 55
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+INFO  2021-02-27 19:23:06,070 [15   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2021-02-27 19:23:06,072 [15   ] c.Infrastructure.ControllerActionInvoker - Executed action MyPractice.Controllers.TokenAuthController.Authenticate (MyPractice.Web.Core) in 168.827ms
+INFO  2021-02-27 19:23:06,074 [15   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'MyPractice.Controllers.TokenAuthController.Authenticate (MyPractice.Web.Core)'
+INFO  2021-02-27 19:23:06,076 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 188.263ms 500 application/json; charset=utf-8
+INFO  2021-02-27 19:23:09,152 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:21021/api/services/app/Account/IsTenantAvailable application/json 41
+INFO  2021-02-27 19:23:09,154 [11   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution failed.
+INFO  2021-02-27 19:23:09,155 [11   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2021-02-27 19:23:09,158 [11   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'MyPractice.Authorization.Accounts.AccountAppService.IsTenantAvailable (MyPractice.Application)'
+INFO  2021-02-27 19:23:09,165 [11   ] c.Infrastructure.ControllerActionInvoker - Route matched with {area = "app", action = "IsTenantAvailable", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[MyPractice.Authorization.Accounts.Dto.IsTenantAvailableOutput] IsTenantAvailable(MyPractice.Authorization.Accounts.Dto.IsTenantAvailableInput) on controller MyPractice.Authorization.Accounts.AccountAppService (MyPractice.Application).
+INFO  2021-02-27 19:23:09,240 [11   ] c.Infrastructure.ControllerActionInvoker - Executing action method MyPractice.Authorization.Accounts.AccountAppService.IsTenantAvailable (MyPractice.Application) - Validation state: Valid
+INFO  2021-02-27 19:23:09,258 [16   ] c.Infrastructure.ControllerActionInvoker - Executed action method MyPractice.Authorization.Accounts.AccountAppService.IsTenantAvailable (MyPractice.Application), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 16.4351ms.
+INFO  2021-02-27 19:23:09,266 [18   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2021-02-27 19:23:09,270 [18   ] c.Infrastructure.ControllerActionInvoker - Executed action MyPractice.Authorization.Accounts.AccountAppService.IsTenantAvailable (MyPractice.Application) in 103.0457ms
+INFO  2021-02-27 19:23:09,271 [18   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'MyPractice.Authorization.Accounts.AccountAppService.IsTenantAvailable (MyPractice.Application)'
+INFO  2021-02-27 19:23:09,273 [18   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 121.4527ms 200 application/json; charset=utf-8
+INFO  2021-02-27 19:23:15,607 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:21021/api/services/app/Account/IsTenantAvailable application/json 41
+INFO  2021-02-27 19:23:15,609 [11   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution failed.
+INFO  2021-02-27 19:23:15,611 [11   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2021-02-27 19:23:15,615 [11   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'MyPractice.Authorization.Accounts.AccountAppService.IsTenantAvailable (MyPractice.Application)'
+INFO  2021-02-27 19:23:15,620 [11   ] c.Infrastructure.ControllerActionInvoker - Route matched with {area = "app", action = "IsTenantAvailable", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[MyPractice.Authorization.Accounts.Dto.IsTenantAvailableOutput] IsTenantAvailable(MyPractice.Authorization.Accounts.Dto.IsTenantAvailableInput) on controller MyPractice.Authorization.Accounts.AccountAppService (MyPractice.Application).
+INFO  2021-02-27 19:23:15,638 [11   ] c.Infrastructure.ControllerActionInvoker - Executing action method MyPractice.Authorization.Accounts.AccountAppService.IsTenantAvailable (MyPractice.Application) - Validation state: Valid
+INFO  2021-02-27 19:23:15,646 [17   ] c.Infrastructure.ControllerActionInvoker - Executed action method MyPractice.Authorization.Accounts.AccountAppService.IsTenantAvailable (MyPractice.Application), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 6.5396ms.
+INFO  2021-02-27 19:23:15,656 [17   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2021-02-27 19:23:15,659 [17   ] c.Infrastructure.ControllerActionInvoker - Executed action MyPractice.Authorization.Accounts.AccountAppService.IsTenantAvailable (MyPractice.Application) in 37.1576ms
+INFO  2021-02-27 19:23:15,660 [17   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'MyPractice.Authorization.Accounts.AccountAppService.IsTenantAvailable (MyPractice.Application)'
+INFO  2021-02-27 19:23:15,662 [17   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 54.6481ms 200 application/json; charset=utf-8
+INFO  2021-02-27 19:23:22,285 [17   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:21021/api/TokenAuth/Authenticate application/json 72
+INFO  2021-02-27 19:23:22,287 [17   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution failed.
+INFO  2021-02-27 19:23:22,289 [17   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2021-02-27 19:23:22,291 [17   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'MyPractice.Controllers.TokenAuthController.Authenticate (MyPractice.Web.Core)'
+INFO  2021-02-27 19:23:22,296 [17   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Authenticate", controller = "TokenAuth", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[MyPractice.Models.TokenAuth.AuthenticateResultModel] Authenticate(MyPractice.Models.TokenAuth.AuthenticateModel) on controller MyPractice.Controllers.TokenAuthController (MyPractice.Web.Core).
+INFO  2021-02-27 19:23:22,316 [17   ] c.Infrastructure.ControllerActionInvoker - Executing action method MyPractice.Controllers.TokenAuthController.Authenticate (MyPractice.Web.Core) - Validation state: Valid
+WARN  2021-02-27 19:23:22,478 [16   ] Mvc.ExceptionHandling.AbpExceptionFilter - Login failed!
+Abp.UI.UserFriendlyException: Login failed!
+   at MyPractice.Controllers.TokenAuthController.GetLoginResultAsync(String usernameOrEmailAddress, String password, String tenancyName) in E:\ABP.NET\5.8.1\aspnet-core\src\MyPractice.Web.Core\Controllers\TokenAuthController.cs:line 192
+   at MyPractice.Controllers.TokenAuthController.Authenticate(AuthenticateModel model) in E:\ABP.NET\5.8.1\aspnet-core\src\MyPractice.Web.Core\Controllers\TokenAuthController.cs:line 55
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+INFO  2021-02-27 19:23:22,480 [16   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2021-02-27 19:23:22,483 [16   ] c.Infrastructure.ControllerActionInvoker - Executed action MyPractice.Controllers.TokenAuthController.Authenticate (MyPractice.Web.Core) in 184.6793ms
+INFO  2021-02-27 19:23:22,484 [16   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'MyPractice.Controllers.TokenAuthController.Authenticate (MyPractice.Web.Core)'
+INFO  2021-02-27 19:23:22,486 [16   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 200.6159ms 500 application/json; charset=utf-8
+INFO  2021-02-27 19:23:27,727 [17   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:21021/api/TokenAuth/Authenticate application/json 72
+INFO  2021-02-27 19:23:27,729 [17   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution failed.
+INFO  2021-02-27 19:23:27,731 [17   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2021-02-27 19:23:27,733 [17   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'MyPractice.Controllers.TokenAuthController.Authenticate (MyPractice.Web.Core)'
+INFO  2021-02-27 19:23:27,738 [17   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Authenticate", controller = "TokenAuth", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[MyPractice.Models.TokenAuth.AuthenticateResultModel] Authenticate(MyPractice.Models.TokenAuth.AuthenticateModel) on controller MyPractice.Controllers.TokenAuthController (MyPractice.Web.Core).
+INFO  2021-02-27 19:23:27,757 [17   ] c.Infrastructure.ControllerActionInvoker - Executing action method MyPractice.Controllers.TokenAuthController.Authenticate (MyPractice.Web.Core) - Validation state: Valid
+WARN  2021-02-27 19:23:27,885 [18   ] Mvc.ExceptionHandling.AbpExceptionFilter - Login failed!
+Abp.UI.UserFriendlyException: Login failed!
+   at MyPractice.Controllers.TokenAuthController.GetLoginResultAsync(String usernameOrEmailAddress, String password, String tenancyName) in E:\ABP.NET\5.8.1\aspnet-core\src\MyPractice.Web.Core\Controllers\TokenAuthController.cs:line 192
+   at MyPractice.Controllers.TokenAuthController.Authenticate(AuthenticateModel model) in E:\ABP.NET\5.8.1\aspnet-core\src\MyPractice.Web.Core\Controllers\TokenAuthController.cs:line 55
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+INFO  2021-02-27 19:23:27,888 [18   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2021-02-27 19:23:27,890 [18   ] c.Infrastructure.ControllerActionInvoker - Executed action MyPractice.Controllers.TokenAuthController.Authenticate (MyPractice.Web.Core) in 150.5623ms
+INFO  2021-02-27 19:23:27,891 [18   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'MyPractice.Controllers.TokenAuthController.Authenticate (MyPractice.Web.Core)'
+INFO  2021-02-27 19:23:27,893 [18   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 165.9046ms 500 application/json; charset=utf-8
+DEBUG 2021-02-27 19:25:42,832 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2021-02-27 19:25:42,887 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2021-02-27 19:25:42,899 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyPractice.Web.Host.Startup.MyPracticeWebHostModule, MyPractice.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-02-27 19:25:42,900 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyPractice.MyPracticeWebCoreModule, MyPractice.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-02-27 19:25:42,900 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyPractice.MyPracticeApplicationModule, MyPractice.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-02-27 19:25:42,901 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyPractice.MyPracticeCoreModule, MyPractice.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-02-27 19:25:42,901 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-02-27 19:25:42,901 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-02-27 19:25:42,901 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-02-27 19:25:42,902 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-02-27 19:25:42,902 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyPractice.EntityFrameworkCore.MyPracticeEntityFrameworkModule, MyPractice.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-02-27 19:25:42,902 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-02-27 19:25:42,902 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-02-27 19:25:42,902 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-02-27 19:25:42,902 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-02-27 19:25:42,903 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-02-27 19:25:42,903 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-02-27 19:25:42,905 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2021-02-27 19:25:42,997 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2021-02-27 19:25:42,998 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2021-02-27 19:25:42,998 [1    ] o.Configuration.LanguageManagementConfig - Converted MyPractice (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2021-02-27 19:25:42,998 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2021-02-27 19:25:43,278 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: MyPractice.EntityFrameworkCore.MyPracticeDbContext, MyPractice.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-02-27 19:25:44,010 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2021-02-27 19:25:44,054 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2021-02-27 19:25:44,095 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2021-02-27 19:25:44,113 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: MyPractice
+DEBUG 2021-02-27 19:25:44,141 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2021-02-27 19:25:44,318 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2021-02-27 19:25:44,425 [1    ] , Culture=neutral, PublicKeyToken=null]] - Start background worker: Abp.Authorization.Users.UserTokenExpirationWorker`2[[MyPractice.MultiTenancy.Tenant, MyPractice.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[MyPractice.Authorization.Users.User, MyPractice.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+DEBUG 2021-02-27 19:25:44,466 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 8 classes define auto mapping attributes
+DEBUG 2021-02-27 19:25:44,466 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyPractice.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2021-02-27 19:25:44,470 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyPractice.Users.Dto.CreateUserDto
+DEBUG 2021-02-27 19:25:44,470 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyPractice.Users.Dto.UserDto
+DEBUG 2021-02-27 19:25:44,470 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyPractice.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2021-02-27 19:25:44,470 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyPractice.Sessions.Dto.UserLoginInfoDto
+DEBUG 2021-02-27 19:25:44,471 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyPractice.Roles.Dto.PermissionDto
+DEBUG 2021-02-27 19:25:44,471 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyPractice.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2021-02-27 19:25:44,471 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyPractice.MultiTenancy.Dto.TenantDto
+INFO  2021-02-27 19:25:46,334 [1    ] tCore.Builder.RequestLocalizationOptions - Supported Request Localization Cultures: en,es-MX,fr,de,it,nl,pt-BR,tr,ru,ar,zh-Hans,ja
+INFO  2021-02-27 19:25:46,566 [1    ] taProtection.KeyManagement.XmlKeyManager - User profile is available. Using 'C:\Users\WenQiang\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+INFO  2021-02-27 19:25:46,638 [19   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/  
+INFO  2021-02-27 19:25:46,728 [19   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'MyPractice.Web.Host.Controllers.HomeController.Index (MyPractice.Web.Host)'
+INFO  2021-02-27 19:25:49,764 [19   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller MyPractice.Web.Host.Controllers.HomeController (MyPractice.Web.Host).
+INFO  2021-02-27 19:25:50,744 [19   ] c.Infrastructure.ControllerActionInvoker - Executing action method MyPractice.Web.Host.Controllers.HomeController.Index (MyPractice.Web.Host) - Validation state: Valid
+INFO  2021-02-27 19:25:50,749 [19   ] c.Infrastructure.ControllerActionInvoker - Executed action method MyPractice.Web.Host.Controllers.HomeController.Index (MyPractice.Web.Host), returned result Microsoft.AspNetCore.Mvc.RedirectResult in 0.3841ms.
+INFO  2021-02-27 19:25:50,902 [9    ] vc.Infrastructure.RedirectResultExecutor - Executing RedirectResult, redirecting to /swagger.
+INFO  2021-02-27 19:25:50,908 [9    ] c.Infrastructure.ControllerActionInvoker - Executed action MyPractice.Web.Host.Controllers.HomeController.Index (MyPractice.Web.Host) in 1139.8051ms
+INFO  2021-02-27 19:25:50,910 [9    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'MyPractice.Web.Host.Controllers.HomeController.Index (MyPractice.Web.Host)'
+INFO  2021-02-27 19:25:50,925 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 4287.9342ms 302 
+INFO  2021-02-27 19:25:50,928 [18   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/index.html  
+INFO  2021-02-27 19:25:50,980 [18   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 51.8383ms 200 text/html;charset=utf-8
+INFO  2021-02-27 19:25:51,081 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/AntiForgery/SetCookie  
+INFO  2021-02-27 19:25:51,087 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'MyPractice.Web.Host.Controllers.AntiForgeryController.SetCookie (MyPractice.Web.Host)'
+INFO  2021-02-27 19:25:51,094 [4    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "SetCookie", controller = "AntiForgery", area = ""}. Executing controller action with signature Void SetCookie() on controller MyPractice.Web.Host.Controllers.AntiForgeryController (MyPractice.Web.Host).
+INFO  2021-02-27 19:25:51,113 [4    ] c.Infrastructure.ControllerActionInvoker - Executing action method MyPractice.Web.Host.Controllers.AntiForgeryController.SetCookie (MyPractice.Web.Host) - Validation state: Valid
+INFO  2021-02-27 19:25:51,115 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/v1/swagger.json  
+INFO  2021-02-27 19:25:51,136 [4    ] c.Infrastructure.ControllerActionInvoker - Executed action method MyPractice.Web.Host.Controllers.AntiForgeryController.SetCookie (MyPractice.Web.Host), returned result Microsoft.AspNetCore.Mvc.EmptyResult in 14.0386ms.
+INFO  2021-02-27 19:25:51,164 [4    ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2021-02-27 19:25:51,295 [4    ] c.Infrastructure.ControllerActionInvoker - Executed action MyPractice.Web.Host.Controllers.AntiForgeryController.SetCookie (MyPractice.Web.Host) in 198.6213ms
+INFO  2021-02-27 19:25:51,296 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'MyPractice.Web.Host.Controllers.AntiForgeryController.SetCookie (MyPractice.Web.Host)'
+INFO  2021-02-27 19:25:51,298 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 217.3188ms 200 application/json; charset=utf-8
+INFO  2021-02-27 19:25:51,307 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 193.7358ms 200 application/json;charset=utf-8
+INFO  2021-02-27 19:26:42,384 [16   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/v1/swagger.json  
+INFO  2021-02-27 19:26:42,397 [16   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 14.1085ms 200 application/json;charset=utf-8
+INFO  2021-02-27 19:26:42,479 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/favicon.ico  
+INFO  2021-02-27 19:26:42,484 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 4.5792ms 404 
+INFO  2021-02-27 19:27:01,007 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:21021/api/TokenAuth/Authenticate application/json 54
+INFO  2021-02-27 19:27:01,013 [15   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution failed.
+INFO  2021-02-27 19:27:01,014 [15   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2021-02-27 19:27:01,017 [15   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'MyPractice.Controllers.TokenAuthController.Authenticate (MyPractice.Web.Core)'
+INFO  2021-02-27 19:27:01,031 [15   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Authenticate", controller = "TokenAuth", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[MyPractice.Models.TokenAuth.AuthenticateResultModel] Authenticate(MyPractice.Models.TokenAuth.AuthenticateModel) on controller MyPractice.Controllers.TokenAuthController (MyPractice.Web.Core).
+INFO  2021-02-27 19:27:01,770 [15   ] c.Infrastructure.ControllerActionInvoker - Executing action method MyPractice.Controllers.TokenAuthController.Authenticate (MyPractice.Web.Core) - Validation state: Valid
+INFO  2021-02-27 19:27:02,127 [15   ] c.Infrastructure.ControllerActionInvoker - Executed action method MyPractice.Controllers.TokenAuthController.Authenticate (MyPractice.Web.Core), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 354.6743ms.
+INFO  2021-02-27 19:27:02,378 [12   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2021-02-27 19:27:02,383 [12   ] c.Infrastructure.ControllerActionInvoker - Executed action MyPractice.Controllers.TokenAuthController.Authenticate (MyPractice.Web.Core) in 1350.6282ms
+INFO  2021-02-27 19:27:02,385 [12   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'MyPractice.Controllers.TokenAuthController.Authenticate (MyPractice.Web.Core)'
+INFO  2021-02-27 19:27:02,387 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 1380.3501ms 200 application/json; charset=utf-8
+INFO  2021-02-27 19:27:02,399 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/index.html  
+INFO  2021-02-27 19:27:02,403 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 3.7851ms 200 text/html;charset=utf-8
+INFO  2021-02-27 19:27:02,476 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/AntiForgery/SetCookie  
+INFO  2021-02-27 19:27:02,489 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/v1/swagger.json  
+INFO  2021-02-27 19:27:02,509 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/favicon-32x32.png  
+INFO  2021-02-27 19:27:02,516 [15   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2021-02-27 19:27:02,517 [12   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2021-02-27 19:27:02,525 [9    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+INFO  2021-02-27 19:27:02,526 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 18.3388ms 200 image/png
+INFO  2021-02-27 19:27:02,563 [9    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'MyPractice.Web.Host.Controllers.AntiForgeryController.SetCookie (MyPractice.Web.Host)'
+INFO  2021-02-27 19:27:02,568 [9    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "SetCookie", controller = "AntiForgery", area = ""}. Executing controller action with signature Void SetCookie() on controller MyPractice.Web.Host.Controllers.AntiForgeryController (MyPractice.Web.Host).
+INFO  2021-02-27 19:27:02,602 [9    ] c.Infrastructure.ControllerActionInvoker - Executing action method MyPractice.Web.Host.Controllers.AntiForgeryController.SetCookie (MyPractice.Web.Host) - Validation state: Valid
+INFO  2021-02-27 19:27:02,605 [9    ] c.Infrastructure.ControllerActionInvoker - Executed action method MyPractice.Web.Host.Controllers.AntiForgeryController.SetCookie (MyPractice.Web.Host), returned result Microsoft.AspNetCore.Mvc.EmptyResult in 1.2437ms.
+INFO  2021-02-27 19:27:02,613 [16   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2021-02-27 19:27:02,615 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 124.3312ms 200 application/json;charset=utf-8
+INFO  2021-02-27 19:27:02,617 [16   ] c.Infrastructure.ControllerActionInvoker - Executed action MyPractice.Web.Host.Controllers.AntiForgeryController.SetCookie (MyPractice.Web.Host) in 47.1135ms
+INFO  2021-02-27 19:27:02,620 [16   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'MyPractice.Web.Host.Controllers.AntiForgeryController.SetCookie (MyPractice.Web.Host)'
+INFO  2021-02-27 19:27:02,622 [16   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 144.8762ms 200 application/json; charset=utf-8
+INFO  2021-02-27 19:27:10,591 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/index.html  
+INFO  2021-02-27 19:27:10,595 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 5.133ms 200 text/html;charset=utf-8
+INFO  2021-02-27 19:27:10,665 [19   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/AntiForgery/SetCookie  
+INFO  2021-02-27 19:27:10,668 [19   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'MyPractice.Web.Host.Controllers.AntiForgeryController.SetCookie (MyPractice.Web.Host)'
+INFO  2021-02-27 19:27:10,675 [19   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "SetCookie", controller = "AntiForgery", area = ""}. Executing controller action with signature Void SetCookie() on controller MyPractice.Web.Host.Controllers.AntiForgeryController (MyPractice.Web.Host).
+INFO  2021-02-27 19:27:10,694 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/v1/swagger.json  
+INFO  2021-02-27 19:27:10,696 [16   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/favicon-32x32.png  
+INFO  2021-02-27 19:27:10,697 [19   ] c.Infrastructure.ControllerActionInvoker - Executing action method MyPractice.Web.Host.Controllers.AntiForgeryController.SetCookie (MyPractice.Web.Host) - Validation state: Valid
+INFO  2021-02-27 19:27:10,699 [19   ] c.Infrastructure.ControllerActionInvoker - Executed action method MyPractice.Web.Host.Controllers.AntiForgeryController.SetCookie (MyPractice.Web.Host), returned result Microsoft.AspNetCore.Mvc.EmptyResult in 0.4489ms.
+INFO  2021-02-27 19:27:10,702 [16   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+INFO  2021-02-27 19:27:10,704 [16   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 10.289ms 200 image/png
+INFO  2021-02-27 19:27:10,711 [12   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2021-02-27 19:27:10,713 [12   ] c.Infrastructure.ControllerActionInvoker - Executed action MyPractice.Web.Host.Controllers.AntiForgeryController.SetCookie (MyPractice.Web.Host) in 37.1661ms
+INFO  2021-02-27 19:27:10,715 [12   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'MyPractice.Web.Host.Controllers.AntiForgeryController.SetCookie (MyPractice.Web.Host)'
+INFO  2021-02-27 19:27:10,717 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 52.1412ms 200 application/json; charset=utf-8
+INFO  2021-02-27 19:27:10,724 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 30.2883ms 200 application/json;charset=utf-8
+INFO  2021-02-27 19:27:12,839 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:21021/api/TokenAuth/Authenticate application/json 54
+INFO  2021-02-27 19:27:12,842 [12   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution failed.
+INFO  2021-02-27 19:27:12,843 [12   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2021-02-27 19:27:12,847 [12   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'MyPractice.Controllers.TokenAuthController.Authenticate (MyPractice.Web.Core)'
+INFO  2021-02-27 19:27:12,852 [12   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Authenticate", controller = "TokenAuth", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[MyPractice.Models.TokenAuth.AuthenticateResultModel] Authenticate(MyPractice.Models.TokenAuth.AuthenticateModel) on controller MyPractice.Controllers.TokenAuthController (MyPractice.Web.Core).
+INFO  2021-02-27 19:27:12,873 [12   ] c.Infrastructure.ControllerActionInvoker - Executing action method MyPractice.Controllers.TokenAuthController.Authenticate (MyPractice.Web.Core) - Validation state: Valid
+WARN  2021-02-27 19:27:12,884 [15   ] icrosoft.AspNetCore.Identity.UserManager - Invalid password for user 1.
+WARN  2021-02-27 19:27:13,404 [14   ] Mvc.ExceptionHandling.AbpExceptionFilter - Login failed!
+Abp.UI.UserFriendlyException: Login failed!
+   at MyPractice.Controllers.TokenAuthController.GetLoginResultAsync(String usernameOrEmailAddress, String password, String tenancyName) in E:\ABP.NET\5.8.1\aspnet-core\src\MyPractice.Web.Core\Controllers\TokenAuthController.cs:line 192
+   at MyPractice.Controllers.TokenAuthController.Authenticate(AuthenticateModel model) in E:\ABP.NET\5.8.1\aspnet-core\src\MyPractice.Web.Core\Controllers\TokenAuthController.cs:line 55
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+INFO  2021-02-27 19:27:13,409 [14   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2021-02-27 19:27:13,415 [14   ] c.Infrastructure.ControllerActionInvoker - Executed action MyPractice.Controllers.TokenAuthController.Authenticate (MyPractice.Web.Core) in 560.7042ms
+INFO  2021-02-27 19:27:13,417 [14   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'MyPractice.Controllers.TokenAuthController.Authenticate (MyPractice.Web.Core)'
+INFO  2021-02-27 19:27:13,418 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 579.9782ms 500 application/json; charset=utf-8
+INFO  2021-02-27 19:27:17,655 [16   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:21021/api/TokenAuth/Authenticate application/json 54
+INFO  2021-02-27 19:27:17,657 [16   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution failed.
+INFO  2021-02-27 19:27:17,658 [16   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2021-02-27 19:27:17,661 [16   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'MyPractice.Controllers.TokenAuthController.Authenticate (MyPractice.Web.Core)'
+INFO  2021-02-27 19:27:17,665 [16   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Authenticate", controller = "TokenAuth", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[MyPractice.Models.TokenAuth.AuthenticateResultModel] Authenticate(MyPractice.Models.TokenAuth.AuthenticateModel) on controller MyPractice.Controllers.TokenAuthController (MyPractice.Web.Core).
+INFO  2021-02-27 19:27:17,683 [16   ] c.Infrastructure.ControllerActionInvoker - Executing action method MyPractice.Controllers.TokenAuthController.Authenticate (MyPractice.Web.Core) - Validation state: Valid
+INFO  2021-02-27 19:27:17,713 [12   ] c.Infrastructure.ControllerActionInvoker - Executed action method MyPractice.Controllers.TokenAuthController.Authenticate (MyPractice.Web.Core), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 27.9578ms.
+INFO  2021-02-27 19:27:17,721 [19   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2021-02-27 19:27:17,723 [19   ] c.Infrastructure.ControllerActionInvoker - Executed action MyPractice.Controllers.TokenAuthController.Authenticate (MyPractice.Web.Core) in 56.929ms
+INFO  2021-02-27 19:27:17,725 [19   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'MyPractice.Controllers.TokenAuthController.Authenticate (MyPractice.Web.Core)'
+INFO  2021-02-27 19:27:17,726 [19   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 71.9235ms 200 application/json; charset=utf-8
+INFO  2021-02-27 19:27:17,734 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/index.html  
+INFO  2021-02-27 19:27:17,738 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 3.6762ms 200 text/html;charset=utf-8
+INFO  2021-02-27 19:27:17,800 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/AntiForgery/SetCookie  
+INFO  2021-02-27 19:27:17,803 [12   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2021-02-27 19:27:17,805 [12   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'MyPractice.Web.Host.Controllers.AntiForgeryController.SetCookie (MyPractice.Web.Host)'
+INFO  2021-02-27 19:27:17,810 [12   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "SetCookie", controller = "AntiForgery", area = ""}. Executing controller action with signature Void SetCookie() on controller MyPractice.Web.Host.Controllers.AntiForgeryController (MyPractice.Web.Host).
+INFO  2021-02-27 19:27:17,813 [18   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/v1/swagger.json  
+INFO  2021-02-27 19:27:17,830 [12   ] c.Infrastructure.ControllerActionInvoker - Executing action method MyPractice.Web.Host.Controllers.AntiForgeryController.SetCookie (MyPractice.Web.Host) - Validation state: Valid
+INFO  2021-02-27 19:27:17,831 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/favicon-32x32.png  
+INFO  2021-02-27 19:27:17,833 [18   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2021-02-27 19:27:17,835 [12   ] c.Infrastructure.ControllerActionInvoker - Executed action method MyPractice.Web.Host.Controllers.AntiForgeryController.SetCookie (MyPractice.Web.Host), returned result Microsoft.AspNetCore.Mvc.EmptyResult in 3.0323ms.
+INFO  2021-02-27 19:27:17,838 [15   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+INFO  2021-02-27 19:27:17,840 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 10.3489ms 200 image/png
+INFO  2021-02-27 19:27:17,846 [9    ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2021-02-27 19:27:17,848 [9    ] c.Infrastructure.ControllerActionInvoker - Executed action MyPractice.Web.Host.Controllers.AntiForgeryController.SetCookie (MyPractice.Web.Host) in 36.5629ms
+INFO  2021-02-27 19:27:17,849 [9    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'MyPractice.Web.Host.Controllers.AntiForgeryController.SetCookie (MyPractice.Web.Host)'
+INFO  2021-02-27 19:27:17,851 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 51.0419ms 200 application/json; charset=utf-8
+INFO  2021-02-27 19:27:17,859 [18   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 46.271ms 200 application/json;charset=utf-8
+INFO  2021-02-27 19:27:22,876 [19   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/index.html  
+INFO  2021-02-27 19:27:22,881 [19   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 4.7867ms 200 text/html;charset=utf-8
+INFO  2021-02-27 19:27:22,947 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/AntiForgery/SetCookie  
+INFO  2021-02-27 19:27:22,951 [14   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'MyPractice.Web.Host.Controllers.AntiForgeryController.SetCookie (MyPractice.Web.Host)'
+INFO  2021-02-27 19:27:22,955 [14   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "SetCookie", controller = "AntiForgery", area = ""}. Executing controller action with signature Void SetCookie() on controller MyPractice.Web.Host.Controllers.AntiForgeryController (MyPractice.Web.Host).
+INFO  2021-02-27 19:27:22,974 [14   ] c.Infrastructure.ControllerActionInvoker - Executing action method MyPractice.Web.Host.Controllers.AntiForgeryController.SetCookie (MyPractice.Web.Host) - Validation state: Valid
+INFO  2021-02-27 19:27:22,976 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/favicon-32x32.png  
+INFO  2021-02-27 19:27:22,977 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/v1/swagger.json  
+INFO  2021-02-27 19:27:22,979 [14   ] c.Infrastructure.ControllerActionInvoker - Executed action method MyPractice.Web.Host.Controllers.AntiForgeryController.SetCookie (MyPractice.Web.Host), returned result Microsoft.AspNetCore.Mvc.EmptyResult in 2.1411ms.
+INFO  2021-02-27 19:27:22,982 [9    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+INFO  2021-02-27 19:27:22,984 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 9.638ms 200 image/png
+INFO  2021-02-27 19:27:22,994 [9    ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2021-02-27 19:27:22,997 [9    ] c.Infrastructure.ControllerActionInvoker - Executed action MyPractice.Web.Host.Controllers.AntiForgeryController.SetCookie (MyPractice.Web.Host) in 39.9806ms
+INFO  2021-02-27 19:27:22,998 [9    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'MyPractice.Web.Host.Controllers.AntiForgeryController.SetCookie (MyPractice.Web.Host)'
+INFO  2021-02-27 19:27:23,001 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 53.2631ms 200 application/json; charset=utf-8
+INFO  2021-02-27 19:27:23,011 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 36.2246ms 200 application/json;charset=utf-8
+INFO  2021-02-27 19:27:27,441 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:21021/api/TokenAuth/Authenticate application/json 54
+INFO  2021-02-27 19:27:27,443 [15   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution failed.
+INFO  2021-02-27 19:27:27,444 [15   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2021-02-27 19:27:27,446 [15   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'MyPractice.Controllers.TokenAuthController.Authenticate (MyPractice.Web.Core)'
+INFO  2021-02-27 19:27:27,450 [15   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Authenticate", controller = "TokenAuth", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[MyPractice.Models.TokenAuth.AuthenticateResultModel] Authenticate(MyPractice.Models.TokenAuth.AuthenticateModel) on controller MyPractice.Controllers.TokenAuthController (MyPractice.Web.Core).
+INFO  2021-02-27 19:27:27,469 [15   ] c.Infrastructure.ControllerActionInvoker - Executing action method MyPractice.Controllers.TokenAuthController.Authenticate (MyPractice.Web.Core) - Validation state: Valid
+WARN  2021-02-27 19:27:27,480 [19   ] icrosoft.AspNetCore.Identity.UserManager - Invalid password for user 1.
+WARN  2021-02-27 19:27:27,621 [14   ] Mvc.ExceptionHandling.AbpExceptionFilter - Login failed!
+Abp.UI.UserFriendlyException: Login failed!
+   at MyPractice.Controllers.TokenAuthController.GetLoginResultAsync(String usernameOrEmailAddress, String password, String tenancyName) in E:\ABP.NET\5.8.1\aspnet-core\src\MyPractice.Web.Core\Controllers\TokenAuthController.cs:line 192
+   at MyPractice.Controllers.TokenAuthController.Authenticate(AuthenticateModel model) in E:\ABP.NET\5.8.1\aspnet-core\src\MyPractice.Web.Core\Controllers\TokenAuthController.cs:line 55
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+INFO  2021-02-27 19:27:27,623 [14   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2021-02-27 19:27:27,626 [14   ] c.Infrastructure.ControllerActionInvoker - Executed action MyPractice.Controllers.TokenAuthController.Authenticate (MyPractice.Web.Core) in 173.6923ms
+INFO  2021-02-27 19:27:27,627 [14   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'MyPractice.Controllers.TokenAuthController.Authenticate (MyPractice.Web.Core)'
+INFO  2021-02-27 19:27:27,629 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 188.6058ms 500 application/json; charset=utf-8
+INFO  2021-02-27 19:27:35,127 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:21021/api/TokenAuth/Authenticate application/json 54
+INFO  2021-02-27 19:27:35,129 [15   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution failed.
+INFO  2021-02-27 19:27:35,131 [15   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2021-02-27 19:27:35,133 [15   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'MyPractice.Controllers.TokenAuthController.Authenticate (MyPractice.Web.Core)'
+INFO  2021-02-27 19:27:35,137 [15   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Authenticate", controller = "TokenAuth", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[MyPractice.Models.TokenAuth.AuthenticateResultModel] Authenticate(MyPractice.Models.TokenAuth.AuthenticateModel) on controller MyPractice.Controllers.TokenAuthController (MyPractice.Web.Core).
+INFO  2021-02-27 19:27:35,155 [15   ] c.Infrastructure.ControllerActionInvoker - Executing action method MyPractice.Controllers.TokenAuthController.Authenticate (MyPractice.Web.Core) - Validation state: Valid
+INFO  2021-02-27 19:27:35,185 [15   ] c.Infrastructure.ControllerActionInvoker - Executed action method MyPractice.Controllers.TokenAuthController.Authenticate (MyPractice.Web.Core), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 29.3267ms.
+INFO  2021-02-27 19:27:35,195 [19   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2021-02-27 19:27:35,197 [19   ] c.Infrastructure.ControllerActionInvoker - Executed action MyPractice.Controllers.TokenAuthController.Authenticate (MyPractice.Web.Core) in 58.5798ms
+INFO  2021-02-27 19:27:35,199 [19   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'MyPractice.Controllers.TokenAuthController.Authenticate (MyPractice.Web.Core)'
+INFO  2021-02-27 19:27:35,201 [19   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 73.7966ms 200 application/json; charset=utf-8
+INFO  2021-02-27 19:27:35,205 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/index.html  
+INFO  2021-02-27 19:27:35,209 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 3.7752ms 200 text/html;charset=utf-8
+INFO  2021-02-27 19:27:35,287 [18   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/AntiForgery/SetCookie  
+INFO  2021-02-27 19:27:35,290 [18   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2021-02-27 19:27:35,293 [18   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'MyPractice.Web.Host.Controllers.AntiForgeryController.SetCookie (MyPractice.Web.Host)'
+INFO  2021-02-27 19:27:35,299 [18   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "SetCookie", controller = "AntiForgery", area = ""}. Executing controller action with signature Void SetCookie() on controller MyPractice.Web.Host.Controllers.AntiForgeryController (MyPractice.Web.Host).
+INFO  2021-02-27 19:27:35,320 [18   ] c.Infrastructure.ControllerActionInvoker - Executing action method MyPractice.Web.Host.Controllers.AntiForgeryController.SetCookie (MyPractice.Web.Host) - Validation state: Valid
+INFO  2021-02-27 19:27:35,322 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/v1/swagger.json  
+INFO  2021-02-27 19:27:35,325 [12   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2021-02-27 19:27:35,327 [18   ] c.Infrastructure.ControllerActionInvoker - Executed action method MyPractice.Web.Host.Controllers.AntiForgeryController.SetCookie (MyPractice.Web.Host), returned result Microsoft.AspNetCore.Mvc.EmptyResult in 1.9123ms.
+INFO  2021-02-27 19:27:35,331 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/favicon-32x32.png  
+INFO  2021-02-27 19:27:35,335 [9    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+INFO  2021-02-27 19:27:35,338 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 6.6842ms 200 image/png
+INFO  2021-02-27 19:27:35,343 [16   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2021-02-27 19:27:35,346 [16   ] c.Infrastructure.ControllerActionInvoker - Executed action MyPractice.Web.Host.Controllers.AntiForgeryController.SetCookie (MyPractice.Web.Host) in 44.9759ms
+INFO  2021-02-27 19:27:35,348 [16   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'MyPractice.Web.Host.Controllers.AntiForgeryController.SetCookie (MyPractice.Web.Host)'
+INFO  2021-02-27 19:27:35,350 [16   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 63.2621ms 200 application/json; charset=utf-8
+INFO  2021-02-27 19:27:35,356 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 36.4042ms 200 application/json;charset=utf-8
