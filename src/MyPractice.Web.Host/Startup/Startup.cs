@@ -66,13 +66,13 @@ namespace MyPractice.Web.Host.Startup
                 options => options.AddPolicy(
                     _defaultCorsPolicyName,
                     builder => builder
-                        .WithOrigins(
-                            // App:CorsOrigins in appsettings.json can contain more than one address separated by comma.
-                            _appConfiguration["App:CorsOrigins"]
-                                .Split(",", StringSplitOptions.RemoveEmptyEntries)
-                                .Select(o => o.RemovePostFix("/"))
-                                .ToArray()
-                        )
+                        //.WithOrigins(
+                        //    // App:CorsOrigins in appsettings.json can contain more than one address separated by comma.
+                        //    _appConfiguration["App:CorsOrigins"]
+                        //        .Split(",", StringSplitOptions.RemoveEmptyEntries)
+                        //        .Select(o => o.RemovePostFix("/"))
+                        //        .ToArray()
+                        //)
                         .AllowAnyHeader()
                         .AllowAnyMethod()
                         .AllowCredentials()
@@ -88,17 +88,17 @@ namespace MyPractice.Web.Host.Startup
                     Title = "MyPractice API",
                     Description = "MyPractice",
                     // uncomment if needed TermsOfService = new Uri("https://example.com/terms"),
-                    Contact = new OpenApiContact
-                    {
-                        Name = "MyPractice",
-                        Email = string.Empty,
-                        Url = new Uri("https://twitter.com/aspboilerplate"),
-                    },
-                    License = new OpenApiLicense
-                    {
-                        Name = "MIT License",
-                        Url = new Uri("https://github.com/aspnetboilerplate/aspnetboilerplate/blob/dev/LICENSE"),
-                    }
+                    //Contact = new OpenApiContact
+                    //{
+                    //    Name = "MyPractice",
+                    //    Email = string.Empty,
+                    //    Url = new Uri("https://twitter.com/aspboilerplate"),
+                    //},
+                    //License = new OpenApiLicense
+                    //{
+                    //    Name = "MIT License",
+                    //    Url = new Uri("https://github.com/aspnetboilerplate/aspnetboilerplate/blob/dev/LICENSE"),
+                    //}
                 });
                 options.DocInclusionPredicate((docName, description) => true);
 

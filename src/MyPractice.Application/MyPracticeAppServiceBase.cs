@@ -6,13 +6,14 @@ using Abp.IdentityFramework;
 using Abp.Runtime.Session;
 using MyPractice.Authorization.Users;
 using MyPractice.MultiTenancy;
+using Abp.AspNetCore.Mvc.Controllers;
 
 namespace MyPractice
 {
     /// <summary>
     /// Derive your application services from this class.
     /// </summary>
-    public abstract class MyPracticeAppServiceBase : ApplicationService
+    public abstract class MyPracticeAppServiceBase : AbpController
     {
         public TenantManager TenantManager { get; set; }
 
