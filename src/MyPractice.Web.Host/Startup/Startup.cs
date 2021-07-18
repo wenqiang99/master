@@ -149,8 +149,9 @@ namespace MyPractice.Web.Host.Startup
             // Enable middleware to serve swagger-ui assets (HTML, JS, CSS etc.)
             app.UseSwaggerUI(options =>
             {
+                string address = _appConfiguration["App:ServerRootAddress"];
                 // specifying the Swagger JSON endpoint.
-                options.SwaggerEndpoint($"/swagger/{_apiVersion}/swagger.json", $"MyPractice API {_apiVersion}");
+                options.SwaggerEndpoint(address.EnsureEndsWith('/')+"swagger/v1/swagger.json", "MyPractice API V1");
                 options.IndexStream = () => Assembly.GetExecutingAssembly()
                     .GetManifestResourceStream("MyPractice.Web.Host.wwwroot.swagger.ui.index.html");
                 options.DisplayRequestDuration(); // Controls the display of the request duration (in milliseconds) for "Try it out" requests.  
