@@ -5360,3 +5360,65 @@ INFO  2021-05-28 22:19:09,335 [12   ] Infrastructure.FileContentResultExecutor -
 INFO  2021-05-28 22:19:09,341 [12   ] c.Infrastructure.ControllerActionInvoker - Executed action MyPractice.TEST.TESTQRCode.MakeQrCode (MyPractice.Web.Core) in 1972.2774ms
 INFO  2021-05-28 22:19:09,343 [12   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'MyPractice.TEST.TESTQRCode.MakeQrCode (MyPractice.Web.Core)'
 INFO  2021-05-28 22:19:09,345 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 2002.5101ms 200 image/Png
+DEBUG 2021-07-18 12:57:07,119 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2021-07-18 12:57:07,183 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2021-07-18 12:57:07,198 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyPractice.Web.Host.Startup.MyPracticeWebHostModule, MyPractice.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-07-18 12:57:07,200 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyPractice.MyPracticeWebCoreModule, MyPractice.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-07-18 12:57:07,200 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyPractice.MyPracticeApplicationModule, MyPractice.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-07-18 12:57:07,200 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyPractice.MyPracticeCoreModule, MyPractice.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-07-18 12:57:07,201 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-07-18 12:57:07,201 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-07-18 12:57:07,201 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-07-18 12:57:07,202 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-07-18 12:57:07,202 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyPractice.EntityFrameworkCore.MyPracticeEntityFrameworkModule, MyPractice.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-07-18 12:57:07,202 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-07-18 12:57:07,203 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-07-18 12:57:07,203 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-07-18 12:57:07,203 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-07-18 12:57:07,204 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-07-18 12:57:07,204 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-07-18 12:57:07,206 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2021-07-18 12:57:07,281 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2021-07-18 12:57:07,281 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2021-07-18 12:57:07,281 [1    ] o.Configuration.LanguageManagementConfig - Converted MyPractice (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2021-07-18 12:57:07,281 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2021-07-18 12:57:07,706 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: MyPractice.EntityFrameworkCore.MyPracticeDbContext, MyPractice.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-07-18 12:57:08,600 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2021-07-18 12:57:08,647 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2021-07-18 12:57:08,690 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2021-07-18 12:57:08,709 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: MyPractice
+DEBUG 2021-07-18 12:57:08,773 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2021-07-18 12:57:08,963 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2021-07-18 12:57:09,098 [1    ] , Culture=neutral, PublicKeyToken=null]] - Start background worker: Abp.Authorization.Users.UserTokenExpirationWorker`2[[MyPractice.MultiTenancy.Tenant, MyPractice.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[MyPractice.Authorization.Users.User, MyPractice.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+DEBUG 2021-07-18 12:57:09,148 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 8 classes define auto mapping attributes
+DEBUG 2021-07-18 12:57:09,148 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyPractice.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2021-07-18 12:57:09,156 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyPractice.Users.Dto.CreateUserDto
+DEBUG 2021-07-18 12:57:09,157 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyPractice.Users.Dto.UserDto
+DEBUG 2021-07-18 12:57:09,157 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyPractice.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2021-07-18 12:57:09,157 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyPractice.Sessions.Dto.UserLoginInfoDto
+DEBUG 2021-07-18 12:57:09,157 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyPractice.Roles.Dto.PermissionDto
+DEBUG 2021-07-18 12:57:09,157 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyPractice.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2021-07-18 12:57:09,157 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyPractice.MultiTenancy.Dto.TenantDto
+INFO  2021-07-18 12:57:12,618 [1    ] tCore.Builder.RequestLocalizationOptions - Supported Request Localization Cultures: en,es-MX,fr,de,it,nl,pt-BR,tr,ru,ar,zh-Hans,ja
+INFO  2021-07-18 12:57:12,887 [1    ] taProtection.KeyManagement.XmlKeyManager - User profile is available. Using 'C:\Users\WenQiang\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+INFO  2021-07-18 12:57:12,968 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/  
+INFO  2021-07-18 12:57:13,072 [10   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'MyPractice.Web.Host.Controllers.HomeController.Index (MyPractice.Web.Host)'
+INFO  2021-07-18 12:57:16,645 [10   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller MyPractice.Web.Host.Controllers.HomeController (MyPractice.Web.Host).
+INFO  2021-07-18 12:57:17,774 [10   ] c.Infrastructure.ControllerActionInvoker - Executing action method MyPractice.Web.Host.Controllers.HomeController.Index (MyPractice.Web.Host) - Validation state: Valid
+INFO  2021-07-18 12:57:17,780 [10   ] c.Infrastructure.ControllerActionInvoker - Executed action method MyPractice.Web.Host.Controllers.HomeController.Index (MyPractice.Web.Host), returned result Microsoft.AspNetCore.Mvc.RedirectResult in 0.3898ms.
+INFO  2021-07-18 12:57:18,003 [19   ] vc.Infrastructure.RedirectResultExecutor - Executing RedirectResult, redirecting to /swagger.
+INFO  2021-07-18 12:57:18,008 [19   ] c.Infrastructure.ControllerActionInvoker - Executed action MyPractice.Web.Host.Controllers.HomeController.Index (MyPractice.Web.Host) in 1359.2549ms
+INFO  2021-07-18 12:57:18,011 [19   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'MyPractice.Web.Host.Controllers.HomeController.Index (MyPractice.Web.Host)'
+INFO  2021-07-18 12:57:18,028 [18   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/index.html  
+INFO  2021-07-18 12:57:18,031 [19   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 5060.9182ms 302 
+INFO  2021-07-18 12:57:18,099 [18   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 70.4166ms 200 text/html;charset=utf-8
+INFO  2021-07-18 12:57:25,008 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/AntiForgery/SetCookie  
+INFO  2021-07-18 12:57:25,175 [9    ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2021-07-18 12:57:25,455 [7    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'MyPractice.Web.Host.Controllers.AntiForgeryController.SetCookie (MyPractice.Web.Host)'
+INFO  2021-07-18 12:57:25,463 [7    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "SetCookie", controller = "AntiForgery", area = ""}. Executing controller action with signature Void SetCookie() on controller MyPractice.Web.Host.Controllers.AntiForgeryController (MyPractice.Web.Host).
+INFO  2021-07-18 12:57:25,546 [7    ] c.Infrastructure.ControllerActionInvoker - Executing action method MyPractice.Web.Host.Controllers.AntiForgeryController.SetCookie (MyPractice.Web.Host) - Validation state: Valid
+INFO  2021-07-18 12:57:25,555 [7    ] c.Infrastructure.ControllerActionInvoker - Executed action method MyPractice.Web.Host.Controllers.AntiForgeryController.SetCookie (MyPractice.Web.Host), returned result Microsoft.AspNetCore.Mvc.EmptyResult in 5.8312ms.
+INFO  2021-07-18 12:57:25,707 [7    ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2021-07-18 12:57:25,735 [7    ] c.Infrastructure.ControllerActionInvoker - Executed action MyPractice.Web.Host.Controllers.AntiForgeryController.SetCookie (MyPractice.Web.Host) in 269.7975ms
+INFO  2021-07-18 12:57:25,737 [7    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'MyPractice.Web.Host.Controllers.AntiForgeryController.SetCookie (MyPractice.Web.Host)'
+INFO  2021-07-18 12:57:25,739 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 732.4937ms 200 application/json; charset=utf-8
