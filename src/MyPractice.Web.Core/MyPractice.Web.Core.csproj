@@ -18,10 +18,15 @@
     <LangVersion>7.2</LangVersion>
   </PropertyGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\MyPractice.Util\MyPractice.Util.csproj" />
     <ProjectReference Include="..\MyPractice.Application\MyPractice.Application.csproj" />
     <ProjectReference Include="..\MyPractice.EntityFrameworkCore\MyPractice.EntityFrameworkCore.csproj" />
   </ItemGroup>
   <ItemGroup>
+    <PackageReference Include="Hangfire.AspNetCore" Version="1.7.24" />
+    <PackageReference Include="Hangfire.Console.Extensions" Version="1.0.4" />
+    <PackageReference Include="Hangfire.HttpJob" Version="3.6.3" />
+    <PackageReference Include="Hangfire.SqlServer" Version="1.7.24" />
     <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="3.1.4" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="5.4.1" />
     <PackageReference Include="Abp.AspNetCore" Version="5.13.0" />

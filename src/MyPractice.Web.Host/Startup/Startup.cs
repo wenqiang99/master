@@ -19,6 +19,11 @@ using Abp.Json;
 using Microsoft.OpenApi.Models;
 using Newtonsoft.Json.Serialization;
 using Microsoft.AspNetCore.Http;
+using Hangfire.HttpJob;
+using Hangfire;
+using Hangfire.Dashboard;
+using System.Collections.Generic;
+using Hangfire.Dashboard.BasicAuthorization;
 
 namespace MyPractice.Web.Host.Startup
 {
@@ -51,15 +56,17 @@ namespace MyPractice.Web.Host.Startup
                     NamingStrategy = new CamelCaseNamingStrategy()
                 };
             });
-
-
+            services.AddHangfire(config =>
+            {
+                config.UseSqlServerStorage(_appConfiguration.GetConnectionString("Default")).UseHangfireHttpJob();//Default\
+            });
 
             IdentityRegistrar.Register(services);
             AuthConfigurer.Configure(services, _appConfiguration);
 
             services.AddSignalR();
 
-         
+
 
             // Configure CORS for angular2 UI
             services.AddCors(
@@ -121,7 +128,8 @@ namespace MyPractice.Web.Host.Startup
             );
         }
 
-        public void Configure(IApplicationBuilder app,  ILoggerFactory loggerFactory)
+
+        public void Configure(IApplicationBuilder app, ILoggerFactory loggerFactory)
         {
             app.UseAbp(options => { options.UseAbpRequestLocalization = false; }); // Initializes ABP framework.
 
@@ -135,12 +143,65 @@ namespace MyPractice.Web.Host.Startup
 
             app.UseAbpRequestLocalization();
 
-          
+
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapHub<AbpCommonHub>("/signalr");
                 endpoints.MapControllerRoute("default", "{controller=Home}/{action=Index}/{id?}");
                 endpoints.MapControllerRoute("defaultWithArea", "{area}/{controller=Home}/{action=Index}/{id?}");
+            });
+            // app.UseHangfireServer();
+            //app.UseHangfireDashboard("/hangfire", new DashboardOptions
+            //{
+            //});
+
+            var queues = new List<string> { "default", "apis", "recurring" };
+            app.UseHangfireServer(new BackgroundJobServerOptions
+            {
+                ServerTimeout = TimeSpan.FromMinutes(4),
+                SchedulePollingInterval = TimeSpan.FromSeconds(15),//秒级任务需要配置短点，一般任务可以配置默认时间，默认15秒
+                ShutdownTimeout = TimeSpan.FromMinutes(30),//超时时间
+                Queues = queues.ToArray(),//队列
+                WorkerCount = Math.Max(Environment.ProcessorCount, 40)//工作线程数，当前允许的最大线程，默认20
+            });
+
+            //强制显示中文
+            System.Threading.Thread.CurrentThread.CurrentUICulture = new System.Globalization.CultureInfo("zh-CN");
+            var hangfireStartUpPath = "/job";
+            app.UseHangfireDashboard(hangfireStartUpPath, new DashboardOptions
+            {
+                AppPath = "#",
+                DisplayStorageConnectionString = false,
+                IsReadOnlyFunc = Context => false,
+                Authorization = new[] { new BasicAuthAuthorizationFilter(new BasicAuthAuthorizationFilterOptions
+                {
+                    RequireSsl = false,
+                    SslRedirect = false,
+                    LoginCaseSensitive = true,
+                    Users = new []
+                    {
+                        new BasicAuthAuthorizationUser
+                        {
+                            Login = "admin",
+                            PasswordClear =  "test"
+                        }
+                    }
+                }) }
+            });
+
+            var hangfireReadOnlyPath = "/job-read";
+            //只读面板，只能读取不能操作
+            app.UseHangfireDashboard(hangfireReadOnlyPath, new DashboardOptions
+            {
+                IgnoreAntiforgeryToken = true,//这里一定要写true 不然用client库写代码添加webjob会出错
+                AppPath = hangfireStartUpPath,//返回时跳转的地址
+                DisplayStorageConnectionString = false,//是否显示数据库连接信息
+                IsReadOnlyFunc = Context => true
+            });
+
+            app.Run(async (context) =>
+            {
+                await context.Response.WriteAsync("ok.");
             });
 
             // Enable middleware to serve generated Swagger as a JSON endpoint
@@ -151,7 +212,7 @@ namespace MyPractice.Web.Host.Startup
             {
                 string address = _appConfiguration["App:ServerRootAddress"];
                 // specifying the Swagger JSON endpoint.
-                options.SwaggerEndpoint(address.EnsureEndsWith('/')+"swagger/v1/swagger.json", "MyPractice API V1");
+                options.SwaggerEndpoint(address.EnsureEndsWith('/') + "swagger/v1/swagger.json", "MyPractice API V1");
                 options.IndexStream = () => Assembly.GetExecutingAssembly()
                     .GetManifestResourceStream("MyPractice.Web.Host.wwwroot.swagger.ui.index.html");
                 options.DisplayRequestDuration(); // Controls the display of the request duration (in milliseconds) for "Try it out" requests.  
