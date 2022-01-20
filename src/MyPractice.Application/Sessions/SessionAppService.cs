@@ -5,8 +5,15 @@ using MyPractice.Sessions.Dto;
 
 namespace MyPractice.Sessions
 {
+    /// <summary>
+    /// Session服务
+    /// </summary>
     public class SessionAppService : MyPracticeAppServiceBase, ISessionAppService
     {
+        /// <summary>
+        /// 获取当前登录信息
+        /// </summary>
+        /// <returns></returns>
         [DisableAuditing]
         public async Task<GetCurrentLoginInformationsOutput> GetCurrentLoginInformations()
         {

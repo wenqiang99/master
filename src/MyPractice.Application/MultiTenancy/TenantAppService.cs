@@ -18,6 +18,9 @@ using Microsoft.AspNetCore.Identity;
 
 namespace MyPractice.MultiTenancy
 {
+    /// <summary>
+    /// 租户服务
+    /// </summary>
     [AbpAuthorize(PermissionNames.Pages_Tenants)]
     public class TenantAppService : AsyncCrudAppService<Tenant, TenantDto, int, PagedTenantResultRequestDto, CreateTenantDto, TenantDto>, ITenantAppService
     {
@@ -43,6 +46,11 @@ namespace MyPractice.MultiTenancy
             _abpZeroDbMigrator = abpZeroDbMigrator;
         }
 
+        /// <summary>
+        /// 新增
+        /// </summary>
+        /// <param name="input"></param>
+        /// <returns></returns>
         public override async Task<TenantDto> CreateAsync(CreateTenantDto input)
         {
             CheckCreatePermission();
@@ -91,6 +99,11 @@ namespace MyPractice.MultiTenancy
             return MapToEntityDto(tenant);
         }
 
+        /// <summary>
+        /// 创建过滤器
+        /// </summary>
+        /// <param name="input"></param>
+        /// <returns></returns>
         protected override IQueryable<Tenant> CreateFilteredQuery(PagedTenantResultRequestDto input)
         {
             return Repository.GetAll()
@@ -98,6 +111,11 @@ namespace MyPractice.MultiTenancy
                 .WhereIf(input.IsActive.HasValue, x => x.IsActive == input.IsActive);
         }
 
+        /// <summary>
+        /// 映射到实体
+        /// </summary>
+        /// <param name="updateInput"></param>
+        /// <param name="entity"></param>
         protected override void MapToEntity(TenantDto updateInput, Tenant entity)
         {
             // Manually mapped since TenantDto contains non-editable properties too.
@@ -106,6 +124,11 @@ namespace MyPractice.MultiTenancy
             entity.IsActive = updateInput.IsActive;
         }
 
+        /// <summary>
+        /// 删除
+        /// </summary>
+        /// <param name="input"></param>
+        /// <returns></returns>
         public override async Task DeleteAsync(EntityDto<int> input)
         {
             CheckDeletePermission();
@@ -114,6 +137,10 @@ namespace MyPractice.MultiTenancy
             await _tenantManager.DeleteAsync(tenant);
         }
 
+        /// <summary>
+        /// 检查错误
+        /// </summary>
+        /// <param name="identityResult"></param>
         private void CheckErrors(IdentityResult identityResult)
         {
             identityResult.CheckErrors(LocalizationManager);

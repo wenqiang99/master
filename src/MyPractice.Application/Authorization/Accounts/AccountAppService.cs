@@ -6,6 +6,9 @@ using MyPractice.Authorization.Users;
 
 namespace MyPractice.Authorization.Accounts
 {
+    /// <summary>
+    /// ’Àªß
+    /// </summary>
     public class AccountAppService : MyPracticeAppServiceBase, IAccountAppService
     {
         // from: http://regexlib.com/REDetails.aspx?regexp_id=1923
@@ -35,6 +38,11 @@ namespace MyPractice.Authorization.Accounts
             return new IsTenantAvailableOutput(TenantAvailabilityState.Available, tenant.Id);
         }
 
+        /// <summary>
+        /// µ«º«
+        /// </summary>
+        /// <param name="input"></param>
+        /// <returns></returns>
         public async Task<RegisterOutput> Register(RegisterInput input)
         {
             var user = await _userRegistrationManager.RegisterAsync(

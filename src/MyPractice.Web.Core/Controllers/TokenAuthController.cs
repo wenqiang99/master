@@ -20,6 +20,9 @@ using MyPractice.MultiTenancy;
 
 namespace MyPractice.Controllers
 {
+    /// <summary>
+    /// 身份验证令牌
+    /// </summary>
     [Route("api/[controller]/[action]")]
     public class TokenAuthController : MyPracticeControllerBase
     {
@@ -49,6 +52,11 @@ namespace MyPractice.Controllers
             _userRegistrationManager = userRegistrationManager;
         }
 
+        /// <summary>
+        /// 身份认证
+        /// </summary>
+        /// <param name="model"></param>
+        /// <returns></returns>
         [HttpPost]
         public async Task<AuthenticateResultModel> Authenticate([FromBody] AuthenticateModel model)
         {
@@ -68,13 +76,21 @@ namespace MyPractice.Controllers
                 UserId = loginResult.User.Id
             };
         }
-
+        /// <summary>
+        /// 获取外部身份验证提供程序
+        /// </summary>
+        /// <returns></returns>
         [HttpGet]
         public List<ExternalLoginProviderInfoModel> GetExternalAuthenticationProviders()
         {
             return ObjectMapper.Map<List<ExternalLoginProviderInfoModel>>(_externalAuthConfiguration.Providers);
         }
 
+        /// <summary>
+        /// 外部验证
+        /// </summary>
+        /// <param name="model"></param>
+        /// <returns></returns>
         [HttpPost]
         public async Task<ExternalAuthenticateResultModel> ExternalAuthenticate([FromBody] ExternalAuthenticateModel model)
         {

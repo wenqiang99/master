@@ -49,8 +49,10 @@ namespace MyPractice.Controllers
         /// <summary>
         /// 适用于小附件上传
         /// </summary>
-        /// <param name="files">附件</param>
-        /// <param name="module">模块</param>
+        /// <param name="files"></param>
+        /// <param name="businessId"></param>
+        /// <param name="module"></param>
+        /// <param name="businessType"></param>
         /// <returns></returns>
         [HttpPost]
         public async Task<List<AttachmentListDto>> UploadFiles(List<IFormFile> files, string businessId, string module, string businessType)
@@ -167,13 +169,14 @@ namespace MyPractice.Controllers
             return File(fileBytes, fileInfo.FileType, fileInfo.OriginalName);
         }
 
-        [HttpGet]
-        [DisableAuditing]
+
         /// <summary>
         /// 下载文件
         /// </summary>
-        /// <param name="file">文件ID</param>
-        /// <returns>返回文件下载链接</returns>
+        /// <param name="file"></param>
+        /// <returns></returns>
+        [HttpGet]
+        [DisableAuditing]
         public ActionResult DownloadTempFile(FileDto file)
         {
             //通过内存临时存储里面获取
@@ -204,6 +207,11 @@ namespace MyPractice.Controllers
             return File(fileBytes, MimeTypeNames.ApplicationVndOpenxmlformatsOfficedocumentSpreadsheetmlSheet, FileName);
         }
 
+        /// <summary>
+        /// Map
+        /// </summary>
+        /// <param name="fileInformation"></param>
+        /// <returns></returns>
         protected AttachmentListDto MapToEntityDto(FileInformation fileInformation)
         {
             var attachmentListDto = ObjectMapper.Map<AttachmentListDto>(fileInformation);

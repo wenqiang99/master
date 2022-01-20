@@ -24,6 +24,7 @@ using Hangfire;
 using Hangfire.Dashboard;
 using System.Collections.Generic;
 using Hangfire.Dashboard.BasicAuthorization;
+using System.IO;
 
 namespace MyPractice.Web.Host.Startup
 {
@@ -117,6 +118,18 @@ namespace MyPractice.Web.Host.Startup
                     In = ParameterLocation.Header,
                     Type = SecuritySchemeType.ApiKey
                 });
+                #region 为 Swagger JSON and UI设置xml文档注释路径
+                //var basePath = AppContext.BaseDirectory;
+                var basePath = Path.GetDirectoryName(typeof(Program).Assembly.Location);//获取应用程序所在目录（绝对，不受工作目录影响，建议采用此方法获取路径）
+                var xmlPath  = Path.Combine(basePath, "MyPractice.Application.xml");//这个就是刚刚配置的xml文件名
+                var xmlPath1 = Path.Combine(basePath, "MyPractice.Core.xml");
+                var xmlPath2 = Path.Combine(basePath, "MyPractice.Web.Core.xml");
+
+                //默认的第二个参数是false，这个是controller的注释，记得修改
+                options.IncludeXmlComments(xmlPath, true);
+                options.IncludeXmlComments(xmlPath1, true);
+                options.IncludeXmlComments(xmlPath2, true);
+                #endregion
             });
 
             // Configure Abp and Dependency Injection
@@ -199,10 +212,10 @@ namespace MyPractice.Web.Host.Startup
                 IsReadOnlyFunc = Context => true
             });
 
-            app.Run(async (context) =>
-            {
-                await context.Response.WriteAsync("ok.");
-            });
+            //app.Run(async (context) =>
+            //{
+            //    await context.Response.WriteAsync("ok.");
+            //});
 
             // Enable middleware to serve generated Swagger as a JSON endpoint
             app.UseSwagger(c => { c.RouteTemplate = "swagger/{documentName}/swagger.json"; });

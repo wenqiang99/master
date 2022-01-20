@@ -24,7 +24,10 @@ using Microsoft.EntityFrameworkCore;
 
 namespace MyPractice.Users
 {
-    [AbpAuthorize(PermissionNames.Pages_Users)]
+    /// <summary>
+    /// 用户管理
+    /// </summary>
+    //[AbpAuthorize(PermissionNames.Pages_Users)]
     public class UserAppService : AsyncCrudAppService<User, UserDto, long, PagedUserResultRequestDto, CreateUserDto, UserDto>, IUserAppService
     {
         private readonly UserManager _userManager;
@@ -52,6 +55,11 @@ namespace MyPractice.Users
             _logInManager = logInManager;
         }
 
+        /// <summary>
+        /// 新建用户
+        /// </summary>
+        /// <param name="input"></param>
+        /// <returns></returns>
         public override async Task<UserDto> CreateAsync(CreateUserDto input)
         {
             CheckCreatePermission();
@@ -75,6 +83,11 @@ namespace MyPractice.Users
             return MapToEntityDto(user);
         }
 
+        /// <summary>
+        /// 更新用户信息
+        /// </summary>
+        /// <param name="input"></param>
+        /// <returns></returns>
         public override async Task<UserDto> UpdateAsync(UserDto input)
         {
             CheckUpdatePermission();
@@ -93,18 +106,32 @@ namespace MyPractice.Users
             return await GetAsync(input);
         }
 
+        /// <summary>
+        /// 删除用户
+        /// </summary>
+        /// <param name="input">用户ID</param>
+        /// <returns></returns>
         public override async Task DeleteAsync(EntityDto<long> input)
         {
             var user = await _userManager.GetUserByIdAsync(input.Id);
             await _userManager.DeleteAsync(user);
         }
 
+        /// <summary>
+        /// 获取所有角色信息
+        /// </summary>
+        /// <returns></returns>
         public async Task<ListResultDto<RoleDto>> GetRoles()
         {
             var roles = await _roleRepository.GetAllListAsync();
             return new ListResultDto<RoleDto>(ObjectMapper.Map<List<RoleDto>>(roles));
         }
 
+        /// <summary>
+        /// 切换语言
+        /// </summary>
+        /// <param name="input"></param>
+        /// <returns></returns>
         public async Task ChangeLanguage(ChangeUserLanguageDto input)
         {
             await SettingManager.ChangeSettingForUserAsync(
@@ -114,6 +141,11 @@ namespace MyPractice.Users
             );
         }
 
+        /// <summary>
+        /// 映射
+        /// </summary>
+        /// <param name="createInput"></param>
+        /// <returns></returns>
         protected override User MapToEntity(CreateUserDto createInput)
         {
             var user = ObjectMapper.Map<User>(createInput);
@@ -121,12 +153,22 @@ namespace MyPractice.Users
             return user;
         }
 
+        /// <summary>
+        /// 映射
+        /// </summary>
+        /// <param name="input"></param>
+        /// <param name="user"></param>
         protected override void MapToEntity(UserDto input, User user)
         {
             ObjectMapper.Map(input, user);
             user.SetNormalizedNames();
         }
 
+        /// <summary>
+        /// 映射
+        /// </summary>
+        /// <param name="user"></param>
+        /// <returns></returns>
         protected override UserDto MapToEntityDto(User user)
         {
             var roleIds = user.Roles.Select(x => x.RoleId).ToArray();
@@ -139,6 +181,11 @@ namespace MyPractice.Users
             return userDto;
         }
 
+        /// <summary>
+        /// 用户查询
+        /// </summary>
+        /// <param name="input"></param>
+        /// <returns></returns>
         protected override IQueryable<User> CreateFilteredQuery(PagedUserResultRequestDto input)
         {
             return Repository.GetAllIncluding(x => x.Roles)
@@ -146,6 +193,11 @@ namespace MyPractice.Users
                 .WhereIf(input.IsActive.HasValue, x => x.IsActive == input.IsActive);
         }
 
+        /// <summary>
+        /// 根据Id查询
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns></returns>
         protected override async Task<User> GetEntityByIdAsync(long id)
         {
             var user = await Repository.GetAllIncluding(x => x.Roles).FirstOrDefaultAsync(x => x.Id == id);
@@ -158,16 +210,31 @@ namespace MyPractice.Users
             return user;
         }
 
+        /// <summary>
+        /// 根据用户名排序返回
+        /// </summary>
+        /// <param name="query"></param>
+        /// <param name="input"></param>
+        /// <returns></returns>
         protected override IQueryable<User> ApplySorting(IQueryable<User> query, PagedUserResultRequestDto input)
         {
             return query.OrderBy(r => r.UserName);
         }
 
+        /// <summary>
+        /// 检查错误
+        /// </summary>
+        /// <param name="identityResult"></param>
         protected virtual void CheckErrors(IdentityResult identityResult)
         {
             identityResult.CheckErrors(LocalizationManager);
         }
 
+        /// <summary>
+        /// 修改密码
+        /// </summary>
+        /// <param name="input"></param>
+        /// <returns></returns>
         public async Task<bool> ChangePassword(ChangePasswordDto input)
         {
             if (_abpSession.UserId == null)
@@ -190,6 +257,11 @@ namespace MyPractice.Users
             return true;
         }
 
+        /// <summary>
+        /// 重置密码
+        /// </summary>
+        /// <param name="input"></param>
+        /// <returns></returns>
         public async Task<bool> ResetPassword(ResetPasswordDto input)
         {
             if (_abpSession.UserId == null)

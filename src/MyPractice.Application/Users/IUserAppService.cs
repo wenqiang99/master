@@ -10,6 +10,11 @@ namespace MyPractice.Users
     {
         Task<ListResultDto<RoleDto>> GetRoles();
 
+        /// <summary>
+        /// «–ªª”Ô—‘
+        /// </summary>
+        /// <param name="input"></param>
+        /// <returns></returns>
         Task ChangeLanguage(ChangeUserLanguageDto input);
 
         Task<bool> ChangePassword(ChangePasswordDto input);

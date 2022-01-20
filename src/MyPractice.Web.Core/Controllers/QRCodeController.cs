@@ -14,6 +14,9 @@ using System.Linq;
 
 namespace MyPractice.Controllers
 {
+    /// <summary>
+    /// 二维码
+    /// </summary>
     [Route("api/[controller]/[action]")]
     public class QRCodeController : MyPracticeControllerBase
     {
