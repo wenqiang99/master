@@ -34,6 +34,16 @@ namespace MyPractice.Controllers
         private readonly IExternalAuthManager _externalAuthManager;
         private readonly UserRegistrationManager _userRegistrationManager;
 
+        /// <summary>
+        /// 构造函数
+        /// </summary>
+        /// <param name="logInManager"></param>
+        /// <param name="tenantCache"></param>
+        /// <param name="abpLoginResultTypeHelper"></param>
+        /// <param name="configuration"></param>
+        /// <param name="externalAuthConfiguration"></param>
+        /// <param name="externalAuthManager"></param>
+        /// <param name="userRegistrationManager"></param>
         public TokenAuthController(
             LogInManager logInManager,
             ITenantCache tenantCache,

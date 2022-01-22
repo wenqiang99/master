@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Text;
 
-namespace ABBMASWeld.Utility.Application.Services.Dto
+namespace MyPractice.Utility.Application.Services.Dto
 {
     public interface IEasyPagedResultRequest : ILimitedResultRequest
     {

@@ -4,12 +4,6 @@ using Abp.Runtime.Session;
 using Abp.UI;
 using System.Collections.Generic;
 using System.Threading.Tasks;
-using System.Linq;
-using System.ComponentModel.DataAnnotations;
-using MyPractice.Common;
-using MyPractice.Util;
-using Abp.Extensions;
-using ABBMASWeld.Utility;
 
 namespace MyPractice.SysMenus
 {

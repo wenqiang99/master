@@ -17,6 +17,7 @@ namespace MyPractice
         public override void PreInitialize()
         {
             Configuration.Authorization.Providers.Add<MyPracticeAuthorizationProvider>(); //权限
+          
         }
 
         /// <summary>

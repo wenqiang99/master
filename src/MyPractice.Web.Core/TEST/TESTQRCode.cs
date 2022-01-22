@@ -7,12 +7,13 @@ using System.Drawing.Imaging;
 using System.Text;
 using Abp.Dependency;
 using System.IO;
+using MyPractice.Controllers;
 
 namespace MyPractice.TEST
 {
 
     [Route("api/[controller]/[action]")]
-    public class TESTQRCode: MyPracticeAppServiceBase, ITransientDependency
+    public class TESTQRCode: MyPracticeControllerBase, ITransientDependency
     {
         /// <summary>
         /// 生成二维码

@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace ABBMASWeld.Utility.Application.Services.Dto
+namespace MyPractice.Utility.Application.Services.Dto
 {
     /// <summary>
     /// 列表查询条件扩展方法

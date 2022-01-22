@@ -1,6 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Threading.Tasks;
 using Abp.Auditing;
+using Microsoft.AspNetCore.Mvc;
 using MyPractice.Sessions.Dto;
 
 namespace MyPractice.Sessions
@@ -14,7 +15,7 @@ namespace MyPractice.Sessions
         /// 获取当前登录信息
         /// </summary>
         /// <returns></returns>
-        [DisableAuditing]
+       
         public async Task<GetCurrentLoginInformationsOutput> GetCurrentLoginInformations()
         {
             var output = new GetCurrentLoginInformationsOutput

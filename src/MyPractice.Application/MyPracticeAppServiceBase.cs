@@ -13,7 +13,7 @@ namespace MyPractice
     /// <summary>
     /// Derive your application services from this class.
     /// </summary>
-    public abstract class MyPracticeAppServiceBase : AbpController
+    public abstract class MyPracticeAppServiceBase : ApplicationService
     {
         public TenantManager TenantManager { get; set; }
 

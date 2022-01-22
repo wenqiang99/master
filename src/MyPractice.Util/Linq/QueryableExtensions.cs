@@ -1,4 +1,4 @@
-﻿using ABBMASWeld.Utility.Application.Services.Dto;
+﻿using MyPractice.Utility.Application.Services.Dto;
 using Abp.Application.Services.Dto;
 using Abp.Extensions;
 using System;
@@ -8,7 +8,7 @@ using System.Text;
 using Abp.Linq.Extensions;
 using System.Linq.Dynamic.Core;
 
-namespace ABBMASWeld.Utility.Linq
+namespace MyPractice.Utility.Linq
 {
     public static class QueryableExtensions
     {

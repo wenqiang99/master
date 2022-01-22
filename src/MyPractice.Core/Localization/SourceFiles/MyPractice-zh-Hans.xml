@@ -97,7 +97,13 @@
     <text name="DeleteTenantConfirm">确认删除该租户？</text>
     <text name="EditTenant">编辑租户</text>
     <text name="SearchWithThreeDot">搜索...</text>
-    
+
+	<!-- 权限和菜单 -->
+	<text name="Pages">页面</text>
+	<text name="DeskTop">桌面</text>
+	<text name="Administration">系统管理</text>
+	<text name="BasicData">基础数据</text>
+	  
   </texts>
 </localizationDictionary>
 

@@ -8,7 +8,7 @@ using System.Globalization;
 using System.Linq;
 using System.Text.RegularExpressions;
 
-namespace ABBMASWeld.Utility
+namespace MyPractice.Utility
 {
     public class ObjectConverter
     {

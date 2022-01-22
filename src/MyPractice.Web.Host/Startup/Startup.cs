@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Linq;
 using System.Reflection;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -18,13 +17,12 @@ using Abp.Dependency;
 using Abp.Json;
 using Microsoft.OpenApi.Models;
 using Newtonsoft.Json.Serialization;
-using Microsoft.AspNetCore.Http;
 using Hangfire.HttpJob;
 using Hangfire;
-using Hangfire.Dashboard;
 using System.Collections.Generic;
 using Hangfire.Dashboard.BasicAuthorization;
 using System.IO;
+using Microsoft.AspNetCore.Mvc;
 
 namespace MyPractice.Web.Host.Startup
 {
@@ -44,6 +42,7 @@ namespace MyPractice.Web.Host.Startup
 
         public IServiceProvider ConfigureServices(IServiceCollection services)
         {
+            services.AddHttpContextAccessor();
             //MVC
             services.AddControllersWithViews(
                 options =>

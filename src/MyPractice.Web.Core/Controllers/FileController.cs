@@ -1,15 +1,12 @@
-﻿using ABBMASWeld.Net.MimeTypes;
-using Abp.Auditing;
+﻿using Abp.Auditing;
 using Abp.Domain.Repositories;
 using Abp.Extensions;
 using Abp.IO;
 using Abp.IO.Extensions;
 using Abp.UI;
-using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
-using Microsoft.Extensions.Options;
 using MyPractice.Authorization.Users;
 using MyPractice.Common;
 using MyPractice.FileInfos;
@@ -20,7 +17,6 @@ using System.Collections.Generic;
 using System.Configuration;
 using System.IO;
 using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
 
 namespace MyPractice.Controllers

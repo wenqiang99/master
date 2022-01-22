@@ -13,6 +13,7 @@ using MyPractice.Authentication.JwtBearer;
 using MyPractice.Configuration;
 using MyPractice.EntityFrameworkCore;
 using Microsoft.AspNetCore.Mvc.ApplicationParts;
+using Abp.Configuration.Startup;
 
 namespace MyPractice
 {
@@ -20,7 +21,7 @@ namespace MyPractice
          typeof(MyPracticeApplicationModule),
          typeof(MyPracticeEntityFrameworkModule),
          typeof(AbpAspNetCoreModule)
-        ,typeof(AbpAspNetCoreSignalRModule)
+        , typeof(AbpAspNetCoreSignalRModule)
      )]
     public class MyPracticeWebCoreModule : AbpModule
     {
@@ -41,12 +42,13 @@ namespace MyPractice
 
             // Use database for language management
             Configuration.Modules.Zero().LanguageManagement.EnableDbLocalization();
-
+#if DEBUG
+            Configuration.Modules.AbpWebCommon().SendAllExceptionsToClients = true; //详细错误提示
+#endif
             Configuration.Modules.AbpAspNetCore()
                  .CreateControllersForAppServices(
                      typeof(MyPracticeApplicationModule).GetAssembly()
                  );
-
             ConfigureTokenAuth();
         }
 

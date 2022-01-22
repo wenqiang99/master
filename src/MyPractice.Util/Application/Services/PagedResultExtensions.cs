@@ -1,4 +1,4 @@
-﻿using ABBMASWeld.Utility.Application.Services.Dto;
+﻿using MyPractice.Utility.Application.Services.Dto;
 using Abp.Application.Services.Dto;
 using Abp.Dependency;
 using Abp.Extensions;
@@ -10,7 +10,7 @@ using System.Linq;
 using System.Linq.Dynamic.Core;
 using System.Text;
 
-namespace ABBMASWeld.Utility.Application.Services
+namespace MyPractice.Utility.Application.Services
 {
     /// <summary>
     /// 分页查询返回

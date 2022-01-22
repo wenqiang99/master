@@ -4,7 +4,7 @@ using System.Diagnostics;
 using System.IO;
 using System.Text;
 
-namespace ABBMASWeld.Utility
+namespace MyPractice.Utility
 {
     public class DebugLog
     {

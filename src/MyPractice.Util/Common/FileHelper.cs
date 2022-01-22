@@ -4,10 +4,10 @@ using System.Text;
 using System.IO;
 using System.Linq;
 using System.Web;
-using ABBMASWeld.Utility;
+using MyPractice.Utility;
 using Microsoft.AspNetCore.Hosting;
 
-namespace ABBMASWeld.Util.Common
+namespace MyPractice.Util.Common
 {
     public class FileHelper
     {

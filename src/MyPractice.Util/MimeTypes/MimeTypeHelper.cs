@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace ABBMASWeld.Net.MimeTypes
+namespace MyPractice.Net.MimeTypes
 {
     public class MimeTypeHelper
     {

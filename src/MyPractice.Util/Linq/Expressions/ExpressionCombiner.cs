@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq.Expressions;
 using System.Text;
 
-namespace ABBMASWeld.Utility.Linq.Expressions
+namespace MyPractice.Utility.Linq.Expressions
 {
     internal static class ExpressionCombiner
     {

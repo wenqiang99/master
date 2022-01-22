@@ -22,9 +22,9 @@
     <DocumentationFile>bin\Debug\MyPractice.Web.Core.xml</DocumentationFile>
   </PropertyGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\MyPractice.Util\MyPractice.Util.csproj" />
     <ProjectReference Include="..\MyPractice.Application\MyPractice.Application.csproj" />
     <ProjectReference Include="..\MyPractice.EntityFrameworkCore\MyPractice.EntityFrameworkCore.csproj" />
+    <ProjectReference Include="..\MyPractice.Util\MyPractice.Util.csproj" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Hangfire.AspNetCore" Version="1.7.24" />

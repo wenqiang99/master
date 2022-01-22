@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 using System.Linq;
-namespace ABBMASWeld.Util.Common
+namespace MyPractice.Util.Common
 {
     public class SafeDictionary<TKey, TValue>
     {

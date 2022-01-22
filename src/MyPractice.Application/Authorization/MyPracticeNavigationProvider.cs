@@ -29,15 +29,31 @@ namespace MyPractice
         /// <param name="context"></param>
         private void SysNavigation(INavigationProviderContext context)
         {
-            context.Manager.MainMenu
-            #region 订单
-                  .AddItem(new MenuItemDefinition(
-                   "TG", L("TG"),
-                    icon: "database",
-                    customData: "",
-                    permissionDependency: new SimplePermissionDependency(PermissionNames.Pages_Tenants)));
+            //context.Manager.MainMenu
+            //#region 订单
+            //      .AddItem(new MenuItemDefinition(
+            //       "Pages", L("Pages"),
+            //        icon: "database",
+            //        customData: "",
+            //        permissionDependency: new SimplePermissionDependency(PermissionNames.Pages))
+            //          .AddItem(new MenuItemDefinition(
+            //              "Orders", L("Pages_Orders"),
+            //               icon: "database",
+            //               customData: "",
+            //               permissionDependency: new SimplePermissionDependency(PermissionNames.Pages_Orders)))
+            //                  .AddItem(new MenuItemDefinition(
+            //                  "Administration", L("Pages_Orders_Administration"),
+            //                   icon: "database",
+            //                   customData: "",
+            //                   permissionDependency: new SimplePermissionDependency(PermissionNames.Pages_Orders_Administration)))
+            //                       .AddItem(new MenuItemDefinition(
+            //                       "BasicData", L("Pages_Orders_Administration_BasicData"),
+            //                        icon: "database",
+            //                        customData: "",
+            //                        permissionDependency: new SimplePermissionDependency(PermissionNames.Pages_Orders_Administration_BasicData)))
+            //      );
 
-            #endregion
+            //#endregion
         }
 
 
