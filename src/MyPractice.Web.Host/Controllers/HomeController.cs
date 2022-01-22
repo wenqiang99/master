@@ -46,7 +46,7 @@ namespace MyPractice.Web.Host.Controllers
                 userIds: new[] { defaultTenantAdmin, hostAdmin }
             );
 
-            return Content("Sent notification: " + message);
+            return Content("Sent notification: " + message); 
         }
     }
 }
