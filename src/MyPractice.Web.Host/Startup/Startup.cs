@@ -22,7 +22,6 @@ using Hangfire;
 using System.Collections.Generic;
 using Hangfire.Dashboard.BasicAuthorization;
 using System.IO;
-using Microsoft.AspNetCore.Mvc;
 
 namespace MyPractice.Web.Host.Startup
 {
