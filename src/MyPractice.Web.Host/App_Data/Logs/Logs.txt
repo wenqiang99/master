@@ -23406,3 +23406,629 @@ INFO  2022-01-22 14:06:40,529 [4    ] c.Infrastructure.ControllerActionInvoker -
 INFO  2022-01-22 14:06:40,532 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'MyPractice.Web.Host.Controllers.AntiForgeryController.SetCookie (MyPractice.Web.Host)'
 INFO  2022-01-22 14:06:40,534 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 365.5148ms 200 application/json; charset=utf-8
 INFO  2022-01-22 14:06:40,667 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 485.1793ms 200 application/json;charset=utf-8
+DEBUG 2022-01-24 16:59:46,257 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2022-01-24 16:59:46,317 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2022-01-24 16:59:46,329 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyPractice.Web.Host.Startup.MyPracticeWebHostModule, MyPractice.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-01-24 16:59:46,330 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyPractice.MyPracticeWebCoreModule, MyPractice.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-01-24 16:59:46,330 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyPractice.MyPracticeApplicationModule, MyPractice.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-01-24 16:59:46,331 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyPractice.MyPracticeCoreModule, MyPractice.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-01-24 16:59:46,331 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-01-24 16:59:46,331 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-01-24 16:59:46,331 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-01-24 16:59:46,331 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-01-24 16:59:46,332 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyPractice.EntityFrameworkCore.MyPracticeEntityFrameworkModule, MyPractice.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-01-24 16:59:46,332 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-01-24 16:59:46,332 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-01-24 16:59:46,332 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-01-24 16:59:46,332 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-01-24 16:59:46,332 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-01-24 16:59:46,332 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-01-24 16:59:46,334 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2022-01-24 16:59:46,404 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2022-01-24 16:59:46,404 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2022-01-24 16:59:46,404 [1    ] o.Configuration.LanguageManagementConfig - Converted MyPractice (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2022-01-24 16:59:46,404 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2022-01-24 16:59:46,753 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: MyPractice.EntityFrameworkCore.MyPracticeDbContext, MyPractice.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-01-24 16:59:47,502 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2022-01-24 16:59:47,564 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2022-01-24 16:59:47,605 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2022-01-24 16:59:47,623 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: MyPractice
+DEBUG 2022-01-24 16:59:47,687 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2022-01-24 16:59:47,891 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2022-01-24 16:59:48,009 [1    ] , Culture=neutral, PublicKeyToken=null]] - Start background worker: Abp.Authorization.Users.UserTokenExpirationWorker`2[[MyPractice.MultiTenancy.Tenant, MyPractice.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[MyPractice.Authorization.Users.User, MyPractice.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+DEBUG 2022-01-24 16:59:48,054 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 12 classes define auto mapping attributes
+DEBUG 2022-01-24 16:59:48,054 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyPractice.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2022-01-24 16:59:48,058 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyPractice.Users.Dto.CreateUserDto
+DEBUG 2022-01-24 16:59:48,059 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyPractice.Users.Dto.UserDto
+DEBUG 2022-01-24 16:59:48,060 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyPractice.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2022-01-24 16:59:48,060 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyPractice.Sessions.Dto.UserLoginInfoDto
+DEBUG 2022-01-24 16:59:48,060 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyPractice.Roles.Dto.PermissionDto
+DEBUG 2022-01-24 16:59:48,060 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyPractice.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2022-01-24 16:59:48,060 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyPractice.MultiTenancy.Dto.TenantDto
+DEBUG 2022-01-24 16:59:48,060 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyPractice.Authorization.Permissions.Dto.FlatPermissionDto
+DEBUG 2022-01-24 16:59:48,060 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyPractice.Authorization.Permissions.Dto.FlatPermissionTreeDto
+DEBUG 2022-01-24 16:59:48,060 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyPractice.Authorization.Permissions.Dto.FlatPermissionTreeOutPut
+DEBUG 2022-01-24 16:59:48,060 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyPractice.Authorization.Permissions.Dto.FlatPermissionWithLevelDto
+INFO  2022-01-24 16:59:49,973 [1    ] tCore.Builder.RequestLocalizationOptions - Supported Request Localization Cultures: en,es-MX,fr,de,it,nl,pt-BR,tr,ru,ar,zh-Hans,ja
+INFO  2022-01-24 16:59:50,322 [1    ] fire.SqlServer.SqlServerObjectsInstaller - Start installing Hangfire SQL objects...
+INFO  2022-01-24 16:59:50,568 [1    ] fire.SqlServer.SqlServerObjectsInstaller - Hangfire SQL objects installed.
+INFO  2022-01-24 16:59:50,606 [1    ] Hangfire.BackgroundJobServer             - Starting Hangfire Server using job storage: 'SQL Server: .@MyPracticeDb'
+INFO  2022-01-24 16:59:50,607 [1    ] Hangfire.BackgroundJobServer             - Using the following options for SQL Server job storage: Queue poll interval: 00:00:15.
+INFO  2022-01-24 16:59:50,609 [1    ] Hangfire.BackgroundJobServer             - Using the following options for Hangfire Server:
+    Worker count: 40
+    Listening queues: 'default', 'apis', 'recurring'
+    Shutdown timeout: 00:30:00
+    Schedule polling interval: 00:00:15
+INFO  2022-01-24 16:59:50,691 [1    ] taProtection.KeyManagement.XmlKeyManager - User profile is available. Using 'C:\Users\WenQiang\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+INFO  2022-01-24 16:59:50,802 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/  
+INFO  2022-01-24 16:59:50,854 [ss #1] Hangfire.Server.BackgroundServerProcess  - Server laptop-15vlhp6s:21168:db4c8b14 successfully announced in 210.086 ms
+INFO  2022-01-24 16:59:50,865 [ss #1] Hangfire.Server.BackgroundServerProcess  - Server laptop-15vlhp6s:21168:db4c8b14 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, Worker, DelayedJobScheduler, RecurringJobScheduler...
+INFO  2022-01-24 16:59:50,948 [og #1] Hangfire.Server.ServerWatchdog           - 1 servers were removed due to timeout
+INFO  2022-01-24 16:59:51,386 [ss #1] Hangfire.Server.BackgroundServerProcess  - Server laptop-15vlhp6s:21168:db4c8b14 all the dispatchers started
+INFO  2022-01-24 16:59:51,938 [11   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'MyPractice.Web.Host.Controllers.HomeController.Index (MyPractice.Web.Host)'
+INFO  2022-01-24 16:59:56,162 [11   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller MyPractice.Web.Host.Controllers.HomeController (MyPractice.Web.Host).
+INFO  2022-01-24 16:59:57,368 [11   ] c.Infrastructure.ControllerActionInvoker - Executing action method MyPractice.Web.Host.Controllers.HomeController.Index (MyPractice.Web.Host) - Validation state: Valid
+INFO  2022-01-24 16:59:57,373 [11   ] c.Infrastructure.ControllerActionInvoker - Executed action method MyPractice.Web.Host.Controllers.HomeController.Index (MyPractice.Web.Host), returned result Microsoft.AspNetCore.Mvc.RedirectResult in 0.4322ms.
+INFO  2022-01-24 16:59:57,525 [19   ] vc.Infrastructure.RedirectResultExecutor - Executing RedirectResult, redirecting to /swagger.
+INFO  2022-01-24 16:59:57,531 [19   ] c.Infrastructure.ControllerActionInvoker - Executed action MyPractice.Web.Host.Controllers.HomeController.Index (MyPractice.Web.Host) in 1365.2329ms
+INFO  2022-01-24 16:59:57,534 [19   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'MyPractice.Web.Host.Controllers.HomeController.Index (MyPractice.Web.Host)'
+INFO  2022-01-24 16:59:57,585 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/index.html  
+INFO  2022-01-24 16:59:57,589 [19   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 6786.2433ms 302 
+INFO  2022-01-24 16:59:57,652 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 100.3798ms 200 text/html;charset=utf-8
+INFO  2022-01-24 16:59:58,589 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/AntiForgery/SetCookie  
+INFO  2022-01-24 16:59:58,607 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/v1/swagger.json  
+INFO  2022-01-24 16:59:58,771 [9    ] uthentication.JwtBearer.JwtBearerHandler - Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenInvalidSignatureException: IDX10503: Signature validation failed. Keys tried: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+Exceptions caught:
+ '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateSignature(String token, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+INFO  2022-01-24 16:59:58,771 [5    ] uthentication.JwtBearer.JwtBearerHandler - Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenInvalidSignatureException: IDX10503: Signature validation failed. Keys tried: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+Exceptions caught:
+ '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateSignature(String token, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+INFO  2022-01-24 16:59:58,778 [5    ] uthentication.JwtBearer.JwtBearerHandler - JwtBearer was not authenticated. Failure message: IDX10503: Signature validation failed. Keys tried: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+Exceptions caught:
+ '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+INFO  2022-01-24 16:59:58,778 [9    ] uthentication.JwtBearer.JwtBearerHandler - JwtBearer was not authenticated. Failure message: IDX10503: Signature validation failed. Keys tried: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+Exceptions caught:
+ '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+INFO  2022-01-24 16:59:58,784 [9    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'MyPractice.Web.Host.Controllers.AntiForgeryController.SetCookie (MyPractice.Web.Host)'
+INFO  2022-01-24 16:59:58,790 [9    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "SetCookie", controller = "AntiForgery", area = ""}. Executing controller action with signature Void SetCookie() on controller MyPractice.Web.Host.Controllers.AntiForgeryController (MyPractice.Web.Host).
+INFO  2022-01-24 16:59:58,812 [9    ] c.Infrastructure.ControllerActionInvoker - Executing action method MyPractice.Web.Host.Controllers.AntiForgeryController.SetCookie (MyPractice.Web.Host) - Validation state: Valid
+INFO  2022-01-24 16:59:58,822 [9    ] c.Infrastructure.ControllerActionInvoker - Executed action method MyPractice.Web.Host.Controllers.AntiForgeryController.SetCookie (MyPractice.Web.Host), returned result Microsoft.AspNetCore.Mvc.EmptyResult in 6.7371ms.
+INFO  2022-01-24 16:59:58,836 [19   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2022-01-24 16:59:58,884 [19   ] c.Infrastructure.ControllerActionInvoker - Executed action MyPractice.Web.Host.Controllers.AntiForgeryController.SetCookie (MyPractice.Web.Host) in 90.5483ms
+INFO  2022-01-24 16:59:58,886 [19   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'MyPractice.Web.Host.Controllers.AntiForgeryController.SetCookie (MyPractice.Web.Host)'
+INFO  2022-01-24 16:59:58,889 [19   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 299.7617ms 200 application/json; charset=utf-8
+INFO  2022-01-24 16:59:59,004 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 397.2822ms 200 application/json;charset=utf-8
+INFO  2022-01-24 17:00:45,300 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:21021/api/services/app/Accp/SignalAsyncTest1?input=111  0
+INFO  2022-01-24 17:00:45,305 [5    ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution failed.
+INFO  2022-01-24 17:00:45,307 [5    ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2022-01-24 17:00:45,340 [5    ] uthentication.JwtBearer.JwtBearerHandler - Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenInvalidSignatureException: IDX10503: Signature validation failed. Keys tried: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+Exceptions caught:
+ '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateSignature(String token, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+INFO  2022-01-24 17:00:45,343 [5    ] uthentication.JwtBearer.JwtBearerHandler - JwtBearer was not authenticated. Failure message: IDX10503: Signature validation failed. Keys tried: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+Exceptions caught:
+ '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+INFO  2022-01-24 17:00:45,347 [5    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'MyPractice.Accp.AccpAppService.SignalAsyncTest1 (MyPractice.Application)'
+INFO  2022-01-24 17:00:45,364 [5    ] c.Infrastructure.ControllerActionInvoker - Route matched with {area = "app", action = "SignalAsyncTest1", controller = "Accp"}. Executing controller action with signature System.Threading.Tasks.Task SignalAsyncTest1(System.String) on controller MyPractice.Accp.AccpAppService (MyPractice.Application).
+INFO  2022-01-24 17:00:45,923 [5    ] c.Infrastructure.ControllerActionInvoker - Executing action method MyPractice.Accp.AccpAppService.SignalAsyncTest1 (MyPractice.Application) - Validation state: Valid
+INFO  2022-01-24 17:00:45,926 [5    ] c.Infrastructure.ControllerActionInvoker - Executed action method MyPractice.Accp.AccpAppService.SignalAsyncTest1 (MyPractice.Application), returned result Microsoft.AspNetCore.Mvc.EmptyResult in 1.4593ms.
+INFO  2022-01-24 17:00:45,937 [18   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2022-01-24 17:00:45,941 [18   ] c.Infrastructure.ControllerActionInvoker - Executed action MyPractice.Accp.AccpAppService.SignalAsyncTest1 (MyPractice.Application) in 575.332ms
+INFO  2022-01-24 17:00:45,943 [18   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'MyPractice.Accp.AccpAppService.SignalAsyncTest1 (MyPractice.Application)'
+INFO  2022-01-24 17:00:45,946 [18   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 646.672ms 200 application/json; charset=utf-8
+INFO  2022-01-24 17:08:15,819 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:21021/api/services/app/Accp/SignalAsyncTest1?input=111  0
+INFO  2022-01-24 17:08:15,822 [11   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution failed.
+INFO  2022-01-24 17:08:15,825 [11   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2022-01-24 17:08:15,859 [11   ] uthentication.JwtBearer.JwtBearerHandler - Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenInvalidSignatureException: IDX10503: Signature validation failed. Keys tried: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+Exceptions caught:
+ '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateSignature(String token, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+INFO  2022-01-24 17:08:15,862 [11   ] uthentication.JwtBearer.JwtBearerHandler - JwtBearer was not authenticated. Failure message: IDX10503: Signature validation failed. Keys tried: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+Exceptions caught:
+ '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+INFO  2022-01-24 17:08:15,867 [11   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'MyPractice.Accp.AccpAppService.SignalAsyncTest1 (MyPractice.Application)'
+INFO  2022-01-24 17:08:15,873 [11   ] c.Infrastructure.ControllerActionInvoker - Route matched with {area = "app", action = "SignalAsyncTest1", controller = "Accp"}. Executing controller action with signature System.Threading.Tasks.Task SignalAsyncTest1(System.String) on controller MyPractice.Accp.AccpAppService (MyPractice.Application).
+INFO  2022-01-24 17:08:15,895 [11   ] c.Infrastructure.ControllerActionInvoker - Executing action method MyPractice.Accp.AccpAppService.SignalAsyncTest1 (MyPractice.Application) - Validation state: Valid
+INFO  2022-01-24 17:08:15,898 [11   ] c.Infrastructure.ControllerActionInvoker - Executed action method MyPractice.Accp.AccpAppService.SignalAsyncTest1 (MyPractice.Application), returned result Microsoft.AspNetCore.Mvc.EmptyResult in 0.1971ms.
+INFO  2022-01-24 17:08:15,907 [17   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2022-01-24 17:08:15,910 [17   ] c.Infrastructure.ControllerActionInvoker - Executed action MyPractice.Accp.AccpAppService.SignalAsyncTest1 (MyPractice.Application) in 34.3011ms
+INFO  2022-01-24 17:08:15,912 [17   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'MyPractice.Accp.AccpAppService.SignalAsyncTest1 (MyPractice.Application)'
+INFO  2022-01-24 17:08:15,915 [17   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 96.848ms 200 application/json; charset=utf-8
+INFO  2022-01-24 17:08:24,102 [17   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:21021/api/services/app/Accp/SignalAsyncTest1?input=111ffffffffffffffff  0
+INFO  2022-01-24 17:08:24,106 [17   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution failed.
+INFO  2022-01-24 17:08:24,108 [17   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2022-01-24 17:08:24,145 [17   ] uthentication.JwtBearer.JwtBearerHandler - Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenInvalidSignatureException: IDX10503: Signature validation failed. Keys tried: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+Exceptions caught:
+ '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateSignature(String token, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+INFO  2022-01-24 17:08:24,148 [17   ] uthentication.JwtBearer.JwtBearerHandler - JwtBearer was not authenticated. Failure message: IDX10503: Signature validation failed. Keys tried: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+Exceptions caught:
+ '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+INFO  2022-01-24 17:08:24,151 [17   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'MyPractice.Accp.AccpAppService.SignalAsyncTest1 (MyPractice.Application)'
+INFO  2022-01-24 17:08:24,156 [17   ] c.Infrastructure.ControllerActionInvoker - Route matched with {area = "app", action = "SignalAsyncTest1", controller = "Accp"}. Executing controller action with signature System.Threading.Tasks.Task SignalAsyncTest1(System.String) on controller MyPractice.Accp.AccpAppService (MyPractice.Application).
+INFO  2022-01-24 17:08:24,180 [17   ] c.Infrastructure.ControllerActionInvoker - Executing action method MyPractice.Accp.AccpAppService.SignalAsyncTest1 (MyPractice.Application) - Validation state: Valid
+INFO  2022-01-24 17:08:24,183 [17   ] c.Infrastructure.ControllerActionInvoker - Executed action method MyPractice.Accp.AccpAppService.SignalAsyncTest1 (MyPractice.Application), returned result Microsoft.AspNetCore.Mvc.EmptyResult in 0.1137ms.
+INFO  2022-01-24 17:08:24,194 [12   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2022-01-24 17:08:24,198 [12   ] c.Infrastructure.ControllerActionInvoker - Executed action MyPractice.Accp.AccpAppService.SignalAsyncTest1 (MyPractice.Application) in 39.4149ms
+INFO  2022-01-24 17:08:24,201 [12   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'MyPractice.Accp.AccpAppService.SignalAsyncTest1 (MyPractice.Application)'
+INFO  2022-01-24 17:08:24,204 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 101.71ms 200 application/json; charset=utf-8
+INFO  2022-01-24 17:08:25,903 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:21021/api/services/app/Accp/SignalAsyncTest1?input=111ffffffffffffffff  0
+INFO  2022-01-24 17:08:25,906 [4    ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution failed.
+INFO  2022-01-24 17:08:25,910 [4    ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2022-01-24 17:08:25,946 [4    ] uthentication.JwtBearer.JwtBearerHandler - Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenInvalidSignatureException: IDX10503: Signature validation failed. Keys tried: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+Exceptions caught:
+ '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateSignature(String token, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+INFO  2022-01-24 17:08:25,949 [4    ] uthentication.JwtBearer.JwtBearerHandler - JwtBearer was not authenticated. Failure message: IDX10503: Signature validation failed. Keys tried: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+Exceptions caught:
+ '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+INFO  2022-01-24 17:08:25,953 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'MyPractice.Accp.AccpAppService.SignalAsyncTest1 (MyPractice.Application)'
+INFO  2022-01-24 17:08:25,959 [4    ] c.Infrastructure.ControllerActionInvoker - Route matched with {area = "app", action = "SignalAsyncTest1", controller = "Accp"}. Executing controller action with signature System.Threading.Tasks.Task SignalAsyncTest1(System.String) on controller MyPractice.Accp.AccpAppService (MyPractice.Application).
+INFO  2022-01-24 17:08:25,982 [4    ] c.Infrastructure.ControllerActionInvoker - Executing action method MyPractice.Accp.AccpAppService.SignalAsyncTest1 (MyPractice.Application) - Validation state: Valid
+INFO  2022-01-24 17:08:25,984 [4    ] c.Infrastructure.ControllerActionInvoker - Executed action method MyPractice.Accp.AccpAppService.SignalAsyncTest1 (MyPractice.Application), returned result Microsoft.AspNetCore.Mvc.EmptyResult in 0.0976ms.
+INFO  2022-01-24 17:08:25,992 [17   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2022-01-24 17:08:25,995 [17   ] c.Infrastructure.ControllerActionInvoker - Executed action MyPractice.Accp.AccpAppService.SignalAsyncTest1 (MyPractice.Application) in 34.1271ms
+INFO  2022-01-24 17:08:25,998 [17   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'MyPractice.Accp.AccpAppService.SignalAsyncTest1 (MyPractice.Application)'
+INFO  2022-01-24 17:08:26,000 [17   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 98.5979ms 200 application/json; charset=utf-8
+INFO  2022-01-24 17:08:26,086 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:21021/api/services/app/Accp/SignalAsyncTest1?input=111ffffffffffffffff  0
+INFO  2022-01-24 17:08:26,089 [11   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution failed.
+INFO  2022-01-24 17:08:26,091 [11   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2022-01-24 17:08:26,125 [11   ] uthentication.JwtBearer.JwtBearerHandler - Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenInvalidSignatureException: IDX10503: Signature validation failed. Keys tried: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+Exceptions caught:
+ '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateSignature(String token, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+INFO  2022-01-24 17:08:26,128 [11   ] uthentication.JwtBearer.JwtBearerHandler - JwtBearer was not authenticated. Failure message: IDX10503: Signature validation failed. Keys tried: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+Exceptions caught:
+ '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+INFO  2022-01-24 17:08:26,131 [11   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'MyPractice.Accp.AccpAppService.SignalAsyncTest1 (MyPractice.Application)'
+INFO  2022-01-24 17:08:26,137 [11   ] c.Infrastructure.ControllerActionInvoker - Route matched with {area = "app", action = "SignalAsyncTest1", controller = "Accp"}. Executing controller action with signature System.Threading.Tasks.Task SignalAsyncTest1(System.String) on controller MyPractice.Accp.AccpAppService (MyPractice.Application).
+INFO  2022-01-24 17:08:26,162 [11   ] c.Infrastructure.ControllerActionInvoker - Executing action method MyPractice.Accp.AccpAppService.SignalAsyncTest1 (MyPractice.Application) - Validation state: Valid
+INFO  2022-01-24 17:08:26,164 [11   ] c.Infrastructure.ControllerActionInvoker - Executed action method MyPractice.Accp.AccpAppService.SignalAsyncTest1 (MyPractice.Application), returned result Microsoft.AspNetCore.Mvc.EmptyResult in 0.1283ms.
+INFO  2022-01-24 17:08:26,176 [12   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2022-01-24 17:08:26,179 [12   ] c.Infrastructure.ControllerActionInvoker - Executed action MyPractice.Accp.AccpAppService.SignalAsyncTest1 (MyPractice.Application) in 40.3154ms
+INFO  2022-01-24 17:08:26,182 [12   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'MyPractice.Accp.AccpAppService.SignalAsyncTest1 (MyPractice.Application)'
+INFO  2022-01-24 17:08:26,184 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 99.3699ms 200 application/json; charset=utf-8
+INFO  2022-01-24 17:08:26,350 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:21021/api/services/app/Accp/SignalAsyncTest1?input=111ffffffffffffffff  0
+INFO  2022-01-24 17:08:26,353 [4    ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution failed.
+INFO  2022-01-24 17:08:26,356 [4    ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2022-01-24 17:08:26,387 [4    ] uthentication.JwtBearer.JwtBearerHandler - Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenInvalidSignatureException: IDX10503: Signature validation failed. Keys tried: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+Exceptions caught:
+ '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateSignature(String token, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+INFO  2022-01-24 17:08:26,390 [4    ] uthentication.JwtBearer.JwtBearerHandler - JwtBearer was not authenticated. Failure message: IDX10503: Signature validation failed. Keys tried: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+Exceptions caught:
+ '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+INFO  2022-01-24 17:08:26,393 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'MyPractice.Accp.AccpAppService.SignalAsyncTest1 (MyPractice.Application)'
+INFO  2022-01-24 17:08:26,399 [4    ] c.Infrastructure.ControllerActionInvoker - Route matched with {area = "app", action = "SignalAsyncTest1", controller = "Accp"}. Executing controller action with signature System.Threading.Tasks.Task SignalAsyncTest1(System.String) on controller MyPractice.Accp.AccpAppService (MyPractice.Application).
+INFO  2022-01-24 17:08:26,422 [4    ] c.Infrastructure.ControllerActionInvoker - Executing action method MyPractice.Accp.AccpAppService.SignalAsyncTest1 (MyPractice.Application) - Validation state: Valid
+INFO  2022-01-24 17:08:26,424 [4    ] c.Infrastructure.ControllerActionInvoker - Executed action method MyPractice.Accp.AccpAppService.SignalAsyncTest1 (MyPractice.Application), returned result Microsoft.AspNetCore.Mvc.EmptyResult in 0.1091ms.
+INFO  2022-01-24 17:08:26,434 [12   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2022-01-24 17:08:26,438 [12   ] c.Infrastructure.ControllerActionInvoker - Executed action MyPractice.Accp.AccpAppService.SignalAsyncTest1 (MyPractice.Application) in 36.4568ms
+INFO  2022-01-24 17:08:26,440 [12   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'MyPractice.Accp.AccpAppService.SignalAsyncTest1 (MyPractice.Application)'
+INFO  2022-01-24 17:08:26,442 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 92.8731ms 200 application/json; charset=utf-8
+INFO  2022-01-24 17:08:58,973 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:21021/api/services/app/Accp/SignalAsyncTest1?input=111ffffffffffffffff  0
+INFO  2022-01-24 17:08:58,976 [12   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution failed.
+INFO  2022-01-24 17:08:58,978 [12   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2022-01-24 17:08:59,016 [12   ] uthentication.JwtBearer.JwtBearerHandler - Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenInvalidSignatureException: IDX10503: Signature validation failed. Keys tried: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+Exceptions caught:
+ '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateSignature(String token, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+INFO  2022-01-24 17:08:59,018 [12   ] uthentication.JwtBearer.JwtBearerHandler - JwtBearer was not authenticated. Failure message: IDX10503: Signature validation failed. Keys tried: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+Exceptions caught:
+ '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+INFO  2022-01-24 17:08:59,021 [12   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'MyPractice.Accp.AccpAppService.SignalAsyncTest1 (MyPractice.Application)'
+INFO  2022-01-24 17:08:59,026 [12   ] c.Infrastructure.ControllerActionInvoker - Route matched with {area = "app", action = "SignalAsyncTest1", controller = "Accp"}. Executing controller action with signature System.Threading.Tasks.Task SignalAsyncTest1(System.String) on controller MyPractice.Accp.AccpAppService (MyPractice.Application).
+INFO  2022-01-24 17:08:59,049 [12   ] c.Infrastructure.ControllerActionInvoker - Executing action method MyPractice.Accp.AccpAppService.SignalAsyncTest1 (MyPractice.Application) - Validation state: Valid
+INFO  2022-01-24 17:09:04,026 [12   ] c.Infrastructure.ControllerActionInvoker - Executed action method MyPractice.Accp.AccpAppService.SignalAsyncTest1 (MyPractice.Application), returned result Microsoft.AspNetCore.Mvc.EmptyResult in 4974.2752ms.
+INFO  2022-01-24 17:09:04,388 [12   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2022-01-24 17:09:04,449 [12   ] c.Infrastructure.ControllerActionInvoker - Executed action MyPractice.Accp.AccpAppService.SignalAsyncTest1 (MyPractice.Application) in 5418.7456ms
+INFO  2022-01-24 17:09:04,496 [12   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'MyPractice.Accp.AccpAppService.SignalAsyncTest1 (MyPractice.Application)'
+INFO  2022-01-24 17:09:04,635 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 5662.6759ms 200 application/json; charset=utf-8
+DEBUG 2022-04-23 22:31:37,295 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2022-04-23 22:31:37,356 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2022-04-23 22:31:37,367 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyPractice.Web.Host.Startup.MyPracticeWebHostModule, MyPractice.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-04-23 22:31:37,368 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyPractice.MyPracticeWebCoreModule, MyPractice.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-04-23 22:31:37,368 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyPractice.MyPracticeApplicationModule, MyPractice.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-04-23 22:31:37,368 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyPractice.MyPracticeCoreModule, MyPractice.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-04-23 22:31:37,369 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-04-23 22:31:37,369 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-04-23 22:31:37,369 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-04-23 22:31:37,369 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-04-23 22:31:37,369 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyPractice.EntityFrameworkCore.MyPracticeEntityFrameworkModule, MyPractice.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-04-23 22:31:37,369 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-04-23 22:31:37,370 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-04-23 22:31:37,370 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-04-23 22:31:37,370 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-04-23 22:31:37,370 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-04-23 22:31:37,371 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-04-23 22:31:37,373 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2022-04-23 22:31:37,444 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2022-04-23 22:31:37,444 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2022-04-23 22:31:37,444 [1    ] o.Configuration.LanguageManagementConfig - Converted MyPractice (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2022-04-23 22:31:37,444 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2022-04-23 22:31:37,762 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: MyPractice.EntityFrameworkCore.MyPracticeDbContext, MyPractice.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-04-23 22:31:38,554 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2022-04-23 22:31:38,617 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2022-04-23 22:31:38,660 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2022-04-23 22:31:38,678 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: MyPractice
+DEBUG 2022-04-23 22:31:38,742 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2022-04-23 22:31:38,934 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2022-04-23 22:31:39,062 [1    ] , Culture=neutral, PublicKeyToken=null]] - Start background worker: Abp.Authorization.Users.UserTokenExpirationWorker`2[[MyPractice.MultiTenancy.Tenant, MyPractice.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[MyPractice.Authorization.Users.User, MyPractice.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+DEBUG 2022-04-23 22:31:39,111 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 12 classes define auto mapping attributes
+DEBUG 2022-04-23 22:31:39,111 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyPractice.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2022-04-23 22:31:39,117 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyPractice.Users.Dto.CreateUserDto
+DEBUG 2022-04-23 22:31:39,117 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyPractice.Users.Dto.UserDto
+DEBUG 2022-04-23 22:31:39,118 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyPractice.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2022-04-23 22:31:39,118 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyPractice.Sessions.Dto.UserLoginInfoDto
+DEBUG 2022-04-23 22:31:39,118 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyPractice.Roles.Dto.PermissionDto
+DEBUG 2022-04-23 22:31:39,118 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyPractice.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2022-04-23 22:31:39,118 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyPractice.MultiTenancy.Dto.TenantDto
+DEBUG 2022-04-23 22:31:39,118 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyPractice.Authorization.Permissions.Dto.FlatPermissionDto
+DEBUG 2022-04-23 22:31:39,118 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyPractice.Authorization.Permissions.Dto.FlatPermissionTreeDto
+DEBUG 2022-04-23 22:31:39,118 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyPractice.Authorization.Permissions.Dto.FlatPermissionTreeOutPut
+DEBUG 2022-04-23 22:31:39,118 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyPractice.Authorization.Permissions.Dto.FlatPermissionWithLevelDto
+INFO  2022-04-23 22:31:41,382 [1    ] tCore.Builder.RequestLocalizationOptions - Supported Request Localization Cultures: en,es-MX,fr,de,it,nl,pt-BR,tr,ru,ar,zh-Hans,ja
+INFO  2022-04-23 22:31:41,644 [1    ] fire.SqlServer.SqlServerObjectsInstaller - Start installing Hangfire SQL objects...
+INFO  2022-04-23 22:31:41,874 [1    ] fire.SqlServer.SqlServerObjectsInstaller - Hangfire SQL objects installed.
+INFO  2022-04-23 22:31:41,915 [1    ] Hangfire.BackgroundJobServer             - Starting Hangfire Server using job storage: 'SQL Server: .@MyPracticeDb'
+INFO  2022-04-23 22:31:41,918 [1    ] Hangfire.BackgroundJobServer             - Using the following options for SQL Server job storage: Queue poll interval: 00:00:15.
+INFO  2022-04-23 22:31:41,920 [1    ] Hangfire.BackgroundJobServer             - Using the following options for Hangfire Server:
+    Worker count: 40
+    Listening queues: 'default', 'apis', 'recurring'
+    Shutdown timeout: 00:30:00
+    Schedule polling interval: 00:00:15
+INFO  2022-04-23 22:31:42,041 [1    ] taProtection.KeyManagement.XmlKeyManager - User profile is available. Using 'C:\Users\WenQiang\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+INFO  2022-04-23 22:31:42,127 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/  
+INFO  2022-04-23 22:31:42,187 [ss #1] Hangfire.Server.BackgroundServerProcess  - Server laptop-15vlhp6s:45776:92070578 successfully announced in 236.5242 ms
+INFO  2022-04-23 22:31:42,200 [ss #1] Hangfire.Server.BackgroundServerProcess  - Server laptop-15vlhp6s:45776:92070578 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, Worker, DelayedJobScheduler, RecurringJobScheduler...
+INFO  2022-04-23 22:31:42,309 [og #1] Hangfire.Server.ServerWatchdog           - 1 servers were removed due to timeout
+INFO  2022-04-23 22:31:42,794 [ss #1] Hangfire.Server.BackgroundServerProcess  - Server laptop-15vlhp6s:45776:92070578 all the dispatchers started
+INFO  2022-04-23 22:31:43,241 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'MyPractice.Web.Host.Controllers.HomeController.Index (MyPractice.Web.Host)'
+INFO  2022-04-23 22:31:47,236 [4    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller MyPractice.Web.Host.Controllers.HomeController (MyPractice.Web.Host).
+INFO  2022-04-23 22:31:48,413 [4    ] c.Infrastructure.ControllerActionInvoker - Executing action method MyPractice.Web.Host.Controllers.HomeController.Index (MyPractice.Web.Host) - Validation state: Valid
+INFO  2022-04-23 22:31:48,419 [4    ] c.Infrastructure.ControllerActionInvoker - Executed action method MyPractice.Web.Host.Controllers.HomeController.Index (MyPractice.Web.Host), returned result Microsoft.AspNetCore.Mvc.RedirectResult in 0.3909ms.
+INFO  2022-04-23 22:31:48,580 [15   ] vc.Infrastructure.RedirectResultExecutor - Executing RedirectResult, redirecting to /swagger.
+INFO  2022-04-23 22:31:48,587 [15   ] c.Infrastructure.ControllerActionInvoker - Executed action MyPractice.Web.Host.Controllers.HomeController.Index (MyPractice.Web.Host) in 1345.53ms
+INFO  2022-04-23 22:31:48,590 [15   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'MyPractice.Web.Host.Controllers.HomeController.Index (MyPractice.Web.Host)'
+INFO  2022-04-23 22:31:48,612 [19   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/index.html  
+INFO  2022-04-23 22:31:48,615 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 6486.3559ms 302 
+INFO  2022-04-23 22:31:48,673 [19   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 60.027ms 200 text/html;charset=utf-8
+INFO  2022-04-23 22:32:10,296 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/AntiForgery/SetCookie  
+INFO  2022-04-23 22:32:10,318 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/v1/swagger.json  
+INFO  2022-04-23 22:32:10,412 [9    ] uthentication.JwtBearer.JwtBearerHandler - Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenInvalidSignatureException: IDX10503: Signature validation failed. Keys tried: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+Exceptions caught:
+ '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateSignature(String token, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+INFO  2022-04-23 22:32:10,412 [11   ] uthentication.JwtBearer.JwtBearerHandler - Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenInvalidSignatureException: IDX10503: Signature validation failed. Keys tried: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+Exceptions caught:
+ '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateSignature(String token, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+INFO  2022-04-23 22:32:10,419 [11   ] uthentication.JwtBearer.JwtBearerHandler - JwtBearer was not authenticated. Failure message: IDX10503: Signature validation failed. Keys tried: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+Exceptions caught:
+ '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+INFO  2022-04-23 22:32:10,419 [9    ] uthentication.JwtBearer.JwtBearerHandler - JwtBearer was not authenticated. Failure message: IDX10503: Signature validation failed. Keys tried: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+Exceptions caught:
+ '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+INFO  2022-04-23 22:32:10,425 [11   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'MyPractice.Web.Host.Controllers.AntiForgeryController.SetCookie (MyPractice.Web.Host)'
+INFO  2022-04-23 22:32:10,433 [11   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "SetCookie", controller = "AntiForgery", area = ""}. Executing controller action with signature Void SetCookie() on controller MyPractice.Web.Host.Controllers.AntiForgeryController (MyPractice.Web.Host).
+INFO  2022-04-23 22:32:10,456 [11   ] c.Infrastructure.ControllerActionInvoker - Executing action method MyPractice.Web.Host.Controllers.AntiForgeryController.SetCookie (MyPractice.Web.Host) - Validation state: Valid
+INFO  2022-04-23 22:32:10,468 [11   ] c.Infrastructure.ControllerActionInvoker - Executed action method MyPractice.Web.Host.Controllers.AntiForgeryController.SetCookie (MyPractice.Web.Host), returned result Microsoft.AspNetCore.Mvc.EmptyResult in 8.6941ms.
+INFO  2022-04-23 22:32:10,485 [5    ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2022-04-23 22:32:10,509 [5    ] c.Infrastructure.ControllerActionInvoker - Executed action MyPractice.Web.Host.Controllers.AntiForgeryController.SetCookie (MyPractice.Web.Host) in 74.0043ms
+INFO  2022-04-23 22:32:10,511 [5    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'MyPractice.Web.Host.Controllers.AntiForgeryController.SetCookie (MyPractice.Web.Host)'
+INFO  2022-04-23 22:32:10,515 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 218.197ms 200 application/json; charset=utf-8
+INFO  2022-04-23 22:32:10,686 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 368.0223ms 200 application/json;charset=utf-8
+INFO  2022-04-23 22:33:14,192 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/api/QRCode/MakeQrCode?str=%E6%92%92%E5%A4%A7%E5%A3%B0%E5%9C%B0  
+INFO  2022-04-23 22:33:14,197 [4    ] uthentication.JwtBearer.JwtBearerHandler - Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenInvalidSignatureException: IDX10503: Signature validation failed. Keys tried: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+Exceptions caught:
+ '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateSignature(String token, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+INFO  2022-04-23 22:33:14,201 [4    ] uthentication.JwtBearer.JwtBearerHandler - JwtBearer was not authenticated. Failure message: IDX10503: Signature validation failed. Keys tried: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+Exceptions caught:
+ '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+INFO  2022-04-23 22:33:14,206 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'MyPractice.Controllers.QRCodeController.MakeQrCode (MyPractice.Web.Core)'
+INFO  2022-04-23 22:33:14,220 [4    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "MakeQrCode", controller = "QRCode", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult MakeQrCode(System.String) on controller MyPractice.Controllers.QRCodeController (MyPractice.Web.Core).
+INFO  2022-04-23 22:33:14,267 [4    ] c.Infrastructure.ControllerActionInvoker - Executing action method MyPractice.Controllers.QRCodeController.MakeQrCode (MyPractice.Web.Core) - Validation state: Valid
+INFO  2022-04-23 22:33:14,387 [4    ] c.Infrastructure.ControllerActionInvoker - Executed action method MyPractice.Controllers.QRCodeController.MakeQrCode (MyPractice.Web.Core), returned result Microsoft.AspNetCore.Mvc.FileContentResult in 117.5766ms.
+INFO  2022-04-23 22:33:14,400 [5    ] Infrastructure.FileContentResultExecutor - Executing Microsoft.AspNetCore.Mvc.FileContentResult, sending file with download name '' ...
+INFO  2022-04-23 22:33:14,409 [5    ] c.Infrastructure.ControllerActionInvoker - Executed action MyPractice.Controllers.QRCodeController.MakeQrCode (MyPractice.Web.Core) in 185.2905ms
+INFO  2022-04-23 22:33:14,412 [5    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'MyPractice.Controllers.QRCodeController.MakeQrCode (MyPractice.Web.Core)'
+INFO  2022-04-23 22:33:14,416 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 224.2132ms 200 image/Png
+INFO  2022-04-23 22:33:26,262 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/api/TESTQRCode/MakeQrCode?str=%E8%AE%A2%E5%8D%95  
+INFO  2022-04-23 22:33:26,266 [14   ] uthentication.JwtBearer.JwtBearerHandler - Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenInvalidSignatureException: IDX10503: Signature validation failed. Keys tried: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+Exceptions caught:
+ '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateSignature(String token, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+INFO  2022-04-23 22:33:26,270 [14   ] uthentication.JwtBearer.JwtBearerHandler - JwtBearer was not authenticated. Failure message: IDX10503: Signature validation failed. Keys tried: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+Exceptions caught:
+ '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+INFO  2022-04-23 22:33:26,274 [14   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'MyPractice.TEST.TESTQRCode.MakeQrCode (MyPractice.Web.Core)'
+INFO  2022-04-23 22:33:26,282 [14   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "MakeQrCode", controller = "TESTQRCode", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult MakeQrCode(System.String) on controller MyPractice.TEST.TESTQRCode (MyPractice.Web.Core).
+INFO  2022-04-23 22:33:26,305 [14   ] c.Infrastructure.ControllerActionInvoker - Executing action method MyPractice.TEST.TESTQRCode.MakeQrCode (MyPractice.Web.Core) - Validation state: Valid
+INFO  2022-04-23 22:33:26,311 [14   ] c.Infrastructure.ControllerActionInvoker - Executed action method MyPractice.TEST.TESTQRCode.MakeQrCode (MyPractice.Web.Core), returned result Microsoft.AspNetCore.Mvc.FileContentResult in 3.5546ms.
+INFO  2022-04-23 22:33:26,322 [4    ] Infrastructure.FileContentResultExecutor - Executing Microsoft.AspNetCore.Mvc.FileContentResult, sending file with download name '' ...
+INFO  2022-04-23 22:33:26,326 [4    ] c.Infrastructure.ControllerActionInvoker - Executed action MyPractice.TEST.TESTQRCode.MakeQrCode (MyPractice.Web.Core) in 41.0865ms
+INFO  2022-04-23 22:33:26,329 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'MyPractice.TEST.TESTQRCode.MakeQrCode (MyPractice.Web.Core)'
+INFO  2022-04-23 22:33:26,332 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 70.478ms 200 image/Png
+INFO  2022-04-23 22:33:30,896 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/index.html  
+INFO  2022-04-23 22:33:30,902 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 6.023ms 200 text/html;charset=utf-8
+INFO  2022-04-23 22:33:52,430 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/AntiForgery/SetCookie  
+INFO  2022-04-23 22:33:52,434 [14   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'MyPractice.Web.Host.Controllers.AntiForgeryController.SetCookie (MyPractice.Web.Host)'
+INFO  2022-04-23 22:33:52,441 [14   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "SetCookie", controller = "AntiForgery", area = ""}. Executing controller action with signature Void SetCookie() on controller MyPractice.Web.Host.Controllers.AntiForgeryController (MyPractice.Web.Host).
+INFO  2022-04-23 22:33:52,465 [14   ] c.Infrastructure.ControllerActionInvoker - Executing action method MyPractice.Web.Host.Controllers.AntiForgeryController.SetCookie (MyPractice.Web.Host) - Validation state: Valid
+INFO  2022-04-23 22:33:52,468 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/v1/swagger.json  
+INFO  2022-04-23 22:33:52,472 [14   ] c.Infrastructure.ControllerActionInvoker - Executed action method MyPractice.Web.Host.Controllers.AntiForgeryController.SetCookie (MyPractice.Web.Host), returned result Microsoft.AspNetCore.Mvc.EmptyResult in 3.7789ms.
+INFO  2022-04-23 22:33:52,483 [5    ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2022-04-23 22:33:52,487 [5    ] c.Infrastructure.ControllerActionInvoker - Executed action MyPractice.Web.Host.Controllers.AntiForgeryController.SetCookie (MyPractice.Web.Host) in 43.4034ms
+INFO  2022-04-23 22:33:52,490 [5    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'MyPractice.Web.Host.Controllers.AntiForgeryController.SetCookie (MyPractice.Web.Host)'
+INFO  2022-04-23 22:33:52,492 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 62.1156ms 200 application/json; charset=utf-8
+INFO  2022-04-23 22:33:52,531 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 62.9433ms 200 application/json;charset=utf-8
+INFO  2022-04-23 22:34:07,381 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:21021/api/TokenAuth/Authenticate application/json 55
+INFO  2022-04-23 22:34:07,386 [5    ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution failed.
+INFO  2022-04-23 22:34:07,389 [5    ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2022-04-23 22:34:07,393 [5    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'MyPractice.Controllers.TokenAuthController.Authenticate (MyPractice.Web.Core)'
+INFO  2022-04-23 22:34:07,403 [5    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Authenticate", controller = "TokenAuth", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[MyPractice.Models.TokenAuth.AuthenticateResultModel] Authenticate(MyPractice.Models.TokenAuth.AuthenticateModel) on controller MyPractice.Controllers.TokenAuthController (MyPractice.Web.Core).
+ERROR 2022-04-23 22:34:07,407 [5    ] idateAntiforgeryTokenAuthorizationFilter - The required antiforgery header value "X-XSRF-TOKEN" is not present.
+Microsoft.AspNetCore.Antiforgery.AntiforgeryValidationException: The required antiforgery header value "X-XSRF-TOKEN" is not present.
+   at Microsoft.AspNetCore.Antiforgery.DefaultAntiforgery.ValidateRequestAsync(HttpContext httpContext)
+   at Abp.AspNetCore.Mvc.Antiforgery.AbpValidateAntiforgeryTokenAuthorizationFilter.OnAuthorizationAsync(AuthorizationFilterContext context)
+INFO  2022-04-23 22:34:07,411 [5    ] c.Infrastructure.ControllerActionInvoker - Authorization failed for the request at filter 'Abp.AspNetCore.Mvc.Antiforgery.AbpAutoValidateAntiforgeryTokenAuthorizationFilter'.
+INFO  2022-04-23 22:34:07,416 [5    ] icrosoft.AspNetCore.Mvc.StatusCodeResult - Executing HttpStatusCodeResult, setting HTTP status code 400
+INFO  2022-04-23 22:34:07,418 [5    ] c.Infrastructure.ControllerActionInvoker - Executed action MyPractice.Controllers.TokenAuthController.Authenticate (MyPractice.Web.Core) in 13.6522ms
+INFO  2022-04-23 22:34:07,421 [5    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'MyPractice.Controllers.TokenAuthController.Authenticate (MyPractice.Web.Core)'
+INFO  2022-04-23 22:34:07,424 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 43.4051ms 400 
+INFO  2022-04-23 22:34:11,785 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:21021/api/TokenAuth/Authenticate application/json 55
+INFO  2022-04-23 22:34:11,788 [12   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution failed.
+INFO  2022-04-23 22:34:11,791 [12   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2022-04-23 22:34:11,796 [12   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'MyPractice.Controllers.TokenAuthController.Authenticate (MyPractice.Web.Core)'
+INFO  2022-04-23 22:34:11,801 [12   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Authenticate", controller = "TokenAuth", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[MyPractice.Models.TokenAuth.AuthenticateResultModel] Authenticate(MyPractice.Models.TokenAuth.AuthenticateModel) on controller MyPractice.Controllers.TokenAuthController (MyPractice.Web.Core).
+ERROR 2022-04-23 22:34:11,802 [12   ] idateAntiforgeryTokenAuthorizationFilter - The required antiforgery header value "X-XSRF-TOKEN" is not present.
+Microsoft.AspNetCore.Antiforgery.AntiforgeryValidationException: The required antiforgery header value "X-XSRF-TOKEN" is not present.
+   at Microsoft.AspNetCore.Antiforgery.DefaultAntiforgery.ValidateRequestAsync(HttpContext httpContext)
+   at Abp.AspNetCore.Mvc.Antiforgery.AbpValidateAntiforgeryTokenAuthorizationFilter.OnAuthorizationAsync(AuthorizationFilterContext context)
+INFO  2022-04-23 22:34:11,805 [12   ] c.Infrastructure.ControllerActionInvoker - Authorization failed for the request at filter 'Abp.AspNetCore.Mvc.Antiforgery.AbpAutoValidateAntiforgeryTokenAuthorizationFilter'.
+INFO  2022-04-23 22:34:11,807 [12   ] icrosoft.AspNetCore.Mvc.StatusCodeResult - Executing HttpStatusCodeResult, setting HTTP status code 400
+INFO  2022-04-23 22:34:11,810 [12   ] c.Infrastructure.ControllerActionInvoker - Executed action MyPractice.Controllers.TokenAuthController.Authenticate (MyPractice.Web.Core) in 5.9312ms
+INFO  2022-04-23 22:34:11,812 [12   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'MyPractice.Controllers.TokenAuthController.Authenticate (MyPractice.Web.Core)'
+INFO  2022-04-23 22:34:11,815 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 30.8403ms 400 
+INFO  2022-04-23 22:34:16,068 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:21021/api/TokenAuth/Authenticate application/json 55
+INFO  2022-04-23 22:34:16,071 [5    ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution failed.
+INFO  2022-04-23 22:34:16,074 [5    ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2022-04-23 22:34:16,079 [5    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'MyPractice.Controllers.TokenAuthController.Authenticate (MyPractice.Web.Core)'
+INFO  2022-04-23 22:34:16,086 [5    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Authenticate", controller = "TokenAuth", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[MyPractice.Models.TokenAuth.AuthenticateResultModel] Authenticate(MyPractice.Models.TokenAuth.AuthenticateModel) on controller MyPractice.Controllers.TokenAuthController (MyPractice.Web.Core).
+ERROR 2022-04-23 22:34:16,087 [5    ] idateAntiforgeryTokenAuthorizationFilter - The required antiforgery header value "X-XSRF-TOKEN" is not present.
+Microsoft.AspNetCore.Antiforgery.AntiforgeryValidationException: The required antiforgery header value "X-XSRF-TOKEN" is not present.
+   at Microsoft.AspNetCore.Antiforgery.DefaultAntiforgery.ValidateRequestAsync(HttpContext httpContext)
+   at Abp.AspNetCore.Mvc.Antiforgery.AbpValidateAntiforgeryTokenAuthorizationFilter.OnAuthorizationAsync(AuthorizationFilterContext context)
+INFO  2022-04-23 22:34:16,091 [5    ] c.Infrastructure.ControllerActionInvoker - Authorization failed for the request at filter 'Abp.AspNetCore.Mvc.Antiforgery.AbpAutoValidateAntiforgeryTokenAuthorizationFilter'.
+INFO  2022-04-23 22:34:16,094 [5    ] icrosoft.AspNetCore.Mvc.StatusCodeResult - Executing HttpStatusCodeResult, setting HTTP status code 400
+INFO  2022-04-23 22:34:16,096 [5    ] c.Infrastructure.ControllerActionInvoker - Executed action MyPractice.Controllers.TokenAuthController.Authenticate (MyPractice.Web.Core) in 7.2648ms
+INFO  2022-04-23 22:34:16,099 [5    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'MyPractice.Controllers.TokenAuthController.Authenticate (MyPractice.Web.Core)'
+INFO  2022-04-23 22:34:16,103 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 34.7271ms 400 
+INFO  2022-04-23 22:34:22,116 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:21021/api/TokenAuth/Authenticate application/json 50
+INFO  2022-04-23 22:34:22,118 [12   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution failed.
+INFO  2022-04-23 22:34:22,120 [12   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2022-04-23 22:34:22,124 [12   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'MyPractice.Controllers.TokenAuthController.Authenticate (MyPractice.Web.Core)'
+INFO  2022-04-23 22:34:22,129 [12   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Authenticate", controller = "TokenAuth", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[MyPractice.Models.TokenAuth.AuthenticateResultModel] Authenticate(MyPractice.Models.TokenAuth.AuthenticateModel) on controller MyPractice.Controllers.TokenAuthController (MyPractice.Web.Core).
+ERROR 2022-04-23 22:34:22,130 [12   ] idateAntiforgeryTokenAuthorizationFilter - The required antiforgery header value "X-XSRF-TOKEN" is not present.
+Microsoft.AspNetCore.Antiforgery.AntiforgeryValidationException: The required antiforgery header value "X-XSRF-TOKEN" is not present.
+   at Microsoft.AspNetCore.Antiforgery.DefaultAntiforgery.ValidateRequestAsync(HttpContext httpContext)
+   at Abp.AspNetCore.Mvc.Antiforgery.AbpValidateAntiforgeryTokenAuthorizationFilter.OnAuthorizationAsync(AuthorizationFilterContext context)
+INFO  2022-04-23 22:34:22,133 [12   ] c.Infrastructure.ControllerActionInvoker - Authorization failed for the request at filter 'Abp.AspNetCore.Mvc.Antiforgery.AbpAutoValidateAntiforgeryTokenAuthorizationFilter'.
+INFO  2022-04-23 22:34:22,135 [12   ] icrosoft.AspNetCore.Mvc.StatusCodeResult - Executing HttpStatusCodeResult, setting HTTP status code 400
+INFO  2022-04-23 22:34:22,137 [12   ] c.Infrastructure.ControllerActionInvoker - Executed action MyPractice.Controllers.TokenAuthController.Authenticate (MyPractice.Web.Core) in 5.3151ms
+INFO  2022-04-23 22:34:22,140 [12   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'MyPractice.Controllers.TokenAuthController.Authenticate (MyPractice.Web.Core)'
+INFO  2022-04-23 22:34:22,143 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 27.4369ms 400 
+INFO  2022-04-23 22:34:27,006 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:21021/api/TokenAuth/Authenticate application/json 50
+INFO  2022-04-23 22:34:27,008 [4    ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution failed.
+INFO  2022-04-23 22:34:27,010 [4    ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2022-04-23 22:34:27,014 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'MyPractice.Controllers.TokenAuthController.Authenticate (MyPractice.Web.Core)'
+INFO  2022-04-23 22:34:27,019 [4    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Authenticate", controller = "TokenAuth", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[MyPractice.Models.TokenAuth.AuthenticateResultModel] Authenticate(MyPractice.Models.TokenAuth.AuthenticateModel) on controller MyPractice.Controllers.TokenAuthController (MyPractice.Web.Core).
+ERROR 2022-04-23 22:34:27,020 [4    ] idateAntiforgeryTokenAuthorizationFilter - The required antiforgery header value "X-XSRF-TOKEN" is not present.
+Microsoft.AspNetCore.Antiforgery.AntiforgeryValidationException: The required antiforgery header value "X-XSRF-TOKEN" is not present.
+   at Microsoft.AspNetCore.Antiforgery.DefaultAntiforgery.ValidateRequestAsync(HttpContext httpContext)
+   at Abp.AspNetCore.Mvc.Antiforgery.AbpValidateAntiforgeryTokenAuthorizationFilter.OnAuthorizationAsync(AuthorizationFilterContext context)
+INFO  2022-04-23 22:34:27,023 [4    ] c.Infrastructure.ControllerActionInvoker - Authorization failed for the request at filter 'Abp.AspNetCore.Mvc.Antiforgery.AbpAutoValidateAntiforgeryTokenAuthorizationFilter'.
+INFO  2022-04-23 22:34:27,025 [4    ] icrosoft.AspNetCore.Mvc.StatusCodeResult - Executing HttpStatusCodeResult, setting HTTP status code 400
+INFO  2022-04-23 22:34:27,028 [4    ] c.Infrastructure.ControllerActionInvoker - Executed action MyPractice.Controllers.TokenAuthController.Authenticate (MyPractice.Web.Core) in 5.3061ms
+INFO  2022-04-23 22:34:27,030 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'MyPractice.Controllers.TokenAuthController.Authenticate (MyPractice.Web.Core)'
+INFO  2022-04-23 22:34:27,033 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 27.1813ms 400 
+INFO  2022-04-23 22:34:31,658 [21   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:21021/api/TokenAuth/Authenticate application/json 50
+INFO  2022-04-23 22:34:31,661 [21   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution failed.
+INFO  2022-04-23 22:34:31,663 [21   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2022-04-23 22:34:31,666 [21   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'MyPractice.Controllers.TokenAuthController.Authenticate (MyPractice.Web.Core)'
+INFO  2022-04-23 22:34:31,672 [21   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Authenticate", controller = "TokenAuth", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[MyPractice.Models.TokenAuth.AuthenticateResultModel] Authenticate(MyPractice.Models.TokenAuth.AuthenticateModel) on controller MyPractice.Controllers.TokenAuthController (MyPractice.Web.Core).
+ERROR 2022-04-23 22:34:31,673 [21   ] idateAntiforgeryTokenAuthorizationFilter - The required antiforgery header value "X-XSRF-TOKEN" is not present.
+Microsoft.AspNetCore.Antiforgery.AntiforgeryValidationException: The required antiforgery header value "X-XSRF-TOKEN" is not present.
+   at Microsoft.AspNetCore.Antiforgery.DefaultAntiforgery.ValidateRequestAsync(HttpContext httpContext)
+   at Abp.AspNetCore.Mvc.Antiforgery.AbpValidateAntiforgeryTokenAuthorizationFilter.OnAuthorizationAsync(AuthorizationFilterContext context)
+INFO  2022-04-23 22:34:31,675 [21   ] c.Infrastructure.ControllerActionInvoker - Authorization failed for the request at filter 'Abp.AspNetCore.Mvc.Antiforgery.AbpAutoValidateAntiforgeryTokenAuthorizationFilter'.
+INFO  2022-04-23 22:34:31,677 [21   ] icrosoft.AspNetCore.Mvc.StatusCodeResult - Executing HttpStatusCodeResult, setting HTTP status code 400
+INFO  2022-04-23 22:34:31,680 [21   ] c.Infrastructure.ControllerActionInvoker - Executed action MyPractice.Controllers.TokenAuthController.Authenticate (MyPractice.Web.Core) in 5.3473ms
+INFO  2022-04-23 22:34:31,682 [21   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'MyPractice.Controllers.TokenAuthController.Authenticate (MyPractice.Web.Core)'
+INFO  2022-04-23 22:34:31,685 [21   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 26.5259ms 400 
+INFO  2022-04-23 22:35:13,311 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/index.html  
+INFO  2022-04-23 22:35:13,316 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 4.855ms 200 text/html;charset=utf-8
+INFO  2022-04-23 22:35:13,415 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui.css  
+INFO  2022-04-23 22:35:13,430 [9    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+INFO  2022-04-23 22:35:13,434 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 19.5789ms 200 text/css
+INFO  2022-04-23 22:35:13,437 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-bundle.js  
+INFO  2022-04-23 22:35:13,446 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/ui/abp.js  
+INFO  2022-04-23 22:35:13,448 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-standalone-preset.js  
+INFO  2022-04-23 22:35:13,451 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/ui/abp.swagger.js  
+INFO  2022-04-23 22:35:13,478 [9    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger/ui/abp.js'. Physical path: 'E:\ABP.NET\5.8.1\aspnet-core\src\MyPractice.Web.Host\wwwroot\swagger\ui\abp.js'
+INFO  2022-04-23 22:35:13,481 [14   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger/ui/abp.swagger.js'. Physical path: 'E:\ABP.NET\5.8.1\aspnet-core\src\MyPractice.Web.Host\wwwroot\swagger\ui\abp.swagger.js'
+INFO  2022-04-23 22:35:13,483 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 37.0302ms 200 application/javascript
+INFO  2022-04-23 22:35:13,493 [4    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+INFO  2022-04-23 22:35:13,496 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 39.3726ms 200 application/javascript
+INFO  2022-04-23 22:35:13,499 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 53.216ms 200 application/javascript
+INFO  2022-04-23 22:35:13,504 [11   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+INFO  2022-04-23 22:35:13,507 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 69.858ms 200 application/javascript
+INFO  2022-04-23 22:35:34,586 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/AntiForgery/SetCookie  
+INFO  2022-04-23 22:35:34,590 [14   ] uthentication.JwtBearer.JwtBearerHandler - Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenInvalidSignatureException: IDX10503: Signature validation failed. Keys tried: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+Exceptions caught:
+ '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateSignature(String token, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+INFO  2022-04-23 22:35:34,593 [14   ] uthentication.JwtBearer.JwtBearerHandler - JwtBearer was not authenticated. Failure message: IDX10503: Signature validation failed. Keys tried: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+Exceptions caught:
+ '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+INFO  2022-04-23 22:35:34,597 [14   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'MyPractice.Web.Host.Controllers.AntiForgeryController.SetCookie (MyPractice.Web.Host)'
+INFO  2022-04-23 22:35:34,604 [14   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "SetCookie", controller = "AntiForgery", area = ""}. Executing controller action with signature Void SetCookie() on controller MyPractice.Web.Host.Controllers.AntiForgeryController (MyPractice.Web.Host).
+INFO  2022-04-23 22:35:34,606 [21   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/v1/swagger.json  
+INFO  2022-04-23 22:35:34,611 [21   ] uthentication.JwtBearer.JwtBearerHandler - Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenInvalidSignatureException: IDX10503: Signature validation failed. Keys tried: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+Exceptions caught:
+ '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateSignature(String token, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+INFO  2022-04-23 22:35:34,633 [21   ] uthentication.JwtBearer.JwtBearerHandler - JwtBearer was not authenticated. Failure message: IDX10503: Signature validation failed. Keys tried: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+Exceptions caught:
+ '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+INFO  2022-04-23 22:35:34,636 [14   ] c.Infrastructure.ControllerActionInvoker - Executing action method MyPractice.Web.Host.Controllers.AntiForgeryController.SetCookie (MyPractice.Web.Host) - Validation state: Valid
+INFO  2022-04-23 22:35:34,640 [14   ] c.Infrastructure.ControllerActionInvoker - Executed action method MyPractice.Web.Host.Controllers.AntiForgeryController.SetCookie (MyPractice.Web.Host), returned result Microsoft.AspNetCore.Mvc.EmptyResult in 0.9806ms.
+INFO  2022-04-23 22:35:34,655 [4    ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2022-04-23 22:35:34,658 [4    ] c.Infrastructure.ControllerActionInvoker - Executed action MyPractice.Web.Host.Controllers.AntiForgeryController.SetCookie (MyPractice.Web.Host) in 51.959ms
+INFO  2022-04-23 22:35:34,661 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'MyPractice.Web.Host.Controllers.AntiForgeryController.SetCookie (MyPractice.Web.Host)'
+INFO  2022-04-23 22:35:34,664 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 77.6992ms 200 application/json; charset=utf-8
+INFO  2022-04-23 22:35:34,672 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/favicon-32x32.png  
+INFO  2022-04-23 22:35:34,677 [14   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+INFO  2022-04-23 22:35:34,679 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 7.2615ms 200 image/png
+INFO  2022-04-23 22:35:34,714 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 107.5716ms 200 application/json;charset=utf-8
+INFO  2022-04-23 22:35:49,379 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/index.html  
+INFO  2022-04-23 22:35:49,386 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 6.5518ms 200 text/html;charset=utf-8
+INFO  2022-04-23 22:36:10,662 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/AntiForgery/SetCookie  
+INFO  2022-04-23 22:36:10,665 [9    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'MyPractice.Web.Host.Controllers.AntiForgeryController.SetCookie (MyPractice.Web.Host)'
+INFO  2022-04-23 22:36:10,671 [9    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "SetCookie", controller = "AntiForgery", area = ""}. Executing controller action with signature Void SetCookie() on controller MyPractice.Web.Host.Controllers.AntiForgeryController (MyPractice.Web.Host).
+INFO  2022-04-23 22:36:10,699 [9    ] c.Infrastructure.ControllerActionInvoker - Executing action method MyPractice.Web.Host.Controllers.AntiForgeryController.SetCookie (MyPractice.Web.Host) - Validation state: Valid
+INFO  2022-04-23 22:36:10,702 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/v1/swagger.json  
+INFO  2022-04-23 22:36:10,705 [9    ] c.Infrastructure.ControllerActionInvoker - Executed action method MyPractice.Web.Host.Controllers.AntiForgeryController.SetCookie (MyPractice.Web.Host), returned result Microsoft.AspNetCore.Mvc.EmptyResult in 3.5841ms.
+INFO  2022-04-23 22:36:10,721 [21   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2022-04-23 22:36:10,725 [21   ] c.Infrastructure.ControllerActionInvoker - Executed action MyPractice.Web.Host.Controllers.AntiForgeryController.SetCookie (MyPractice.Web.Host) in 51.0118ms
+INFO  2022-04-23 22:36:10,728 [21   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'MyPractice.Web.Host.Controllers.AntiForgeryController.SetCookie (MyPractice.Web.Host)'
+INFO  2022-04-23 22:36:10,732 [21   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 69.6323ms 200 application/json; charset=utf-8
+INFO  2022-04-23 22:36:10,771 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 69.2566ms 200 application/json;charset=utf-8
+INFO  2022-04-23 22:36:16,802 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:21021/api/TokenAuth/Authenticate application/json 54
+INFO  2022-04-23 22:36:16,805 [5    ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution failed.
+INFO  2022-04-23 22:36:16,806 [5    ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2022-04-23 22:36:16,809 [5    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'MyPractice.Controllers.TokenAuthController.Authenticate (MyPractice.Web.Core)'
+INFO  2022-04-23 22:36:16,815 [5    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Authenticate", controller = "TokenAuth", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[MyPractice.Models.TokenAuth.AuthenticateResultModel] Authenticate(MyPractice.Models.TokenAuth.AuthenticateModel) on controller MyPractice.Controllers.TokenAuthController (MyPractice.Web.Core).
+INFO  2022-04-23 22:36:17,630 [5    ] c.Infrastructure.ControllerActionInvoker - Executing action method MyPractice.Controllers.TokenAuthController.Authenticate (MyPractice.Web.Core) - Validation state: Valid
+INFO  2022-04-23 22:36:17,943 [4    ] c.Infrastructure.ControllerActionInvoker - Executed action method MyPractice.Controllers.TokenAuthController.Authenticate (MyPractice.Web.Core), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 310.0576ms.
+INFO  2022-04-23 22:36:17,953 [12   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2022-04-23 22:36:17,958 [12   ] c.Infrastructure.ControllerActionInvoker - Executed action MyPractice.Controllers.TokenAuthController.Authenticate (MyPractice.Web.Core) in 1140.6122ms
+INFO  2022-04-23 22:36:17,961 [12   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'MyPractice.Controllers.TokenAuthController.Authenticate (MyPractice.Web.Core)'
+INFO  2022-04-23 22:36:17,963 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 1161.2316ms 200 application/json; charset=utf-8
+INFO  2022-04-23 22:36:17,971 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/index.html  
+INFO  2022-04-23 22:36:17,975 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 4.4678ms 200 text/html;charset=utf-8
+INFO  2022-04-23 22:36:39,142 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/AntiForgery/SetCookie  
+INFO  2022-04-23 22:36:39,156 [11   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2022-04-23 22:36:39,167 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/v1/swagger.json  
+INFO  2022-04-23 22:36:39,171 [4    ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2022-04-23 22:36:39,209 [5    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'MyPractice.Web.Host.Controllers.AntiForgeryController.SetCookie (MyPractice.Web.Host)'
+INFO  2022-04-23 22:36:39,216 [5    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "SetCookie", controller = "AntiForgery", area = ""}. Executing controller action with signature Void SetCookie() on controller MyPractice.Web.Host.Controllers.AntiForgeryController (MyPractice.Web.Host).
+INFO  2022-04-23 22:36:39,275 [5    ] c.Infrastructure.ControllerActionInvoker - Executing action method MyPractice.Web.Host.Controllers.AntiForgeryController.SetCookie (MyPractice.Web.Host) - Validation state: Valid
+INFO  2022-04-23 22:36:39,279 [5    ] c.Infrastructure.ControllerActionInvoker - Executed action method MyPractice.Web.Host.Controllers.AntiForgeryController.SetCookie (MyPractice.Web.Host), returned result Microsoft.AspNetCore.Mvc.EmptyResult in 1.7703ms.
+INFO  2022-04-23 22:36:39,288 [14   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2022-04-23 22:36:39,292 [14   ] c.Infrastructure.ControllerActionInvoker - Executed action MyPractice.Web.Host.Controllers.AntiForgeryController.SetCookie (MyPractice.Web.Host) in 73.8744ms
+INFO  2022-04-23 22:36:39,295 [14   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'MyPractice.Web.Host.Controllers.AntiForgeryController.SetCookie (MyPractice.Web.Host)'
+INFO  2022-04-23 22:36:39,298 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 155.6351ms 200 application/json; charset=utf-8
+INFO  2022-04-23 22:36:39,329 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 161.6645ms 200 application/json;charset=utf-8
+INFO  2022-04-23 22:37:18,600 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:21021/api/services/app/User/Create application/json-patch+json 141
+INFO  2022-04-23 22:37:18,605 [14   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution failed.
+INFO  2022-04-23 22:37:18,609 [14   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2022-04-23 22:37:18,613 [14   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2022-04-23 22:37:18,618 [14   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'MyPractice.Users.UserAppService.CreateAsync (MyPractice.Application)'
+INFO  2022-04-23 22:37:18,628 [14   ] c.Infrastructure.ControllerActionInvoker - Route matched with {area = "app", action = "Create", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[MyPractice.Users.Dto.UserDto] CreateAsync(MyPractice.Users.Dto.CreateUserDto) on controller MyPractice.Users.UserAppService (MyPractice.Application).
+INFO  2022-04-23 22:37:18,889 [14   ] c.Infrastructure.ControllerActionInvoker - Executing action method MyPractice.Users.UserAppService.CreateAsync (MyPractice.Application) - Validation state: Valid
+INFO  2022-04-23 22:37:19,073 [4    ] c.Infrastructure.ControllerActionInvoker - Executed action method MyPractice.Users.UserAppService.CreateAsync (MyPractice.Application), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 181.4962ms.
+INFO  2022-04-23 22:37:19,423 [4    ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2022-04-23 22:37:19,440 [4    ] c.Infrastructure.ControllerActionInvoker - Executed action MyPractice.Users.UserAppService.CreateAsync (MyPractice.Application) in 808.3666ms
+INFO  2022-04-23 22:37:19,444 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'MyPractice.Users.UserAppService.CreateAsync (MyPractice.Application)'
+INFO  2022-04-23 22:37:19,447 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 846.2712ms 200 application/json; charset=utf-8
+INFO  2022-04-23 22:37:46,043 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 DELETE http://localhost:21021/api/services/app/User/Delete?Id=4  
+INFO  2022-04-23 22:37:46,046 [5    ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution failed.
+INFO  2022-04-23 22:37:46,048 [5    ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2022-04-23 22:37:46,051 [5    ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2022-04-23 22:37:46,057 [5    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'MyPractice.Users.UserAppService.DeleteAsync (MyPractice.Application)'
+INFO  2022-04-23 22:37:46,069 [5    ] c.Infrastructure.ControllerActionInvoker - Route matched with {area = "app", action = "Delete", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task DeleteAsync(Abp.Application.Services.Dto.EntityDto`1[System.Int64]) on controller MyPractice.Users.UserAppService (MyPractice.Application).
+INFO  2022-04-23 22:37:46,101 [5    ] c.Infrastructure.ControllerActionInvoker - Executing action method MyPractice.Users.UserAppService.DeleteAsync (MyPractice.Application) - Validation state: Valid
+INFO  2022-04-23 22:37:46,174 [9    ] c.Infrastructure.ControllerActionInvoker - Executed action method MyPractice.Users.UserAppService.DeleteAsync (MyPractice.Application), returned result Microsoft.AspNetCore.Mvc.EmptyResult in 70.3452ms.
+INFO  2022-04-23 22:37:46,256 [5    ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2022-04-23 22:37:46,259 [5    ] c.Infrastructure.ControllerActionInvoker - Executed action MyPractice.Users.UserAppService.DeleteAsync (MyPractice.Application) in 187.2076ms
+INFO  2022-04-23 22:37:46,262 [5    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'MyPractice.Users.UserAppService.DeleteAsync (MyPractice.Application)'
+INFO  2022-04-23 22:37:46,265 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 221.7469ms 200 application/json; charset=utf-8

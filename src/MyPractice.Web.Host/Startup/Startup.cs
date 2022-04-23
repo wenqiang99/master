@@ -22,6 +22,7 @@ using Hangfire;
 using System.Collections.Generic;
 using Hangfire.Dashboard.BasicAuthorization;
 using System.IO;
+using MyPractice.Common;
 
 namespace MyPractice.Web.Host.Startup
 {
@@ -154,6 +155,10 @@ namespace MyPractice.Web.Host.Startup
 
             app.UseAbpRequestLocalization();
 
+            app.UseSignalR(routes =>
+            {
+                routes.MapHub<CommonHub>("/signalr");
+            });
 
             app.UseEndpoints(endpoints =>
             {

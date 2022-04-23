@@ -26,8 +26,6 @@ namespace MyPractice.Common
         [Required]
         public string FileToken { get; set; }
 
-       
-
         /// <summary>
         /// 
         /// </summary>
