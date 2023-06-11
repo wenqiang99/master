@@ -94,21 +94,8 @@ namespace MyPractice.Web.Host.Startup
                     Version = _apiVersion,
                     Title = "MyPractice API",
                     Description = "MyPractice",
-                    // uncomment if needed TermsOfService = new Uri("https://example.com/terms"),
-                    //Contact = new OpenApiContact
-                    //{
-                    //    Name = "MyPractice",
-                    //    Email = string.Empty,
-                    //    Url = new Uri("https://twitter.com/aspboilerplate"),
-                    //},
-                    //License = new OpenApiLicense
-                    //{
-                    //    Name = "MIT License",
-                    //    Url = new Uri("https://github.com/aspnetboilerplate/aspnetboilerplate/blob/dev/LICENSE"),
-                    //}
                 });
                 options.DocInclusionPredicate((docName, description) => true);
-
                 // Define the BearerAuth scheme that's in use
                 options.AddSecurityDefinition("bearerAuth", new OpenApiSecurityScheme()
                 {
@@ -117,17 +104,12 @@ namespace MyPractice.Web.Host.Startup
                     In = ParameterLocation.Header,
                     Type = SecuritySchemeType.ApiKey
                 });
-                #region 为 Swagger JSON and UI设置xml文档注释路径
-                //var basePath = AppContext.BaseDirectory;
-                var basePath = Path.GetDirectoryName(typeof(Program).Assembly.Location);//获取应用程序所在目录（绝对，不受工作目录影响，建议采用此方法获取路径）
-                var xmlPath  = Path.Combine(basePath, "MyPractice.Application.xml");//这个就是刚刚配置的xml文件名
-                var xmlPath1 = Path.Combine(basePath, "MyPractice.Core.xml");
-                var xmlPath2 = Path.Combine(basePath, "MyPractice.Web.Core.xml");
 
+                #region 为 Swagger JSON and UI设置xml文档注释路径
+                var basePath = Path.GetDirectoryName(typeof(Program).Assembly.Location);//获取应用程序所在目录（绝对，不受工作目录影响，建议采用此方法获取路径）
+                var xmlPath = Path.Combine(basePath, "MyPractice.Application.xml");//这个就是刚刚配置的xml文件名
                 //默认的第二个参数是false，这个是controller的注释，记得修改
                 options.IncludeXmlComments(xmlPath, true);
-                options.IncludeXmlComments(xmlPath1, true);
-                options.IncludeXmlComments(xmlPath2, true);
                 #endregion
             });
 
@@ -162,10 +144,10 @@ namespace MyPractice.Web.Host.Startup
                 endpoints.MapControllerRoute("default", "{controller=Home}/{action=Index}/{id?}");
                 endpoints.MapControllerRoute("defaultWithArea", "{area}/{controller=Home}/{action=Index}/{id?}");
             });
-            // app.UseHangfireServer();
-            //app.UseHangfireDashboard("/hangfire", new DashboardOptions
-            //{
-            //});
+            app.UseHangfireServer();
+            app.UseHangfireDashboard("/hangfire", new DashboardOptions
+            {
+            });
 
             var queues = new List<string> { "default", "apis", "recurring" };
             app.UseHangfireServer(new BackgroundJobServerOptions
@@ -210,11 +192,6 @@ namespace MyPractice.Web.Host.Startup
                 DisplayStorageConnectionString = false,//是否显示数据库连接信息
                 IsReadOnlyFunc = Context => true
             });
-
-            //app.Run(async (context) =>
-            //{
-            //    await context.Response.WriteAsync("ok.");
-            //});
 
             // Enable middleware to serve generated Swagger as a JSON endpoint
             app.UseSwagger(c => { c.RouteTemplate = "swagger/{documentName}/swagger.json"; });
