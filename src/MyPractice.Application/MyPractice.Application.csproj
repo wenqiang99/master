@@ -22,6 +22,7 @@
     <PackageReference Include="Hangfire.SqlServer" Version="1.7.24" />
     <PackageReference Include="Microsoft.AspNetCore.Mvc.Core" Version="2.2.5" />
     <PackageReference Include="QRCoder" Version="1.4.1" />
+    <PackageReference Include="TencentCloudSDK" Version="3.0.618" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\MyPractice.Core\MyPractice.Core.csproj" />     
